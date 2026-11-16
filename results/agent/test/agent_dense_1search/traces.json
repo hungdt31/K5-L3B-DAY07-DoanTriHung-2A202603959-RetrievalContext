@@ -1,0 +1,642 @@
+[
+ {
+  "query_id": "t01",
+  "split": "test",
+  "question": "How much have passenger volumes grown thanks to the financing of Cabo Verde's airports?",
+  "answerable": true,
+  "model": "gemini-3.5-flash-lite",
+  "config": {
+   "method": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "use_filter": false,
+   "max_searches": 1
+  },
+  "applied_filter": null,
+  "status": "answered",
+  "answer": "Financing for Cabo Verde's airports has driven a 60 percent surge in passenger volumes since 2022 [wbg-ar-2026:p013:para1000:002].",
+  "citations": [
+   "wbg-ar-2026:p013:para1000:002"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "method": "dense",
+    "query": "Cabo Verde airports passenger volumes",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wbg-ar-2026:p013:para1000:002",
+      "page": 13,
+      "score": 0.6605
+     },
+     {
+      "rank": 2,
+      "id": "wbg-ar-2026:p013:para1000:001",
+      "page": 13,
+      "score": 0.64459
+     },
+     {
+      "rank": 3,
+      "id": "wbg-ar-2026:p013:para1000:003",
+      "page": 13,
+      "score": 0.63902
+     }
+    ],
+    "added_to_context": [
+     "wbg-ar-2026:p013:para1000:002",
+     "wbg-ar-2026:p013:para1000:001",
+     "wbg-ar-2026:p013:para1000:003"
+    ],
+    "seconds": 0.528
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p013:para1000:002",
+   "wbg-ar-2026:p013:para1000:001",
+   "wbg-ar-2026:p013:para1000:003"
+  ],
+  "context": "[wbg-ar-2026:p013:para1000:002 | wbg-ar-2026 | page 13]\nIFC has anchored the private sector transformation. In December 2023, IFC arranged a financing package of up to €35.5 million for Oásis Atlântico, one of the country’s leading hospitality operators. The investment supports more than 700 direct jobs and 20,000 indirect jobs, and linkages with over 700 small suppliers and farmers. IFC has also extended two successive sustainability-linked loans to Cabo Verde Airports S.A., a subsidiary of VINCI Airports, with the most recent reaching up to €60 million in February 2026. The financing has modernized and greened the country’s seven airports, created over 2,000 direct jobs and 1,200 indirect jobs, and helped establish 35 new air routes — driving a 60 percent surge in passenger volumes since 2022.\n\n[wbg-ar-2026:p013:para1000:001 | wbg-ar-2026 | page 13]\nThe World Bank Group has worked across its private and public sector arms to help Cabo Verde chart a more diversified and inclusive tourism sector. Two World Bank operations — the Resilient Tourism and Blue Economy Development Project and the Improving Connectivity and Urban Infrastructure Project — are strengthening the sector’s governance and institutional framework, while upgrading critical infrastructure, including coastal and jetty facilities, maritime passenger terminals, heritage sites, and public spaces. Two other programs — the Human Capital Development Project and the Health Security Program in Western and Central Africa — are complementing these efforts by strengthening essential services. Together they support more than 100 vocational and specialty training courses, translating growth into more and better-paid jobs.\n\n[wbg-ar-2026:p013:para1000:003 | wbg-ar-2026 | page 13]\nThe results are reshaping Cabo Verde’s tourism landscape. Average daily tourist spending and overnight stays in previously under-visited islands are both rising, and growing private investment signals confidence in the country’s trajectory. With the World Bank Group supporting the full arc from governance and infrastructure to skills and private finance, Cabo Verde is building a more diversified, sustainable, and job-rich tourism economy.\n\nUNLOCKING TOURISM’S FULL POTENTIAL IN CABO VERDE\n\nJOBS IN CABO VERDE HAVE RESULTED FROM OUR INVESTMENTS\n\n23,900 23",
+  "context_chars": 2315,
+  "n_searches": 1,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 1419,
+   "output_tokens": 132,
+   "thought_tokens": 0,
+   "retries": 0,
+   "seconds": 2.65,
+   "errors": []
+  },
+  "rerank_usage_cumulative": null,
+  "seconds": 3.19,
+  "raw_final": "```json\n{\n  \"status\": \"answered\",\n  \"answer\": \"Financing for Cabo Verde's airports has driven a 60 percent surge in passenger volumes since 2022 [wbg-ar-2026:p013:para1000:002].\",\n  \"citations\": [\n    \"wbg-ar-2026:p013:para1000:002\"\n  ]\n}\n```",
+  "config_name": "agent_dense_1search"
+ },
+ {
+  "query_id": "t02",
+  "split": "test",
+  "question": "How long does a Country Partnership Framework usually last, and what is the maximum?",
+  "answerable": true,
+  "model": "gemini-3.5-flash-lite",
+  "config": {
+   "method": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "use_filter": false,
+   "max_searches": 1
+  },
+  "applied_filter": null,
+  "status": "answered",
+  "answer": "Country Partnership Frameworks typically span four to six years, with a maximum duration of 10 years [wbg-ar-2026:p018:para1000:003].",
+  "citations": [
+   "wbg-ar-2026:p018:para1000:003"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "method": "dense",
+    "query": "Country Partnership Framework usually last maximum",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wbg-ar-2026:p018:para1000:003",
+      "page": 18,
+      "score": 0.73955
+     },
+     {
+      "rank": 2,
+      "id": "wbg-ar-2026:p018:para1000:004",
+      "page": 18,
+      "score": 0.68722
+     },
+     {
+      "rank": 3,
+      "id": "wbg-ar-2026:p031:para1000:005",
+      "page": 31,
+      "score": 0.65693
+     }
+    ],
+    "added_to_context": [
+     "wbg-ar-2026:p018:para1000:003",
+     "wbg-ar-2026:p018:para1000:004",
+     "wbg-ar-2026:p031:para1000:005"
+    ],
+    "seconds": 0.521
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p018:para1000:003",
+   "wbg-ar-2026:p018:para1000:004",
+   "wbg-ar-2026:p031:para1000:005"
+  ],
+  "context": "[wbg-ar-2026:p018:para1000:003 | wbg-ar-2026 | page 18]\nA NEW APPROACH TO COUNTRY ENGAGEMENT We are building a One World Bank Group client coverage model that aligns public and private sector solutions around jobs, growth, and private investment. Our new approach is more efficient, outcome-focused, and systematic in tapping private sector solutions and will help countries tackle their development challenges with greater speed, quality, and impact.\n\nThe centerpiece of this new approach is our Country Partnership Framework (CPF) — the key tool that guides our strategic engagement with countries. CPFs typically span four to six years, with a maximum duration of 10 years, to align our support with a country’s development goals and the World Bank Group Scorecard.\n\n[wbg-ar-2026:p018:para1000:004 | wbg-ar-2026 | page 18]\nIn fiscal 2026, we delivered 28 new CPFs that are underpinned by five core diagnostics: Country Climate and Development Reports, Country Growth and Jobs Reports, Country Private Sector Diagnostics, Poverty and Equity Assessments, and Public Finance Reviews. From this data, we identify three to five outcomes that support job creation, and complementary public and private actions to support the outcomes. With outcomes defined at the intersection of three selectivity criteria — development challenges, country development goals, and World Bank Group comparative advantages — CPFs serve as the primary vehicle for translating World Bank Group targets and strategies into country-level action, delivering on client priorities through complementary public and private solutions.\n\n[wbg-ar-2026:p031:para1000:005 | wbg-ar-2026 | page 31]\nOur Multiphase Programmatic Approach (MPA) enables countries to structure long, large, or complex engagements as a set of smaller, complementary Investment Project Financing and Program-for-Results operations within a single program. This approach facilitates both vertical programs, which involve in-depth, sustained engagement within a single country, and horizontal programs, which encompass multiple countries, states within a country, or subnational entities. In fiscal 2026, the World Bank approved 33 new programs totaling $25.1 billion in financing, comprising 15 vertical programs ($8.2 billion) and 18 horizontal programs ($16.9 billion). Total MPA project approvals comprised 95 projects totaling $17.7 billion, including nine additional financing projects totaling $1.0 billion. As of June 2026, a total of 80 countries have implemented at least one instrument from the Crisis Preparedness and Response Toolkit.",
+  "context_chars": 2580,
+  "n_searches": 1,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 1439,
+   "output_tokens": 127,
+   "thought_tokens": 0,
+   "retries": 0,
+   "seconds": 1.59,
+   "errors": []
+  },
+  "rerank_usage_cumulative": null,
+  "seconds": 2.11,
+  "raw_final": "```json\n{\n  \"status\": \"answered\",\n  \"answer\": \"Country Partnership Frameworks typically span four to six years, with a maximum duration of 10 years [wbg-ar-2026:p018:para1000:003].\",\n  \"citations\": [\n    \"wbg-ar-2026:p018:para1000:003\"\n  ]\n}\n```",
+  "config_name": "agent_dense_1search"
+ },
+ {
+  "query_id": "t03",
+  "split": "test",
+  "question": "How many entities and individuals were sanctioned through settlement agreements in fiscal 2026?",
+  "answerable": true,
+  "model": "gemini-3.5-flash-lite",
+  "config": {
+   "method": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "use_filter": false,
+   "max_searches": 1
+  },
+  "applied_filter": null,
+  "status": "answered",
+  "answer": "In fiscal 2026, the World Bank Group sanctioned eight entities and individuals via settlement agreements [wbg-ar-2026:p024:para1000:001].",
+  "citations": [
+   "wbg-ar-2026:p024:para1000:001"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "method": "dense",
+    "query": "sanctioned through settlement agreements fiscal 2026 entities individuals",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wbg-ar-2026:p024:para1000:001",
+      "page": 24,
+      "score": 0.75978
+     },
+     {
+      "rank": 2,
+      "id": "wbg-ar-2026:p040:para1000:002",
+      "page": 40,
+      "score": 0.67272
+     },
+     {
+      "rank": 3,
+      "id": "wbg-ar-2026:p023:para1000:000",
+      "page": 23,
+      "score": 0.65833
+     }
+    ],
+    "added_to_context": [
+     "wbg-ar-2026:p024:para1000:001",
+     "wbg-ar-2026:p040:para1000:002",
+     "wbg-ar-2026:p023:para1000:000"
+    ],
+    "seconds": 0.526
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p024:para1000:001",
+   "wbg-ar-2026:p040:para1000:002",
+   "wbg-ar-2026:p023:para1000:000"
+  ],
+  "context": "[wbg-ar-2026:p024:para1000:001 | wbg-ar-2026 | page 24]\nSANCTIONS SYSTEM The World Bank Group’s Sanctions System addresses allegations of fraud, corruption, collusion, coercion, and obstruction — collectively known as sanctionable practices — in our operations. In fiscal 2026, following the conclusion of the Integrity Vice Presidency unit’s (INT) investigations, the World Bank Group sanctioned 16 entities and individuals via uncontested determinations of the Chief Suspension and Debarment Officer, three entities and individuals via decisions of the Sanctions Board, and eight entities and individuals via settlement agreements. Twenty entities and individuals met their conditions for release from World Bank Group sanctions. The World Bank Group recognized 35 cross-debarments from other multilateral development banks, and 14 World Bank Group entities and individuals were eligible for recognition by other multilateral development banks.\n\n[wbg-ar-2026:p040:para1000:002 | wbg-ar-2026 | page 40]\nNOTEWORTHY IN FISCAL 2026 KATARINA ZDRALJEVIC MIGA’S TOTAL ISSUANCE OVER $100 BILLION MIGA was established as a member of the World Bank Group by an international convention in April 1988, with 29 original member countries sharing the goal of accelerating the flow of private investment into developing countries by insuring against political risks. Its mission, “To promote foreign direct investment into developing countries to support economic growth, reduce poverty, and improve people’s lives,” is consistent with the World Bank Group’s goals.\n\n[wbg-ar-2026:p023:para1000:000 | wbg-ar-2026 | page 23]\nIn fiscal 2026, the Boards of IBRD, IDA, IFC, and MIGA approved the integration of the Inspection Panel, the Compliance Advisor Ombudsman, and the Dispute Resolution Service into a single Independent Accountability Mechanism (IAM). The decision drew on more than a year of deliberation and was informed by the recommendations of a Task Force engaged by the Boards. The Task Force carried out consultations with internal and external stakeholders, including several webinars, learning sessions with other multilateral development banks, and a written comment period. This decision is part of a broader effort to reduce fragmentation and strengthen coherence across World Bank Group operations. As we move toward a truly integrated One World Bank Group model, our accountability architecture is evolving in the same direction.",
+  "context_chars": 2430,
+  "n_searches": 1,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 1418,
+   "output_tokens": 115,
+   "thought_tokens": 0,
+   "retries": 0,
+   "seconds": 1.72,
+   "errors": []
+  },
+  "rerank_usage_cumulative": null,
+  "seconds": 2.25,
+  "raw_final": "{\"status\": \"answered\", \"answer\": \"In fiscal 2026, the World Bank Group sanctioned eight entities and individuals via settlement agreements [wbg-ar-2026:p024:para1000:001].\", \"citations\": [\"wbg-ar-2026:p024:para1000:001\"]}",
+  "config_name": "agent_dense_1search"
+ },
+ {
+  "query_id": "t04",
+  "split": "test",
+  "question": "How much did IDA issue in the capital markets in fiscal 2026, and across how many currencies?",
+  "answerable": true,
+  "model": "gemini-3.5-flash-lite",
+  "config": {
+   "method": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "use_filter": false,
+   "max_searches": 1
+  },
+  "applied_filter": null,
+  "status": "answered",
+  "answer": "In fiscal 2026, IDA issued $13.9 billion equivalent across six currencies [wbg-ar-2026:p031:para1000:001].",
+  "citations": [
+   "wbg-ar-2026:p031:para1000:001"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "method": "dense",
+    "query": "IDA capital markets fiscal 2026 currencies",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wbg-ar-2026:p031:para1000:001",
+      "page": 31,
+      "score": 0.7842
+     },
+     {
+      "rank": 2,
+      "id": "wbg-ar-2026:p019:para1000:003",
+      "page": 19,
+      "score": 0.73025
+     },
+     {
+      "rank": 3,
+      "id": "wbg-ar-2026:p031:para1000:003",
+      "page": 31,
+      "score": 0.72791
+     }
+    ],
+    "added_to_context": [
+     "wbg-ar-2026:p031:para1000:001",
+     "wbg-ar-2026:p019:para1000:003",
+     "wbg-ar-2026:p031:para1000:003"
+    ],
+    "seconds": 0.531
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p031:para1000:001",
+   "wbg-ar-2026:p019:para1000:003",
+   "wbg-ar-2026:p031:para1000:003"
+  ],
+  "context": "[wbg-ar-2026:p031:para1000:001 | wbg-ar-2026 | page 31]\nSince 2018, IDA has issued bonds denominated in seven currencies: Australian dollars, British pounds, Euros, Norwegian krone, Swedish krona, Swiss francs, and U.S. dollars. In fiscal 2026, IDA issued $13.9 billion equivalent across six currencies. Our goal is to continue developing and deepening IDA’s investor base, and, to achieve this, we are growing both IDA’s currency composition and capital markets presence. TABLE 14: IDA KEY FINANCIAL INDICATORS, FISCAL 2022–26 MILLIONS OF DOLLARS, EXCEPT RATIOS, WHICH ARE IN PERCENTAGES\n\nFY26 FY25 FY24 FY23 FY22\n\nLoans, Grants, and Guarantees\n\nNet commitmentsª 30,774 39,866 31,195 34,245 37,727\n\nGross disbursementsa 29,716 33,123 28,247 27,718 21,214\n\nNet disbursementsa 20,207 24,257 20,062 19,968 14,477\n\nBalance Sheet\n\nTotal assets 284,507 280,869 241,350 227,482 220,014\n\nInvestmentsb 42,889 47,272 34,377 31,822 39,827\n\nNet loans outstanding 231,310 223,232 198,457 187,669 174,490\n\nBorrowingsb 74,733 70,832 44,923 32,567 32,899\n\n[wbg-ar-2026:p019:para1000:003 | wbg-ar-2026 | page 19]\nSUSTAINABLE FINANCE IN CAPITAL MARKETS IBRD has mobilized finance for middle-income countries for more than 75 years, raising over $1 trillion from capital markets since issuing its first bond in 1947. In fiscal 2026, IBRD, which is rated triple-A by the major credit rating agencies, raised nearly $50 billion through Sustainable Development Bonds issued in a variety of structures and maturities. Please see the IBRD’s annual Impact Report for more information about how funds raised in the capital markets support IBRD-financed projects. IDA also issues Sustainable Development Bonds to scale up its development impact, and in fiscal 2026, issued approximately $14 billion in bonds. Read IDA’s Impact Report to learn more. In March 2026, following action by the United States (U.S.)\n\n[wbg-ar-2026:p031:para1000:003 | wbg-ar-2026 | page 31]\nb. See Notes to Financial Statements, Note C - Investments, Note E - Borrowings.\n\nc. For adjustments relating to adjusted net income, see IDA Management’s Discussion and Analysis: June 30, 2026, Table 9 in Section IV: Financial Results.\n\nd. Since June 30, 2024, the ratio has been calculated using an enhanced Board-approved methodology. See IDA Management’s Discussion and Analysis: June 30, 2026, Section IX: Risk Management.\n\nFor more information, visit ida.worldbank.org.\n\nNOTEWORTHY IN FISCAL 2026 The World Bank (IBRD/IDA) offers a variety of financing instruments and approaches to help countries achieve their development goals. These include:\n\n• Investment Project Financing, which helps build physical and social infrastructure and develop institutional capacity;\n\n• Development Policy Financing, which supports policy and institutional reforms, including through policy-based guarantees; and",
+  "context_chars": 2838,
+  "n_searches": 1,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 1825,
+   "output_tokens": 131,
+   "thought_tokens": 0,
+   "retries": 0,
+   "seconds": 1.45,
+   "errors": []
+  },
+  "rerank_usage_cumulative": null,
+  "seconds": 1.98,
+  "raw_final": "```json\n{\n  \"status\": \"answered\",\n  \"answer\": \"In fiscal 2026, IDA issued $13.9 billion equivalent across six currencies [wbg-ar-2026:p031:para1000:001].\",\n  \"citations\": [\n    \"wbg-ar-2026:p031:para1000:001\"\n  ]\n}\n```",
+  "config_name": "agent_dense_1search"
+ },
+ {
+  "query_id": "t05",
+  "split": "test",
+  "question": "What was the gross outstanding guarantee portfolio as of June 30, 2026?",
+  "answerable": true,
+  "model": "gemini-3.5-flash-lite",
+  "config": {
+   "method": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "use_filter": false,
+   "max_searches": 1
+  },
+  "applied_filter": null,
+  "status": "answered",
+  "answer": "As of June 30, 2026, MIGA's gross outstanding guarantee portfolio reached a record high of $41.4 billion [wbg-ar-2026:p039:para1000:000].",
+  "citations": [
+   "wbg-ar-2026:p039:para1000:000"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "method": "dense",
+    "query": "gross outstanding guarantee portfolio June 30 2026",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wbg-ar-2026:p039:para1000:000",
+      "page": 39,
+      "score": 0.7392
+     },
+     {
+      "rank": 2,
+      "id": "wbg-ar-2026:p033:para1000:000",
+      "page": 33,
+      "score": 0.70465
+     },
+     {
+      "rank": 3,
+      "id": "wbg-ar-2026:p039:para1000:002",
+      "page": 39,
+      "score": 0.70267
+     }
+    ],
+    "added_to_context": [
+     "wbg-ar-2026:p039:para1000:000",
+     "wbg-ar-2026:p033:para1000:000",
+     "wbg-ar-2026:p039:para1000:002"
+    ],
+    "seconds": 0.551
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p039:para1000:000",
+   "wbg-ar-2026:p033:para1000:000",
+   "wbg-ar-2026:p039:para1000:002"
+  ],
+  "context": "[wbg-ar-2026:p039:para1000:000 | wbg-ar-2026 | page 39]\nMIGA’s new guarantee business volume during fiscal 2026 reached a record high of $10.6 billion in support of 60 projects, compared to $9.5 billion of new guarantees issued in fiscal 2025 in support of 44 projects. Due to record new business volume, as of June 30, 2026, MIGA’s gross outstanding guarantee portfolio reached a record high of $41.4 billion, representing a 13 percent increase. The net outstanding guarantee portfolio increased by 8 percent to a record high of $12.1 billion.\n\nBUSINESS AND OPERATIONAL OVERVIEW 40\n\n30\n\n20\n\n10\n\n0\n\nFY22 FY23 FY24 FY25 FY26\n\n9.0 9.5 10.3 11.2 12.1\n\nFIGURE 2: NET GUARANTEE PORTFOLIO EXPOSURE\n\nBILLIONS OF DOLLARS\n\n50\n\n40\n\n30\n\n20\n\n10\n\n0\n\nFY22 FY23 FY24 FY25 FY26\n\n24.4\n\n27.9\n\n31.5\n\n36.8\n\n41.4\n\nFIGURE 3: GROSS GUARANTEE PORTFOLIO EXPOSURE, FISCAL 2022–26\n\nBILLIONS OF DOLLARS\n\nREINSURANCE\n\n[wbg-ar-2026:p033:para1000:000 | wbg-ar-2026 | page 33]\nBUSINESS AND OPERATIONAL OVERVIEW TABLE 15: FINANCIAL HIGHLIGHTS\n\nMILLIONS OF DOLLARS, AS OF AND FOR THE YEARS ENDED JUNE 30\n\nFY26 FY25 FY24 FY23 FY22\n\nNet Income (Loss) 2,038 2,007 1,485 672 (464)\n\nAllocable incomea 1,743 1,710 1,558 681 382\n\nConsolidated Balance Sheet Highlights\n\nTotal assets 137,518 129,740 108,187 110,547 99,010\n\nInvestments 75,815 67,520 58,747 51,502 44,093\n\nKey Financial Ratios BILLIONS OF DOLLARS, EXCEPT RATIOS Key Financial Ratios\n\nOverall liquidity ratio 78.6% 71.6% 81.0% 103.8% 111.0%\n\nDebt-to-equity ratio 2.0 2.0 1.7 1.6 1.6\n\nTotal reserve against losses on loans to total committed portfoliob\n\n2.9% 2.8% 2.8% 3.7% 4.4%\n\nCapital Measures Capital available 40.7 39.0 36.6 34.8 32.5\n\nCapital required 26.4 24.0 22.2 21.1 20.1\n\nCapital utilization ratio 64.8% 61.6% 60.5% 60.7% 62.0%\n\n[wbg-ar-2026:p039:para1000:002 | wbg-ar-2026 | page 39]\nMIGA ceded $7.5 billion of new business to the reinsurance market during fiscal 2026. MIGA’s objective in using reinsurance is to support its growth while managing portfolio concentration and ensuring efficient capital utilization. The increased use of reinsurance is also in line with the World Bank Group goal of leveraging the private sector into financing development, as well as with MIGA’s strategy of preserving capital to fund future growth, primarily in priority areas. As of June 30, 2026, $28.7 billion or 69 percent of the outstanding gross portfolio was reinsured, up from 68 percent last fiscal year.\n\nPortfolio Reinsurance Rate (Right Y-Axis)\n\nOutstanding Reinsurance\n\nFIGURE 4: PORTFOLIO REINSURANCE (BILLIONS OF DOLLARS) AND RATE (%)\n\nBOARD-APPROVED LIMIT (80%)\n\n15.1 18.0\n\n20.7\n\n24.9\n\n28.7\n\n62%\n\n60\n\n50\n\n40\n\n30\n\n20\n\n10\n\n0\n\n100%\n\n80%\n\n60%\n\n40%\n\n20%\n\n0%\n\nJUNE 30,\n\n2022\n\nJUNE 30,\n\n2023\n\nJUNE 30,\n\n2024\n\nJUNE 30,\n\n2025\n\nJUNE 30,\n\n2026\n\n65% 66% 68% 69%",
+  "context_chars": 2780,
+  "n_searches": 1,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 2035,
+   "output_tokens": 146,
+   "thought_tokens": 0,
+   "retries": 0,
+   "seconds": 1.45,
+   "errors": []
+  },
+  "rerank_usage_cumulative": null,
+  "seconds": 2.0,
+  "raw_final": "```json\n{\n  \"status\": \"answered\",\n  \"answer\": \"As of June 30, 2026, MIGA's gross outstanding guarantee portfolio reached a record high of $41.4 billion [wbg-ar-2026:p039:para1000:000].\",\n  \"citations\": [\n    \"wbg-ar-2026:p039:para1000:000\"\n  ]\n}\n```",
+  "config_name": "agent_dense_1search"
+ },
+ {
+  "query_id": "t06",
+  "split": "test",
+  "question": "In fiscal 2026, what share of arbitration cases decided by ICSID tribunals awarded no damages to claimants?",
+  "answerable": true,
+  "model": "gemini-3.5-flash-lite",
+  "config": {
+   "method": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "use_filter": false,
+   "max_searches": 1
+  },
+  "applied_filter": null,
+  "status": "answered",
+  "answer": "In fiscal 2026, 70 percent of arbitration cases decided by ICSID tribunals resulted in no damages awarded to claimants, due to jurisdictional dismissals, findings of no liability, or liability without damages [wbg-ar-2026:p044:para1000:000].",
+  "citations": [
+   "wbg-ar-2026:p044:para1000:000"
+  ],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "method": "dense",
+    "query": "ICSID arbitration cases decided awarded no damages claimants fiscal 2026",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wbg-ar-2026:p044:para1000:000",
+      "page": 44,
+      "score": 0.81856
+     },
+     {
+      "rank": 2,
+      "id": "wbg-ar-2026:p044:para1000:001",
+      "page": 44,
+      "score": 0.8006
+     },
+     {
+      "rank": 3,
+      "id": "wbg-ar-2026:p043:para1000:007",
+      "page": 43,
+      "score": 0.79912
+     }
+    ],
+    "added_to_context": [
+     "wbg-ar-2026:p044:para1000:000",
+     "wbg-ar-2026:p044:para1000:001",
+     "wbg-ar-2026:p043:para1000:007"
+    ],
+    "seconds": 0.51
+   },
+   {
+    "event": "answer"
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p044:para1000:000",
+   "wbg-ar-2026:p044:para1000:001",
+   "wbg-ar-2026:p043:para1000:007"
+  ],
+  "context": "[wbg-ar-2026:p044:para1000:000 | wbg-ar-2026 | page 44]\nFIGURE 6: ARBITRATIONS UNDER THE ICSID CONVENTION AND ADDITIONAL FACILITY\n\n— CASES DECIDED BY TRIBUNALS IN FISCAL 2026\n\nIn ICSID arbitrations, financial compensation is typically the primary remedy claimants seek for alleged breaches of investment obligations. Investors typically seek damages for harm they claim to have suffered as a result of measures adopted by the host State. The amounts claimed and awarded can vary significantly depending on the nature of the investment and dispute at issue.\n\nIn fiscal 2026, 70 percent of arbitration cases decided by tribunals resulted in no damages awarded to claimants, whether due to jurisdictional dismissals, findings of no liability, or liability without damages. Of the remaining cases, 14 percent resulted in awards under $10 million, 8 percent in awards between $10 million and $49 million, and 8 percent in awards exceeding $50 million.\n\nAward dismissing all claims\n\nAward upholding claims in part or in full\n\nAward declining jurisdiction\n\n[wbg-ar-2026:p044:para1000:001 | wbg-ar-2026 | page 44]\nAward deciding that the claims are manifestly without legal merit\n\n40%\n\n37%\n\n18%\n\n5%\n\nFIGURE 7: DAMAGES OUTCOMES IN ALL ICSID ARBITRATIONS\n\nDECIDED BY TRIBUNALS IN FISCAL 2026 (IN USD)\n\n5%\n\na. This category includes cases that concluded with an award declining jurisdiction, dismissing all claims on the merits, or upholding claims on liability but awarding no damages to the investor.\n\n3%\n\n8%\n\n14%\n\n70%\n\n0 5 10 15 20 25\n\n100 – 499 million\n\n50 – 99 million\n\n10 – 49 million\n\nUnder 10 million\n\nNo damages awardeda\n\n30\n\n[wbg-ar-2026:p043:para1000:007 | wbg-ar-2026 | page 43]\nDuring fiscal 2026, ICSID registered 60 new cases — 57 arbitrations under the ICSID Convention and three under the Additional Facility Rules — bringing the cumulative total to 1,118 registered cases as of June 30, 2026. On the mediation front, ICSID had received a total of seven requests under Mediation Rule 6 and Mediation Rule 5, with one proceeding administered as of fiscal 2026. The year also saw 83 proceedings concluded, marking the third consecutive fiscal year in which conclusions surpassed 80.\n\nOf the arbitrations concluded in fiscal 2026, 63 percent were decided by a tribunal and 37 percent were settled or otherwise discontinued, broadly reflecting ICSID’s long-term trend of arbitration outcomes. Among disputes decided by tribunals in the past year, 37 percent of awards upheld claims in part or in full, 40 percent rejected all claims on the merits, 18 percent declined jurisdiction, and 5 percent of cases were dismissed for manifest lack of legal merit.",
+  "context_chars": 2651,
+  "n_searches": 1,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 1607,
+   "output_tokens": 144,
+   "thought_tokens": 0,
+   "retries": 0,
+   "seconds": 1.46,
+   "errors": []
+  },
+  "rerank_usage_cumulative": null,
+  "seconds": 1.97,
+  "raw_final": "```json\n{\"status\": \"answered\", \"answer\": \"In fiscal 2026, 70 percent of arbitration cases decided by ICSID tribunals resulted in no damages awarded to claimants, due to jurisdictional dismissals, findings of no liability, or liability without damages [wbg-ar-2026:p044:para1000:000].\", \"citations\": [\"wbg-ar-2026:p044:para1000:000\"]}\n```",
+  "config_name": "agent_dense_1search"
+ },
+ {
+  "query_id": "u03",
+  "split": "test",
+  "question": "How many passengers did Cabo Verde's airports handle in 2025?",
+  "answerable": false,
+  "model": "gemini-3.5-flash-lite",
+  "config": {
+   "method": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "use_filter": false,
+   "max_searches": 1
+  },
+  "applied_filter": null,
+  "status": "abstain",
+  "answer": "The World Bank Group Annual Report 2026 does not state the exact number of passengers Cabo Verde's airports handled in 2025, though it notes a 60 percent surge in passenger volumes since 2022 [wbg-ar-2026:p013:para1000:002].",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "method": "dense",
+    "query": "Cabo Verde airports passengers 2025",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wbg-ar-2026:p013:para1000:002",
+      "page": 13,
+      "score": 0.66755
+     },
+     {
+      "rank": 2,
+      "id": "wbg-ar-2026:p013:para1000:001",
+      "page": 13,
+      "score": 0.66258
+     },
+     {
+      "rank": 3,
+      "id": "wbg-ar-2026:p013:para1000:000",
+      "page": 13,
+      "score": 0.65651
+     }
+    ],
+    "added_to_context": [
+     "wbg-ar-2026:p013:para1000:002",
+     "wbg-ar-2026:p013:para1000:001",
+     "wbg-ar-2026:p013:para1000:000"
+    ],
+    "seconds": 0.559
+   },
+   {
+    "event": "abstain"
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p013:para1000:002",
+   "wbg-ar-2026:p013:para1000:001",
+   "wbg-ar-2026:p013:para1000:000"
+  ],
+  "context": "[wbg-ar-2026:p013:para1000:002 | wbg-ar-2026 | page 13]\nIFC has anchored the private sector transformation. In December 2023, IFC arranged a financing package of up to €35.5 million for Oásis Atlântico, one of the country’s leading hospitality operators. The investment supports more than 700 direct jobs and 20,000 indirect jobs, and linkages with over 700 small suppliers and farmers. IFC has also extended two successive sustainability-linked loans to Cabo Verde Airports S.A., a subsidiary of VINCI Airports, with the most recent reaching up to €60 million in February 2026. The financing has modernized and greened the country’s seven airports, created over 2,000 direct jobs and 1,200 indirect jobs, and helped establish 35 new air routes — driving a 60 percent surge in passenger volumes since 2022.\n\n[wbg-ar-2026:p013:para1000:001 | wbg-ar-2026 | page 13]\nThe World Bank Group has worked across its private and public sector arms to help Cabo Verde chart a more diversified and inclusive tourism sector. Two World Bank operations — the Resilient Tourism and Blue Economy Development Project and the Improving Connectivity and Urban Infrastructure Project — are strengthening the sector’s governance and institutional framework, while upgrading critical infrastructure, including coastal and jetty facilities, maritime passenger terminals, heritage sites, and public spaces. Two other programs — the Human Capital Development Project and the Health Security Program in Western and Central Africa — are complementing these efforts by strengthening essential services. Together they support more than 100 vocational and specialty training courses, translating growth into more and better-paid jobs.\n\n[wbg-ar-2026:p013:para1000:000 | wbg-ar-2026 | page 13]\nTourism is an engine of Cabo Verde’s economy, accounting for over a quarter of GDP. But for years, the sector has been constrained by a narrow model dominated by all-inclusive resorts in only two of the archipelago’s 10 islands, with few links to local businesses. Infrastructure deficits, a shortage of skilled hospitality workers, and the absence of a coherent framework for attracting quality investment left the country exposed and its potential unrealized.",
+  "context_chars": 2218,
+  "n_searches": 1,
+  "usage": {
+   "calls": 2,
+   "prompt_tokens": 1395,
+   "output_tokens": 144,
+   "thought_tokens": 0,
+   "retries": 0,
+   "seconds": 1.97,
+   "errors": []
+  },
+  "rerank_usage_cumulative": null,
+  "seconds": 2.53,
+  "raw_final": "{\"status\": \"insufficient_evidence\", \"answer\": \"The World Bank Group Annual Report 2026 does not state the exact number of passengers Cabo Verde's airports handled in 2025, though it notes a 60 percent surge in passenger volumes since 2022 [wbg-ar-2026:p013:para1000:002].\", \"citations\": [\"wbg-ar-2026:p013:para1000:002\"]}",
+  "config_name": "agent_dense_1search"
+ },
+ {
+  "query_id": "u04",
+  "split": "test",
+  "question": "What was the largest single damages award, in US dollars, issued by an ICSID tribunal in fiscal 2026?",
+  "answerable": false,
+  "model": "gemini-3.5-flash-lite",
+  "config": {
+   "method": "dense",
+   "top_k": 3,
+   "budget": 3000,
+   "use_filter": false,
+   "max_searches": 1
+  },
+  "applied_filter": null,
+  "status": "abstain",
+  "answer": "The World Bank Group Annual Report 2026 reports that 8 percent of ICSID arbitration cases decided by tribunals in fiscal 2026 resulted in awards exceeding $50 million, but does not state the specific amount of the largest single damages award [wbg-ar-2026:p044:para1000:000].",
+  "citations": [],
+  "events": [
+   {
+    "event": "search",
+    "tool": "search_report",
+    "method": "dense",
+    "query": "ICSID tribunal damages award fiscal 2026 largest single damages award US dollars",
+    "filter": null,
+    "top_k": 3,
+    "results": [
+     {
+      "rank": 1,
+      "id": "wbg-ar-2026:p044:para1000:000",
+      "page": 44,
+      "score": 0.77768
+     },
+     {
+      "rank": 2,
+      "id": "wbg-ar-2026:p044:para1000:001",
+      "page": 44,
+      "score": 0.76051
+     },
+     {
+      "rank": 3,
+      "id": "wbg-ar-2026:p042:para1000:003",
+      "page": 42,
+      "score": 0.73047
+     }
+    ],
+    "added_to_context": [
+     "wbg-ar-2026:p044:para1000:000",
+     "wbg-ar-2026:p044:para1000:001",
+     "wbg-ar-2026:p042:para1000:003"
+    ],
+    "seconds": 0.523
+   },
+   {
+    "event": "search_limit",
+    "query": "ICSID tribunal damages award 500 million billion fiscal 2026 largest single damages award"
+   },
+   {
+    "event": "abstain"
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p044:para1000:000",
+   "wbg-ar-2026:p044:para1000:001",
+   "wbg-ar-2026:p042:para1000:003"
+  ],
+  "context": "[wbg-ar-2026:p044:para1000:000 | wbg-ar-2026 | page 44]\nFIGURE 6: ARBITRATIONS UNDER THE ICSID CONVENTION AND ADDITIONAL FACILITY\n\n— CASES DECIDED BY TRIBUNALS IN FISCAL 2026\n\nIn ICSID arbitrations, financial compensation is typically the primary remedy claimants seek for alleged breaches of investment obligations. Investors typically seek damages for harm they claim to have suffered as a result of measures adopted by the host State. The amounts claimed and awarded can vary significantly depending on the nature of the investment and dispute at issue.\n\nIn fiscal 2026, 70 percent of arbitration cases decided by tribunals resulted in no damages awarded to claimants, whether due to jurisdictional dismissals, findings of no liability, or liability without damages. Of the remaining cases, 14 percent resulted in awards under $10 million, 8 percent in awards between $10 million and $49 million, and 8 percent in awards exceeding $50 million.\n\nAward dismissing all claims\n\nAward upholding claims in part or in full\n\nAward declining jurisdiction\n\n[wbg-ar-2026:p044:para1000:001 | wbg-ar-2026 | page 44]\nAward deciding that the claims are manifestly without legal merit\n\n40%\n\n37%\n\n18%\n\n5%\n\nFIGURE 7: DAMAGES OUTCOMES IN ALL ICSID ARBITRATIONS\n\nDECIDED BY TRIBUNALS IN FISCAL 2026 (IN USD)\n\n5%\n\na. This category includes cases that concluded with an award declining jurisdiction, dismissing all claims on the merits, or upholding claims on liability but awarding no damages to the investor.\n\n3%\n\n8%\n\n14%\n\n70%\n\n0 5 10 15 20 25\n\n100 – 499 million\n\n50 – 99 million\n\n10 – 49 million\n\nUnder 10 million\n\nNo damages awardeda\n\n30\n\n[wbg-ar-2026:p042:para1000:003 | wbg-ar-2026 | page 42]\nFiscal 2026 saw meaningful progress across all these areas, as ICSID advanced its priorities to deepen engagement and knowledge, expand mediation and amicable settlement, and uphold the highest standards in case management.\n\nICSID\n\nOn March 6, 2026, President Nasry Juan Asfura of Honduras signed the ICSID Convention in Washington, D.C., making Honduras the 166th Signatory State to the Convention. ICSID Membership has steadily expanded since the ICSID Convention opened for signature in 1965. By the early 2000s, 149 States had signed the ICSID Convention, and 132 of those had ratified it. By June 30, 2026, the number of signatories had increased to 166 States, with 158 of them becoming Contracting States.",
+  "context_chars": 2388,
+  "n_searches": 1,
+  "usage": {
+   "calls": 3,
+   "prompt_tokens": 2787,
+   "output_tokens": 190,
+   "thought_tokens": 0,
+   "retries": 4,
+   "seconds": 23.6,
+   "errors": []
+  },
+  "rerank_usage_cumulative": null,
+  "seconds": 54.12,
+  "raw_final": "{\"status\": \"insufficient_evidence\", \"answer\": \"The World Bank Group Annual Report 2026 reports that 8 percent of ICSID arbitration cases decided by tribunals in fiscal 2026 resulted in awards exceeding $50 million, but does not state the specific amount of the largest single damages award [wbg-ar-2026:p044:para1000:000].\", \"citations\": [\"wbg-ar-2026:p044:para1000:000\"]}",
+  "config_name": "agent_dense_1search"
+ }
+]

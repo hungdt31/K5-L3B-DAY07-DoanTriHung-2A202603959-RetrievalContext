@@ -1,0 +1,335 @@
+[
+ {
+  "query_id": "t01",
+  "split": "test",
+  "type": "paraphrase",
+  "question": "How much have passenger volumes grown thanks to the financing of Cabo Verde's airports?",
+  "config": "hybrid_filter",
+  "applied_filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wbg-ar-2026:p013:para1000:002",
+    "page": 13,
+    "score": 0.03279,
+    "hit": true,
+    "hit_day6_labels": true,
+    "dense_rank": 1,
+    "bm25_rank": 1
+   },
+   {
+    "rank": 2,
+    "id": "wbg-ar-2026:p013:para1000:001",
+    "page": 13,
+    "score": 0.032,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 2,
+    "bm25_rank": 3
+   },
+   {
+    "rank": 3,
+    "id": "wbg-ar-2026:p013:para1000:003",
+    "page": 13,
+    "score": 0.032,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 3,
+    "bm25_rank": 2
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p013:para1000:002",
+   "wbg-ar-2026:p013:para1000:001",
+   "wbg-ar-2026:p013:para1000:003"
+  ],
+  "context_chars": 2319,
+  "seconds": 0.058,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "day6_labels": {
+   "hit1": true,
+   "hit3": true,
+   "context_hit": true
+  }
+ },
+ {
+  "query_id": "t02",
+  "split": "test",
+  "type": "condition",
+  "question": "How long does a Country Partnership Framework usually last, and what is the maximum?",
+  "config": "hybrid_filter",
+  "applied_filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wbg-ar-2026:p018:para1000:003",
+    "page": 18,
+    "score": 0.03279,
+    "hit": true,
+    "hit_day6_labels": true,
+    "dense_rank": 1,
+    "bm25_rank": 1
+   },
+   {
+    "rank": 2,
+    "id": "wbg-ar-2026:p019:para1000:002",
+    "page": 19,
+    "score": 0.03102,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 6,
+    "bm25_rank": 3
+   },
+   {
+    "rank": 3,
+    "id": "wbg-ar-2026:p019:para1000:009",
+    "page": 19,
+    "score": 0.03078,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 4,
+    "bm25_rank": 6
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p018:para1000:003",
+   "wbg-ar-2026:p019:para1000:002",
+   "wbg-ar-2026:p019:para1000:009"
+  ],
+  "context_chars": 2306,
+  "seconds": 0.058,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "day6_labels": {
+   "hit1": true,
+   "hit3": true,
+   "context_hit": true
+  }
+ },
+ {
+  "query_id": "t03",
+  "split": "test",
+  "type": "direct",
+  "question": "How many entities and individuals were sanctioned through settlement agreements in fiscal 2026?",
+  "config": "hybrid_filter",
+  "applied_filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wbg-ar-2026:p024:para1000:001",
+    "page": 24,
+    "score": 0.03279,
+    "hit": true,
+    "hit_day6_labels": true,
+    "dense_rank": 1,
+    "bm25_rank": 1
+   },
+   {
+    "rank": 2,
+    "id": "wbg-ar-2026:p042:para1000:003",
+    "page": 42,
+    "score": 0.02976,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 3,
+    "bm25_rank": 12
+   },
+   {
+    "rank": 3,
+    "id": "wbg-ar-2026:p043:para1000:003",
+    "page": 43,
+    "score": 0.02924,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 6,
+    "bm25_rank": 11
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p024:para1000:001",
+   "wbg-ar-2026:p042:para1000:003",
+   "wbg-ar-2026:p043:para1000:003"
+  ],
+  "context_chars": 2554,
+  "seconds": 0.061,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "day6_labels": {
+   "hit1": true,
+   "hit3": true,
+   "context_hit": true
+  }
+ },
+ {
+  "query_id": "t04",
+  "split": "test",
+  "type": "metadata_filter",
+  "question": "How much did IDA issue in the capital markets in fiscal 2026, and across how many currencies?",
+  "config": "hybrid_filter",
+  "applied_filter": {
+   "institution": "ibrd_ida"
+  },
+  "results": [
+   {
+    "rank": 1,
+    "id": "wbg-ar-2026:p031:para1000:001",
+    "page": 31,
+    "score": 0.03279,
+    "hit": true,
+    "hit_day6_labels": true,
+    "dense_rank": 1,
+    "bm25_rank": 1
+   },
+   {
+    "rank": 2,
+    "id": "wbg-ar-2026:p029:para1000:003",
+    "page": 29,
+    "score": 0.0315,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 3,
+    "bm25_rank": 4
+   },
+   {
+    "rank": 3,
+    "id": "wbg-ar-2026:p031:para1000:003",
+    "page": 31,
+    "score": 0.03128,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 2,
+    "bm25_rank": 6
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p031:para1000:001",
+   "wbg-ar-2026:p029:para1000:003"
+  ],
+  "context_chars": 2046,
+  "seconds": 0.059,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "day6_labels": {
+   "hit1": true,
+   "hit3": true,
+   "context_hit": true
+  }
+ },
+ {
+  "query_id": "t05",
+  "split": "test",
+  "type": "metadata_filter",
+  "question": "What was the gross outstanding guarantee portfolio as of June 30, 2026?",
+  "config": "hybrid_filter",
+  "applied_filter": {
+   "institution": "miga"
+  },
+  "results": [
+   {
+    "rank": 1,
+    "id": "wbg-ar-2026:p039:para1000:000",
+    "page": 39,
+    "score": 0.03279,
+    "hit": true,
+    "hit_day6_labels": true,
+    "dense_rank": 1,
+    "bm25_rank": 1
+   },
+   {
+    "rank": 2,
+    "id": "wbg-ar-2026:p039:para1000:002",
+    "page": 39,
+    "score": 0.03226,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 2,
+    "bm25_rank": 2
+   },
+   {
+    "rank": 3,
+    "id": "wbg-ar-2026:p040:para1000:001",
+    "page": 40,
+    "score": 0.03126,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 5,
+    "bm25_rank": 3
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p039:para1000:000",
+   "wbg-ar-2026:p039:para1000:002",
+   "wbg-ar-2026:p040:para1000:001"
+  ],
+  "context_chars": 2858,
+  "seconds": 0.07,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "day6_labels": {
+   "hit1": true,
+   "hit3": true,
+   "context_hit": true
+  }
+ },
+ {
+  "query_id": "t06",
+  "split": "test",
+  "type": "exception",
+  "question": "In fiscal 2026, what share of arbitration cases decided by ICSID tribunals awarded no damages to claimants?",
+  "config": "hybrid_filter",
+  "applied_filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wbg-ar-2026:p044:para1000:000",
+    "page": 44,
+    "score": 0.03279,
+    "hit": true,
+    "hit_day6_labels": true,
+    "dense_rank": 1,
+    "bm25_rank": 1
+   },
+   {
+    "rank": 2,
+    "id": "wbg-ar-2026:p043:para1000:007",
+    "page": 43,
+    "score": 0.032,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 2,
+    "bm25_rank": 3
+   },
+   {
+    "rank": 3,
+    "id": "wbg-ar-2026:p044:para1000:001",
+    "page": 44,
+    "score": 0.032,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 3,
+    "bm25_rank": 2
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p044:para1000:000",
+   "wbg-ar-2026:p043:para1000:007",
+   "wbg-ar-2026:p044:para1000:001"
+  ],
+  "context_chars": 2655,
+  "seconds": 0.086,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "day6_labels": {
+   "hit1": true,
+   "hit3": true,
+   "context_hit": true
+  }
+ }
+]

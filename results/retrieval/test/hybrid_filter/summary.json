@@ -1,0 +1,28 @@
+{
+ "config": "hybrid_filter",
+ "method": "hybrid",
+ "top_k": 3,
+ "budget": 3000,
+ "use_filter": true,
+ "candidates": 20,
+ "split": "test",
+ "N": 6,
+ "hit1": "6/6",
+ "hit1_rate": 1.0,
+ "evidence_hit3": "6/6",
+ "evidence_hit3_rate": 1.0,
+ "context_evidence": "6/6",
+ "context_evidence_rate": 1.0,
+ "avg_context_chars": 2456.3,
+ "median_seconds": 0.06,
+ "total_seconds": 0.39,
+ "new_query_embeddings": 0,
+ "llm_usage": null,
+ "day6_labels": {
+  "hit1": "6/6",
+  "hit3": "6/6",
+  "context_hit": "6/6"
+ },
+ "misses_hit3": [],
+ "misses_context": []
+}

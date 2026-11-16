@@ -1,0 +1,1104 @@
+[
+ {
+  "query_id": "d01",
+  "split": "dev",
+  "type": "direct",
+  "question": "How much private capital did the World Bank Group mobilize in fiscal 2026?",
+  "config": "hybrid_rerank",
+  "applied_filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wbg-ar-2026:p032:para1000:001",
+    "page": 32,
+    "score": 0.02983,
+    "hit": true,
+    "hit_day6_labels": false,
+    "dense_rank": 13,
+    "bm25_rank": 2,
+    "hybrid_rank": 4,
+    "llm_grade": 3
+   },
+   {
+    "rank": 2,
+    "id": "wbg-ar-2026:p006:para1000:001",
+    "page": 6,
+    "score": 0.01515,
+    "hit": true,
+    "hit_day6_labels": true,
+    "dense_rank": 6,
+    "hybrid_rank": 12,
+    "llm_grade": 3
+   },
+   {
+    "rank": 3,
+    "id": "wbg-ar-2026:p025:para1000:003",
+    "page": 25,
+    "score": 0.03058,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 8,
+    "bm25_rank": 3,
+    "hybrid_rank": 2,
+    "llm_grade": 2
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p032:para1000:001",
+   "wbg-ar-2026:p006:para1000:001",
+   "wbg-ar-2026:p025:para1000:003"
+  ],
+  "context_chars": 2595,
+  "seconds": 3.001,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "day6_labels": {
+   "hit1": false,
+   "hit3": true,
+   "context_hit": true
+  }
+ },
+ {
+  "query_id": "d02",
+  "split": "dev",
+  "type": "paraphrase",
+  "question": "How much faster does the World Bank Group now get projects approved?",
+  "config": "hybrid_rerank",
+  "applied_filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wbg-ar-2026:p006:para1000:002",
+    "page": 6,
+    "score": 0.03252,
+    "hit": true,
+    "hit_day6_labels": true,
+    "dense_rank": 1,
+    "bm25_rank": 2,
+    "hybrid_rank": 1,
+    "llm_grade": 3
+   },
+   {
+    "rank": 2,
+    "id": "wbg-ar-2026:p005:para1000:001",
+    "page": 5,
+    "score": 0.01613,
+    "hit": true,
+    "hit_day6_labels": false,
+    "dense_rank": 2,
+    "hybrid_rank": 6,
+    "llm_grade": 3
+   },
+   {
+    "rank": 3,
+    "id": "wbg-ar-2026:p006:para1000:000",
+    "page": 6,
+    "score": 0.03178,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 5,
+    "bm25_rank": 1,
+    "hybrid_rank": 2,
+    "llm_grade": 1
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p006:para1000:002",
+   "wbg-ar-2026:p005:para1000:001",
+   "wbg-ar-2026:p006:para1000:000"
+  ],
+  "context_chars": 1805,
+  "seconds": 1.458,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "day6_labels": {
+   "hit1": true,
+   "hit3": true,
+   "context_hit": true
+  }
+ },
+ {
+  "query_id": "d03",
+  "split": "dev",
+  "type": "direct",
+  "question": "On current trajectories, how many jobs are developing countries expected to generate while 1.2 billion young people reach working age?",
+  "config": "hybrid_rerank",
+  "applied_filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wbg-ar-2026:p007:para1000:001",
+    "page": 7,
+    "score": 0.03279,
+    "hit": true,
+    "hit_day6_labels": true,
+    "dense_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1,
+    "llm_grade": 3
+   },
+   {
+    "rank": 2,
+    "id": "wbg-ar-2026:p005:para1000:000",
+    "page": 5,
+    "score": 0.03226,
+    "hit": true,
+    "hit_day6_labels": false,
+    "dense_rank": 2,
+    "bm25_rank": 2,
+    "hybrid_rank": 2,
+    "llm_grade": 3
+   },
+   {
+    "rank": 3,
+    "id": "wbg-ar-2026:p032:para1000:003",
+    "page": 32,
+    "score": 0.03054,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 6,
+    "bm25_rank": 5,
+    "hybrid_rank": 3,
+    "llm_grade": 1
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p007:para1000:001",
+   "wbg-ar-2026:p005:para1000:000",
+   "wbg-ar-2026:p032:para1000:003"
+  ],
+  "context_chars": 2847,
+  "seconds": 2.144,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "day6_labels": {
+   "hit1": true,
+   "hit3": true,
+   "context_hit": true
+  }
+ },
+ {
+  "query_id": "d04",
+  "split": "dev",
+  "type": "direct",
+  "question": "What share of Jordan's domestic water supply is the Aqaba-Amman project expected to deliver by 2030?",
+  "config": "hybrid_rerank",
+  "applied_filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wbg-ar-2026:p009:para1000:000",
+    "page": 9,
+    "score": 0.03279,
+    "hit": true,
+    "hit_day6_labels": true,
+    "dense_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1,
+    "llm_grade": 3
+   },
+   {
+    "rank": 2,
+    "id": "wbg-ar-2026:p009:para1000:001",
+    "page": 9,
+    "score": 0.03226,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 2,
+    "bm25_rank": 2,
+    "hybrid_rank": 2,
+    "llm_grade": 1
+   },
+   {
+    "rank": 3,
+    "id": "wbg-ar-2026:p009:para1000:002",
+    "page": 9,
+    "score": 0.03037,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 3,
+    "bm25_rank": 9,
+    "hybrid_rank": 4,
+    "llm_grade": 1
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p009:para1000:000",
+   "wbg-ar-2026:p009:para1000:001",
+   "wbg-ar-2026:p009:para1000:002"
+  ],
+  "context_chars": 1864,
+  "seconds": 1.602,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "day6_labels": {
+   "hit1": true,
+   "hit3": true,
+   "context_hit": true
+  }
+ },
+ {
+  "query_id": "d05",
+  "split": "dev",
+  "type": "paraphrase",
+  "question": "How many people in Ukraine will get power from the two wind farms backed by IFC?",
+  "config": "hybrid_rerank",
+  "applied_filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wbg-ar-2026:p010:para1000:001",
+    "page": 10,
+    "score": 0.03279,
+    "hit": true,
+    "hit_day6_labels": true,
+    "dense_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1,
+    "llm_grade": 3
+   },
+   {
+    "rank": 2,
+    "id": "wbg-ar-2026:p010:para1000:002",
+    "page": 10,
+    "score": 0.03151,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 5,
+    "bm25_rank": 2,
+    "hybrid_rank": 2,
+    "llm_grade": 1
+   },
+   {
+    "rank": 3,
+    "id": "wbg-ar-2026:p025:para1000:005",
+    "page": 25,
+    "score": 0.03041,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 2,
+    "bm25_rank": 10,
+    "hybrid_rank": 4,
+    "llm_grade": 1
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p010:para1000:001",
+   "wbg-ar-2026:p010:para1000:002",
+   "wbg-ar-2026:p025:para1000:005"
+  ],
+  "context_chars": 2691,
+  "seconds": 1.569,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "day6_labels": {
+   "hit1": true,
+   "hit3": true,
+   "context_hit": true
+  }
+ },
+ {
+  "query_id": "d06",
+  "split": "dev",
+  "type": "direct",
+  "question": "How many family farms in Brazil does the World Bank Group partnership aim to support by 2030?",
+  "config": "hybrid_rerank",
+  "applied_filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wbg-ar-2026:p011:para1000:000",
+    "page": 11,
+    "score": 0.03279,
+    "hit": true,
+    "hit_day6_labels": true,
+    "dense_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1,
+    "llm_grade": 3
+   },
+   {
+    "rank": 2,
+    "id": "wbg-ar-2026:p011:para1000:001",
+    "page": 11,
+    "score": 0.03226,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 2,
+    "bm25_rank": 2,
+    "hybrid_rank": 2,
+    "llm_grade": 2
+   },
+   {
+    "rank": 3,
+    "id": "wbg-ar-2026:p016:para1000:000",
+    "page": 16,
+    "score": 0.03125,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 4,
+    "bm25_rank": 4,
+    "hybrid_rank": 3,
+    "llm_grade": 0
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p011:para1000:000",
+   "wbg-ar-2026:p011:para1000:001",
+   "wbg-ar-2026:p016:para1000:000"
+  ],
+  "context_chars": 2854,
+  "seconds": 4.708,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "day6_labels": {
+   "hit1": true,
+   "hit3": true,
+   "context_hit": true
+  }
+ },
+ {
+  "query_id": "d07",
+  "split": "dev",
+  "type": "condition",
+  "question": "Which countries does the PHIT health project cover directly, and which only through the Pacific Community?",
+  "config": "hybrid_rerank",
+  "applied_filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wbg-ar-2026:p012:para1000:001",
+    "page": 12,
+    "score": 0.03279,
+    "hit": true,
+    "hit_day6_labels": true,
+    "dense_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1,
+    "llm_grade": 3
+   },
+   {
+    "rank": 2,
+    "id": "wbg-ar-2026:p012:para1000:002",
+    "page": 12,
+    "score": 0.03226,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 2,
+    "bm25_rank": 2,
+    "hybrid_rank": 2,
+    "llm_grade": 2
+   },
+   {
+    "rank": 3,
+    "id": "wbg-ar-2026:p012:para1000:000",
+    "page": 12,
+    "score": 0.02869,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 3,
+    "bm25_rank": 18,
+    "hybrid_rank": 5,
+    "llm_grade": 1
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p012:para1000:001",
+   "wbg-ar-2026:p012:para1000:002",
+   "wbg-ar-2026:p012:para1000:000"
+  ],
+  "context_chars": 2366,
+  "seconds": 2.399,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "day6_labels": {
+   "hit1": true,
+   "hit3": true,
+   "context_hit": true
+  }
+ },
+ {
+  "query_id": "d08",
+  "split": "dev",
+  "type": "direct",
+  "question": "How much did IFC invest in Hygenco Green Energies in India?",
+  "config": "hybrid_rerank",
+  "applied_filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wbg-ar-2026:p014:para1000:000",
+    "page": 14,
+    "score": 0.03279,
+    "hit": true,
+    "hit_day6_labels": true,
+    "dense_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1,
+    "llm_grade": 3
+   },
+   {
+    "rank": 2,
+    "id": "wbg-ar-2026:p014:para1000:001",
+    "page": 14,
+    "score": 0.03226,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 2,
+    "bm25_rank": 2,
+    "hybrid_rank": 2,
+    "llm_grade": 1
+   },
+   {
+    "rank": 3,
+    "id": "wbg-ar-2026:p019:para1000:010",
+    "page": 19,
+    "score": 0.03009,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 8,
+    "bm25_rank": 5,
+    "hybrid_rank": 3,
+    "llm_grade": 1
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p014:para1000:000",
+   "wbg-ar-2026:p014:para1000:001",
+   "wbg-ar-2026:p019:para1000:010"
+  ],
+  "context_chars": 2092,
+  "seconds": 1.732,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "day6_labels": {
+   "hit1": true,
+   "hit3": true,
+   "context_hit": true
+  }
+ },
+ {
+  "query_id": "d09",
+  "split": "dev",
+  "type": "direct",
+  "question": "What was MIGA's exposure to small states in fiscal 2026?",
+  "config": "hybrid_rerank",
+  "applied_filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wbg-ar-2026:p019:para1000:000",
+    "page": 19,
+    "score": 0.03279,
+    "hit": true,
+    "hit_day6_labels": true,
+    "dense_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1,
+    "llm_grade": 3
+   },
+   {
+    "rank": 2,
+    "id": "wbg-ar-2026:p039:para1000:000",
+    "page": 39,
+    "score": 0.0315,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 3,
+    "bm25_rank": 4,
+    "hybrid_rank": 2,
+    "llm_grade": 1
+   },
+   {
+    "rank": 3,
+    "id": "wbg-ar-2026:p019:para1000:001",
+    "page": 19,
+    "score": 0.03105,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 7,
+    "bm25_rank": 2,
+    "hybrid_rank": 3,
+    "llm_grade": 1
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p019:para1000:000",
+   "wbg-ar-2026:p039:para1000:000",
+   "wbg-ar-2026:p019:para1000:001"
+  ],
+  "context_chars": 2282,
+  "seconds": 1.541,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "day6_labels": {
+   "hit1": true,
+   "hit3": true,
+   "context_hit": true
+  }
+ },
+ {
+  "query_id": "d10",
+  "split": "dev",
+  "type": "paraphrase",
+  "question": "What did Jamaica receive from its World Bank catastrophe bond after Hurricane Melissa?",
+  "config": "hybrid_rerank",
+  "applied_filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wbg-ar-2026:p020:para1000:002",
+    "page": 20,
+    "score": 0.03279,
+    "hit": true,
+    "hit_day6_labels": true,
+    "dense_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1,
+    "llm_grade": 3
+   },
+   {
+    "rank": 2,
+    "id": "wbg-ar-2026:p031:para1000:006",
+    "page": 31,
+    "score": 0.03175,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 2,
+    "bm25_rank": 4,
+    "hybrid_rank": 2,
+    "llm_grade": 1
+   },
+   {
+    "rank": 3,
+    "id": "wbg-ar-2026:p020:para1000:001",
+    "page": 20,
+    "score": 0.01587,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 3,
+    "hybrid_rank": 6,
+    "llm_grade": 1
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p020:para1000:002",
+   "wbg-ar-2026:p031:para1000:006",
+   "wbg-ar-2026:p020:para1000:001"
+  ],
+  "context_chars": 2162,
+  "seconds": 1.704,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "day6_labels": {
+   "hit1": true,
+   "hit3": true,
+   "context_hit": true
+  }
+ },
+ {
+  "query_id": "d11",
+  "split": "dev",
+  "type": "paraphrase",
+  "question": "How many country offices now operate under one Country Manager for IFC, MIGA and the World Bank?",
+  "config": "hybrid_rerank",
+  "applied_filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wbg-ar-2026:p022:para1000:005",
+    "page": 22,
+    "score": 0.03279,
+    "hit": true,
+    "hit_day6_labels": true,
+    "dense_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1,
+    "llm_grade": 3
+   },
+   {
+    "rank": 2,
+    "id": "wbg-ar-2026:p042:para1000:006",
+    "page": 42,
+    "score": 0.03083,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 8,
+    "bm25_rank": 2,
+    "hybrid_rank": 2,
+    "llm_grade": 1
+   },
+   {
+    "rank": 3,
+    "id": "wbg-ar-2026:p018:para1000:003",
+    "page": 18,
+    "score": 0.03012,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 9,
+    "bm25_rank": 4,
+    "hybrid_rank": 3,
+    "llm_grade": 1
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p022:para1000:005",
+   "wbg-ar-2026:p042:para1000:006",
+   "wbg-ar-2026:p018:para1000:003"
+  ],
+  "context_chars": 2375,
+  "seconds": 1.873,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "day6_labels": {
+   "hit1": true,
+   "hit3": true,
+   "context_hit": true
+  }
+ },
+ {
+  "query_id": "d12",
+  "split": "dev",
+  "type": "direct",
+  "question": "Which bodies were combined into the Independent Accountability Mechanism?",
+  "config": "hybrid_rerank",
+  "applied_filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wbg-ar-2026:p023:para1000:000",
+    "page": 23,
+    "score": 0.03252,
+    "hit": true,
+    "hit_day6_labels": true,
+    "dense_rank": 1,
+    "bm25_rank": 2,
+    "hybrid_rank": 1,
+    "llm_grade": 3
+   },
+   {
+    "rank": 2,
+    "id": "wbg-ar-2026:p023:para1000:005",
+    "page": 23,
+    "score": 0.03227,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 3,
+    "bm25_rank": 1,
+    "hybrid_rank": 2,
+    "llm_grade": 2
+   },
+   {
+    "rank": 3,
+    "id": "wbg-ar-2026:p023:para1000:001",
+    "page": 23,
+    "score": 0.032,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 2,
+    "bm25_rank": 3,
+    "hybrid_rank": 3,
+    "llm_grade": 2
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p023:para1000:000",
+   "wbg-ar-2026:p023:para1000:005",
+   "wbg-ar-2026:p023:para1000:001"
+  ],
+  "context_chars": 2436,
+  "seconds": 1.756,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "day6_labels": {
+   "hit1": true,
+   "hit3": true,
+   "context_hit": true
+  }
+ },
+ {
+  "query_id": "d13",
+  "split": "dev",
+  "type": "disambiguation",
+  "question": "How much did World Bank trust funds hold in trust at the end of fiscal 2026?",
+  "config": "hybrid_rerank",
+  "applied_filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wbg-ar-2026:p025:para1000:002",
+    "page": 25,
+    "score": 0.03279,
+    "hit": true,
+    "hit_day6_labels": true,
+    "dense_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1,
+    "llm_grade": 3
+   },
+   {
+    "rank": 2,
+    "id": "wbg-ar-2026:p026:para1000:000",
+    "page": 26,
+    "score": 0.03105,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 2,
+    "bm25_rank": 7,
+    "hybrid_rank": 4,
+    "llm_grade": 2
+   },
+   {
+    "rank": 3,
+    "id": "wbg-ar-2026:p020:para1000:005",
+    "page": 20,
+    "score": 0.03033,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 4,
+    "bm25_rank": 8,
+    "hybrid_rank": 5,
+    "llm_grade": 2
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p025:para1000:002",
+   "wbg-ar-2026:p026:para1000:000",
+   "wbg-ar-2026:p020:para1000:005"
+  ],
+  "context_chars": 2732,
+  "seconds": 2.227,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "day6_labels": {
+   "hit1": true,
+   "hit3": true,
+   "context_hit": true
+  }
+ },
+ {
+  "query_id": "d14",
+  "split": "dev",
+  "type": "metadata_filter",
+  "question": "How much did IBRD raise by issuing bonds in fiscal 2026?",
+  "config": "hybrid_rerank",
+  "applied_filter": {
+   "institution": "ibrd_ida"
+  },
+  "results": [
+   {
+    "rank": 1,
+    "id": "wbg-ar-2026:p028:para1000:002",
+    "page": 28,
+    "score": 0.03279,
+    "hit": true,
+    "hit_day6_labels": true,
+    "dense_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1,
+    "llm_grade": 1
+   },
+   {
+    "rank": 2,
+    "id": "wbg-ar-2026:p028:para1000:003",
+    "page": 28,
+    "score": 0.03175,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 2,
+    "bm25_rank": 4,
+    "hybrid_rank": 2,
+    "llm_grade": 1
+   },
+   {
+    "rank": 3,
+    "id": "wbg-ar-2026:p031:para1000:001",
+    "page": 31,
+    "score": 0.02986,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 6,
+    "bm25_rank": 8,
+    "hybrid_rank": 5,
+    "llm_grade": 1
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p028:para1000:002",
+   "wbg-ar-2026:p028:para1000:003"
+  ],
+  "context_chars": 1968,
+  "seconds": 1.687,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "day6_labels": {
+   "hit1": true,
+   "hit3": true,
+   "context_hit": true
+  }
+ },
+ {
+  "query_id": "d15",
+  "split": "dev",
+  "type": "metadata_filter",
+  "question": "How many donors supported the replenishment policy package that took effect on July 1, 2025?",
+  "config": "hybrid_rerank",
+  "applied_filter": {
+   "institution": "ibrd_ida"
+  },
+  "results": [
+   {
+    "rank": 1,
+    "id": "wbg-ar-2026:p029:para1000:003",
+    "page": 29,
+    "score": 0.03279,
+    "hit": true,
+    "hit_day6_labels": true,
+    "dense_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1,
+    "llm_grade": 0
+   },
+   {
+    "rank": 2,
+    "id": "wbg-ar-2026:p029:para1000:005",
+    "page": 29,
+    "score": 0.03128,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 2,
+    "bm25_rank": 6,
+    "hybrid_rank": 2,
+    "llm_grade": 0
+   },
+   {
+    "rank": 3,
+    "id": "wbg-ar-2026:p030:para1000:001",
+    "page": 30,
+    "score": 0.03126,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 5,
+    "bm25_rank": 3,
+    "hybrid_rank": 3,
+    "llm_grade": 0
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p029:para1000:003",
+   "wbg-ar-2026:p029:para1000:005",
+   "wbg-ar-2026:p030:para1000:001"
+  ],
+  "context_chars": 2463,
+  "seconds": 1.528,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "day6_labels": {
+   "hit1": true,
+   "hit3": true,
+   "context_hit": true
+  }
+ },
+ {
+  "query_id": "d16",
+  "split": "dev",
+  "type": "metadata_filter",
+  "question": "What record level of investment commitments did IFC reach in fiscal 2026?",
+  "config": "hybrid_rerank",
+  "applied_filter": {
+   "institution": "ifc"
+  },
+  "results": [
+   {
+    "rank": 1,
+    "id": "wbg-ar-2026:p032:para1000:002",
+    "page": 32,
+    "score": 0.03279,
+    "hit": true,
+    "hit_day6_labels": true,
+    "dense_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1,
+    "llm_grade": 3
+   },
+   {
+    "rank": 2,
+    "id": "wbg-ar-2026:p032:para1000:001",
+    "page": 32,
+    "score": 0.03226,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 2,
+    "bm25_rank": 2,
+    "hybrid_rank": 2,
+    "llm_grade": 2
+   },
+   {
+    "rank": 3,
+    "id": "wbg-ar-2026:p033:para1000:001",
+    "page": 33,
+    "score": 0.02886,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 3,
+    "bm25_rank": 17,
+    "hybrid_rank": 8,
+    "llm_grade": 2
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p032:para1000:002",
+   "wbg-ar-2026:p032:para1000:001",
+   "wbg-ar-2026:p033:para1000:001"
+  ],
+  "context_chars": 2723,
+  "seconds": 1.469,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "day6_labels": {
+   "hit1": true,
+   "hit3": true,
+   "context_hit": true
+  }
+ },
+ {
+  "query_id": "d17",
+  "split": "dev",
+  "type": "metadata_filter",
+  "question": "What record amount of new guarantees was issued this fiscal year, and for how many projects?",
+  "config": "hybrid_rerank",
+  "applied_filter": {
+   "institution": "miga"
+  },
+  "results": [
+   {
+    "rank": 1,
+    "id": "wbg-ar-2026:p038:para1000:001",
+    "page": 38,
+    "score": 0.03279,
+    "hit": true,
+    "hit_day6_labels": true,
+    "dense_rank": 1,
+    "bm25_rank": 1,
+    "hybrid_rank": 1,
+    "llm_grade": 3
+   },
+   {
+    "rank": 2,
+    "id": "wbg-ar-2026:p039:para1000:000",
+    "page": 39,
+    "score": 0.03226,
+    "hit": true,
+    "hit_day6_labels": true,
+    "dense_rank": 2,
+    "bm25_rank": 2,
+    "hybrid_rank": 2,
+    "llm_grade": 3
+   },
+   {
+    "rank": 3,
+    "id": "wbg-ar-2026:p040:para1000:003",
+    "page": 40,
+    "score": 0.03175,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 3,
+    "bm25_rank": 3,
+    "hybrid_rank": 3,
+    "llm_grade": 1
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p038:para1000:001",
+   "wbg-ar-2026:p039:para1000:000",
+   "wbg-ar-2026:p040:para1000:003"
+  ],
+  "context_chars": 2918,
+  "seconds": 1.783,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "day6_labels": {
+   "hit1": true,
+   "hit3": true,
+   "context_hit": true
+  }
+ },
+ {
+  "query_id": "d18",
+  "split": "dev",
+  "type": "condition",
+  "question": "How many new cases did ICSID register in fiscal 2026, and under which rules?",
+  "config": "hybrid_rerank",
+  "applied_filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wbg-ar-2026:p043:para1000:007",
+    "page": 43,
+    "score": 0.03252,
+    "hit": true,
+    "hit_day6_labels": true,
+    "dense_rank": 1,
+    "bm25_rank": 2,
+    "hybrid_rank": 2,
+    "llm_grade": 3
+   },
+   {
+    "rank": 2,
+    "id": "wbg-ar-2026:p043:para1000:006",
+    "page": 43,
+    "score": 0.03252,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 2,
+    "bm25_rank": 1,
+    "hybrid_rank": 1,
+    "llm_grade": 2
+   },
+   {
+    "rank": 3,
+    "id": "wbg-ar-2026:p043:para1000:003",
+    "page": 43,
+    "score": 0.03125,
+    "hit": false,
+    "hit_day6_labels": false,
+    "dense_rank": 4,
+    "bm25_rank": 4,
+    "hybrid_rank": 3,
+    "llm_grade": 1
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p043:para1000:007",
+   "wbg-ar-2026:p043:para1000:006",
+   "wbg-ar-2026:p043:para1000:003"
+  ],
+  "context_chars": 2786,
+  "seconds": 1.793,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "day6_labels": {
+   "hit1": true,
+   "hit3": true,
+   "context_hit": true
+  }
+ }
+]

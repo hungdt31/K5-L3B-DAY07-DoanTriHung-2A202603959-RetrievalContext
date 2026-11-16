@@ -1,0 +1,16 @@
+{
+ "frozen_at": "2026-11-16T11:05:53+07:00 (file mtime; first Day 7 test run started 11:05:5x for retrieval, 11:06:47 for agent)",
+ "frozen_before_any_day7_test_run": true,
+ "criteria": "data/benchmark/README.md#tiêu-chí-chọn-chốt-trước-khi-chạy-dev",
+ "retrieval": {
+  "baseline": "dense",
+  "selected": "dense",
+  "reason": "Dev (nhãn đã rà): dense, bm25, hybrid, hybrid_filter, hybrid_rerank đều Evidence Hit@3 18/18 và Context Evidence 18/18; Hit@1 dense 18/18 = hybrid_rerank 18/18 > hybrid/hybrid_filter 17/18 > bm25 14/18; dense không cần gọi LLM (rerank: 1 lần gọi/câu, ~1.6 s) nên chọn dense.",
+  "also_reported_on_test": ["hybrid_filter"]
+ },
+ "agent": {
+  "baseline": "agent_dense_1search",
+  "selected": "agent_dense",
+  "reason": "Dev: grounded 2.0/2 (agent_dense) = 2.0/2 (agent_hybrid_filter_k5) > 1.89/2 (baseline); abstention 2/2 cả ba; từ chối nhầm 0/18 = 0/18 < 1/18; agent_dense ít prompt token hơn (36.0k so với 51.6k) nên chọn agent_dense."
+ }
+}

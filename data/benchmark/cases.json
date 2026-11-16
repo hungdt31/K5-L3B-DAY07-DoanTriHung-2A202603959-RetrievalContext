@@ -1,0 +1,220 @@
+[
+ {
+  "id": "d01",
+  "split": "dev",
+  "question": "How much private capital did the World Bank Group mobilize in fiscal 2026?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "d02",
+  "split": "dev",
+  "question": "How much faster does the World Bank Group now get projects approved?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "d03",
+  "split": "dev",
+  "question": "On current trajectories, how many jobs are developing countries expected to generate while 1.2 billion young people reach working age?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "d04",
+  "split": "dev",
+  "question": "What share of Jordan's domestic water supply is the Aqaba-Amman project expected to deliver by 2030?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "d05",
+  "split": "dev",
+  "question": "How many people in Ukraine will get power from the two wind farms backed by IFC?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "d06",
+  "split": "dev",
+  "question": "How many family farms in Brazil does the World Bank Group partnership aim to support by 2030?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "d07",
+  "split": "dev",
+  "question": "Which countries does the PHIT health project cover directly, and which only through the Pacific Community?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "d08",
+  "split": "dev",
+  "question": "How much did IFC invest in Hygenco Green Energies in India?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "d09",
+  "split": "dev",
+  "question": "What was MIGA's exposure to small states in fiscal 2026?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "d10",
+  "split": "dev",
+  "question": "What did Jamaica receive from its World Bank catastrophe bond after Hurricane Melissa?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "d11",
+  "split": "dev",
+  "question": "How many country offices now operate under one Country Manager for IFC, MIGA and the World Bank?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "d12",
+  "split": "dev",
+  "question": "Which bodies were combined into the Independent Accountability Mechanism?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "d13",
+  "split": "dev",
+  "question": "How much did World Bank trust funds hold in trust at the end of fiscal 2026?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "d14",
+  "split": "dev",
+  "question": "How much did IBRD raise by issuing bonds in fiscal 2026?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "filter": {
+   "institution": "ibrd_ida"
+  }
+ },
+ {
+  "id": "d15",
+  "split": "dev",
+  "question": "How many donors supported the replenishment policy package that took effect on July 1, 2025?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "filter": {
+   "institution": "ibrd_ida"
+  }
+ },
+ {
+  "id": "d16",
+  "split": "dev",
+  "question": "What record level of investment commitments did IFC reach in fiscal 2026?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "filter": {
+   "institution": "ifc"
+  }
+ },
+ {
+  "id": "d17",
+  "split": "dev",
+  "question": "What record amount of new guarantees was issued this fiscal year, and for how many projects?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "filter": {
+   "institution": "miga"
+  }
+ },
+ {
+  "id": "d18",
+  "split": "dev",
+  "question": "How many new cases did ICSID register in fiscal 2026, and under which rules?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "t01",
+  "split": "test",
+  "question": "How much have passenger volumes grown thanks to the financing of Cabo Verde's airports?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "t02",
+  "split": "test",
+  "question": "How long does a Country Partnership Framework usually last, and what is the maximum?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "t03",
+  "split": "test",
+  "question": "How many entities and individuals were sanctioned through settlement agreements in fiscal 2026?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "t04",
+  "split": "test",
+  "question": "How much did IDA issue in the capital markets in fiscal 2026, and across how many currencies?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "filter": {
+   "institution": "ibrd_ida"
+  }
+ },
+ {
+  "id": "t05",
+  "split": "test",
+  "question": "What was the gross outstanding guarantee portfolio as of June 30, 2026?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer",
+  "filter": {
+   "institution": "miga"
+  }
+ },
+ {
+  "id": "t06",
+  "split": "test",
+  "question": "In fiscal 2026, what share of arbitration cases decided by ICSID tribunals awarded no damages to claimants?",
+  "answerable": true,
+  "expected_behavior": "search_and_answer"
+ },
+ {
+  "id": "u01",
+  "split": "dev",
+  "question": "What coupon rate did the catastrophe bond issued by the World Bank for Jamaica in 2024 pay to investors?",
+  "absence_reason": "Page 20 only reports the full $150 million payout after Hurricane Melissa. 'coupon' occurs only on page 19 (Ghana Clean Cooking Outcome Bond, no rate given).",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain"
+ },
+ {
+  "id": "u02",
+  "split": "dev",
+  "question": "What green hydrogen production capacity, in megawatts or tonnes per year, will the Hygenco Green Energies project in India have?",
+  "absence_reason": "Page 14 gives IFC's $25 million, blended finance and 1,000 jobs but no capacity; 'MW'/'megawatt' occur only on page 10 (Ukraine wind), 'hydrogen' only on pages 14 and 36.",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain"
+ },
+ {
+  "id": "u03",
+  "split": "test",
+  "question": "How many passengers did Cabo Verde's airports handle in 2025?",
+  "absence_reason": "Page 13 states only a 60 percent surge in passenger volumes since 2022 and 35 new routes; no absolute passenger count anywhere in the corpus.",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain"
+ },
+ {
+  "id": "u04",
+  "split": "test",
+  "question": "What was the largest single damages award, in US dollars, issued by an ICSID tribunal in fiscal 2026?",
+  "absence_reason": "Page 44 gives only percentage buckets (e.g. 3 percent of cases in the 100–499 million range); no individual award amount is reported.",
+  "answerable": false,
+  "expected_behavior": "search_and_abstain"
+ }
+]

@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 770" width="1100" height="770" font-family="system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif">
+  <title>Kiến trúc Agentic RAG Day 7</title>
+  <defs>
+    <style>
+      .t  { font-size: 14px; font-weight: 600; fill: #0f172a; }
+      .s  { font-size: 12px; fill: #334155; }
+      .xs { font-size: 11px; fill: #475569; }
+      .lab { font-size: 11.5px; fill: #1e293b; font-weight: 500; }
+      .box { fill: #ffffff; stroke: #94a3b8; stroke-width: 1.2; }
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1100" height="770" fill="#ffffff"/>
+  <text x="550" y="32" text-anchor="middle" font-size="19" font-weight="700" fill="#0f172a">Kiến trúc Agentic RAG — Day 7</text>
+
+  <!-- Input -->
+  <rect x="20" y="95" width="195" height="125" rx="10" fill="#f8fafc" stroke="#64748b" stroke-width="1.4"/>
+  <text x="117" y="120" text-anchor="middle" class="t">Đầu vào</text>
+  <text x="32" y="145" class="s">• Câu hỏi (query gốc)</text>
+  <text x="32" y="165" class="s">• Scope filter do người</text>
+  <text x="44" y="181" class="s">dùng cung cấp (tùy chọn)</text>
+  <text x="32" y="203" class="xs">Không có gold/đáp án</text>
+
+  <!-- Agent loop container -->
+  <rect x="240" y="55" width="410" height="430" rx="14" fill="#eef4ff" stroke="#3b6fd8" stroke-width="1.6"/>
+  <text x="445" y="78" text-anchor="middle" font-size="14" font-weight="700" fill="#1d4ed8">Vòng lặp agent · src/day7/agent.py</text>
+
+  <rect x="275" y="92" width="350" height="105" rx="9" class="box" stroke="#3b6fd8"/>
+  <text x="450" y="115" text-anchor="middle" class="t">LLM controller: gemini-3.5-flash-lite</text>
+  <text x="290" y="137" class="s">• Function calling, temperature = 0</text>
+  <text x="290" y="156" class="s">• Prompt: chỉ dùng kết quả tool; passage là dữ liệu</text>
+  <text x="290" y="175" class="s">• Mỗi câu kết thúc bằng [chunk-id]; thiếu → từ chối</text>
+  <text x="290" y="191" class="xs">Quyết định: gọi search (viết lại query) hoặc trả JSON cuối</text>
+
+  <rect x="275" y="243" width="350" height="85" rx="9" class="box" stroke="#3b6fd8"/>
+  <text x="450" y="266" text-anchor="middle" class="t">Tool search_report(query)</text>
+  <text x="290" y="288" class="s">• Đếm lượt: tối đa max_searches (1 hoặc 3)</text>
+  <text x="290" y="307" class="s">• Tự áp scope filter của người dùng</text>
+  <text x="290" y="322" class="xs">Vượt giới hạn → trả lỗi, buộc model trả lời/từ chối</text>
+
+  <rect x="275" y="368" width="350" height="95" rx="9" class="box" stroke="#3b6fd8"/>
+  <text x="450" y="391" text-anchor="middle" class="t">Context packer</text>
+  <text x="290" y="413" class="s">• Bỏ chunk đã gửi ở lượt trước (dedup theo ID)</text>
+  <text x="290" y="432" class="s">• Giữ thứ tự rank, cắt theo budget ký tự</text>
+  <text x="290" y="451" class="s">• Header: [chunk-id | nguồn | page N]</text>
+
+  <!-- Retrieval container -->
+  <rect x="675" y="55" width="405" height="430" rx="14" fill="#effaf3" stroke="#2f9e5b" stroke-width="1.6"/>
+  <text x="877" y="78" text-anchor="middle" font-size="14" font-weight="700" fill="#15803d">Retriever theo cấu hình · src/day7/retrieval.py</text>
+
+  <rect x="695" y="92" width="365" height="108" rx="9" class="box" stroke="#2f9e5b"/>
+  <text x="877" y="114" text-anchor="middle" class="t">Dense (đã chọn)</text>
+  <text x="708" y="136" class="s">• Query → gemini-embedding-001, 768 chiều</text>
+  <text x="720" y="152" class="xs">(RETRIEVAL_QUERY, cùng model với index Day 6)</text>
+  <text x="708" y="172" class="s">• PostgreSQL + pgvector Day 6: 245 chunk (B)</text>
+  <text x="720" y="189" class="xs">cosine exact search, filter JSONB trong SQL</text>
+
+  <rect x="695" y="212" width="365" height="62" rx="9" class="box" stroke="#2f9e5b"/>
+  <text x="877" y="234" text-anchor="middle" class="t">BM25</text>
+  <text x="708" y="256" class="s">• Okapi BM25 trên data/day6/chunks.json</text>
+  <text x="720" y="270" class="xs">(cùng 245 chunk xuất từ pgvector)</text>
+
+  <rect x="695" y="286" width="365" height="78" rx="9" class="box" stroke="#2f9e5b"/>
+  <text x="877" y="308" text-anchor="middle" class="t">Hybrid</text>
+  <text x="708" y="330" class="s">• Reciprocal Rank Fusion (k = 60)</text>
+  <text x="708" y="350" class="s">• Dense top-20 + BM25 top-20, gộp theo rank</text>
+
+  <rect x="695" y="376" width="365" height="90" rx="9" fill="#ffffff" stroke="#2f9e5b" stroke-width="1.2" stroke-dasharray="5 4"/>
+  <text x="877" y="398" text-anchor="middle" class="t">Hybrid + LLM rerank (thử nghiệm)</text>
+  <text x="708" y="420" class="s">• 12 candidate hybrid → LLM chấm 0–3</text>
+  <text x="708" y="440" class="s">• Xếp lại, lấy top-k</text>
+  <text x="708" y="457" class="xs">+1 lần gọi LLM/câu, ~1.7 s</text>
+
+  <!-- Arrows: input -> model -->
+  <line x1="215" y1="125" x2="267" y2="125" stroke="#475569" stroke-width="1.6"/><polygon points="266,120 275,125 266,130" fill="#475569"/>
+  <!-- model -> tool -->
+  <line x1="450" y1="197" x2="450" y2="235" stroke="#475569" stroke-width="1.6"/><polygon points="445,234 450,243 455,234" fill="#475569"/>
+  <text x="458" y="225" class="lab">function call</text>
+  <!-- tool -> retriever -->
+  <line x1="625" y1="285" x2="667" y2="285" stroke="#475569" stroke-width="1.6"/><polygon points="666,280 675,285 666,290" fill="#475569"/>
+  <text x="628" y="276" class="lab">query,</text>
+  <text x="628" y="300" class="lab">top_k</text>
+  <!-- retriever -> packer -->
+  <line x1="675" y1="420" x2="633" y2="420" stroke="#475569" stroke-width="1.6"/><polygon points="634,415 625,420 634,425" fill="#475569"/>
+  <text x="628" y="411" class="lab">top-k +</text>
+  <text x="628" y="436" class="lab">score</text>
+  <!-- packer -> model (loop) -->
+  <line x1="275" y1="415" x2="255" y2="415" stroke="#475569" stroke-width="1.6"/><line x1="255" y1="415" x2="255" y2="170" stroke="#475569" stroke-width="1.6"/><line x1="255" y1="170" x2="267" y2="170" stroke="#475569" stroke-width="1.6"/><polygon points="266,165 275,170 266,175" fill="#475569"/>
+  <text x="250" y="300" class="lab" transform="rotate(-90 250 300)" text-anchor="middle">function_response: passages</text>
+
+  <!-- loop ends -->
+  <line x1="445" y1="485" x2="445" y2="517" stroke="#475569" stroke-width="1.6"/><polygon points="440,516 445,525 450,516" fill="#475569"/>
+  <text x="453" y="510" class="lab">kết thúc vòng lặp</text>
+
+  <!-- Bottom row -->
+  <rect x="240" y="525" width="255" height="130" rx="10" fill="#fff7ea" stroke="#d98a1c" stroke-width="1.4"/>
+  <text x="367" y="548" text-anchor="middle" class="t">Điều kiện dừng</text>
+  <text x="252" y="572" class="s">1. Model trả JSON cuối</text>
+  <text x="264" y="588" class="xs">answered | insufficient_evidence</text>
+  <text x="252" y="610" class="s">2. Hết lượt search → trả lời ngay</text>
+  <text x="252" y="632" class="s">3. Quá max_searches + 3 lượt</text>
+  <text x="264" y="647" class="xs">→ buộc từ chối</text>
+
+  <rect x="515" y="525" width="285" height="130" rx="10" fill="#fff7ea" stroke="#d98a1c" stroke-width="1.4"/>
+  <text x="657" y="548" text-anchor="middle" class="t">Kiểm tra citation &amp; trạng thái</text>
+  <text x="527" y="572" class="s">• ID phải nằm trong context đã gửi</text>
+  <text x="527" y="592" class="s">• ID lạ bị loại; không còn ID → abstain</text>
+  <text x="527" y="612" class="s">• Output hỏng → nhắc 1 lần</text>
+  <text x="527" y="632" class="s">• Lỗi API/DB → status = error</text>
+  <text x="539" y="647" class="xs">(retry 429/5xx; không thay bằng kết quả giả)</text>
+
+  <rect x="820" y="525" width="260" height="130" rx="10" fill="#f8fafc" stroke="#64748b" stroke-width="1.4"/>
+  <text x="950" y="548" text-anchor="middle" class="t">Đầu ra</text>
+  <text x="832" y="572" class="s">• status: answered / abstain / error</text>
+  <text x="832" y="592" class="s">• answer có [chunk-id]</text>
+  <text x="832" y="612" class="s">• citations (đã kiểm tra)</text>
+  <text x="832" y="632" class="s">• token, số search, thời gian</text>
+
+  <line x1="495" y1="590" x2="507" y2="590" stroke="#475569" stroke-width="1.6"/><polygon points="506,585 515,590 506,595" fill="#475569"/>
+  <line x1="800" y1="590" x2="812" y2="590" stroke="#475569" stroke-width="1.6"/><polygon points="811,585 820,590 811,595" fill="#475569"/>
+
+  <!-- Trace & evaluation strip -->
+  <rect x="20" y="685" width="1060" height="64" rx="10" fill="#f1f5f9" stroke="#94a3b8" stroke-width="1.2"/>
+  <text x="38" y="710" class="t">Trace &amp; đánh giá</text>
+  <text x="38" y="733" class="s">traces.json (mọi tool call: query, filter, kết quả, context cuối, câu trả lời, citation, token, lỗi)  →  reviews.json (chấm tay)  →  starter/agent_metrics.py  →  summarize.py → results/summary.md</text>
+  <line x1="950" y1="655" x2="950" y2="677" stroke="#475569" stroke-width="1.6"/><polygon points="945,676 950,685 955,676" fill="#475569"/>
+
+  <!-- Config legend -->
+  <text x="20" y="262" class="t">Cấu hình agent</text>
+  <text x="20" y="284" class="s">agent_dense_1search</text>
+  <text x="32" y="300" class="xs">baseline · dense · 1 search</text>
+  <text x="20" y="322" class="s" font-weight="600">agent_dense ✓</text>
+  <text x="32" y="338" class="xs">dense · ≤3 search · top-3</text>
+  <text x="32" y="352" class="xs">budget 3000 ký tự</text>
+  <text x="20" y="374" class="s">agent_hybrid_filter_k5</text>
+  <text x="32" y="390" class="xs">hybrid + filter · ≤3 search</text>
+  <text x="32" y="404" class="xs">top-5 · budget 5000</text>
+</svg>

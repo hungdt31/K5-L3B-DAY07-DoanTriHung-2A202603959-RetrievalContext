@@ -1,0 +1,296 @@
+[
+ {
+  "query_id": "t01",
+  "split": "test",
+  "type": "paraphrase",
+  "question": "How much have passenger volumes grown thanks to the financing of Cabo Verde's airports?",
+  "config": "dense",
+  "applied_filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wbg-ar-2026:p013:para1000:002",
+    "page": 13,
+    "score": 0.74465,
+    "hit": true,
+    "hit_day6_labels": true
+   },
+   {
+    "rank": 2,
+    "id": "wbg-ar-2026:p013:para1000:001",
+    "page": 13,
+    "score": 0.71789,
+    "hit": false,
+    "hit_day6_labels": false
+   },
+   {
+    "rank": 3,
+    "id": "wbg-ar-2026:p013:para1000:003",
+    "page": 13,
+    "score": 0.69932,
+    "hit": false,
+    "hit_day6_labels": false
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p013:para1000:002",
+   "wbg-ar-2026:p013:para1000:001",
+   "wbg-ar-2026:p013:para1000:003"
+  ],
+  "context_chars": 2319,
+  "seconds": 3.776,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "day6_labels": {
+   "hit1": true,
+   "hit3": true,
+   "context_hit": true
+  }
+ },
+ {
+  "query_id": "t02",
+  "split": "test",
+  "type": "condition",
+  "question": "How long does a Country Partnership Framework usually last, and what is the maximum?",
+  "config": "dense",
+  "applied_filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wbg-ar-2026:p018:para1000:003",
+    "page": 18,
+    "score": 0.72378,
+    "hit": true,
+    "hit_day6_labels": true
+   },
+   {
+    "rank": 2,
+    "id": "wbg-ar-2026:p018:para1000:004",
+    "page": 18,
+    "score": 0.67699,
+    "hit": false,
+    "hit_day6_labels": false
+   },
+   {
+    "rank": 3,
+    "id": "wbg-ar-2026:p031:para1000:005",
+    "page": 31,
+    "score": 0.64689,
+    "hit": false,
+    "hit_day6_labels": false
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p018:para1000:003",
+   "wbg-ar-2026:p018:para1000:004",
+   "wbg-ar-2026:p031:para1000:005"
+  ],
+  "context_chars": 2584,
+  "seconds": 0.497,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "day6_labels": {
+   "hit1": true,
+   "hit3": true,
+   "context_hit": true
+  }
+ },
+ {
+  "query_id": "t03",
+  "split": "test",
+  "type": "direct",
+  "question": "How many entities and individuals were sanctioned through settlement agreements in fiscal 2026?",
+  "config": "dense",
+  "applied_filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wbg-ar-2026:p024:para1000:001",
+    "page": 24,
+    "score": 0.73149,
+    "hit": true,
+    "hit_day6_labels": true
+   },
+   {
+    "rank": 2,
+    "id": "wbg-ar-2026:p043:para1000:007",
+    "page": 43,
+    "score": 0.68892,
+    "hit": false,
+    "hit_day6_labels": false
+   },
+   {
+    "rank": 3,
+    "id": "wbg-ar-2026:p042:para1000:003",
+    "page": 42,
+    "score": 0.6863,
+    "hit": false,
+    "hit_day6_labels": false
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p024:para1000:001",
+   "wbg-ar-2026:p043:para1000:007",
+   "wbg-ar-2026:p042:para1000:003"
+  ],
+  "context_chars": 2749,
+  "seconds": 0.474,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "day6_labels": {
+   "hit1": true,
+   "hit3": true,
+   "context_hit": true
+  }
+ },
+ {
+  "query_id": "t04",
+  "split": "test",
+  "type": "metadata_filter",
+  "question": "How much did IDA issue in the capital markets in fiscal 2026, and across how many currencies?",
+  "config": "dense",
+  "applied_filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wbg-ar-2026:p031:para1000:001",
+    "page": 31,
+    "score": 0.82794,
+    "hit": true,
+    "hit_day6_labels": true
+   },
+   {
+    "rank": 2,
+    "id": "wbg-ar-2026:p019:para1000:003",
+    "page": 19,
+    "score": 0.77501,
+    "hit": false,
+    "hit_day6_labels": false
+   },
+   {
+    "rank": 3,
+    "id": "wbg-ar-2026:p031:para1000:003",
+    "page": 31,
+    "score": 0.76828,
+    "hit": false,
+    "hit_day6_labels": false
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p031:para1000:001",
+   "wbg-ar-2026:p019:para1000:003",
+   "wbg-ar-2026:p031:para1000:003"
+  ],
+  "context_chars": 2842,
+  "seconds": 0.499,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "day6_labels": {
+   "hit1": true,
+   "hit3": true,
+   "context_hit": true
+  }
+ },
+ {
+  "query_id": "t05",
+  "split": "test",
+  "type": "metadata_filter",
+  "question": "What was the gross outstanding guarantee portfolio as of June 30, 2026?",
+  "config": "dense",
+  "applied_filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wbg-ar-2026:p039:para1000:000",
+    "page": 39,
+    "score": 0.7364,
+    "hit": true,
+    "hit_day6_labels": true
+   },
+   {
+    "rank": 2,
+    "id": "wbg-ar-2026:p039:para1000:002",
+    "page": 39,
+    "score": 0.70423,
+    "hit": false,
+    "hit_day6_labels": false
+   },
+   {
+    "rank": 3,
+    "id": "wbg-ar-2026:p033:para1000:000",
+    "page": 33,
+    "score": 0.69031,
+    "hit": false,
+    "hit_day6_labels": false
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p039:para1000:000",
+   "wbg-ar-2026:p039:para1000:002",
+   "wbg-ar-2026:p033:para1000:000"
+  ],
+  "context_chars": 2784,
+  "seconds": 0.568,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "day6_labels": {
+   "hit1": true,
+   "hit3": true,
+   "context_hit": true
+  }
+ },
+ {
+  "query_id": "t06",
+  "split": "test",
+  "type": "exception",
+  "question": "In fiscal 2026, what share of arbitration cases decided by ICSID tribunals awarded no damages to claimants?",
+  "config": "dense",
+  "applied_filter": null,
+  "results": [
+   {
+    "rank": 1,
+    "id": "wbg-ar-2026:p044:para1000:000",
+    "page": 44,
+    "score": 0.82729,
+    "hit": true,
+    "hit_day6_labels": true
+   },
+   {
+    "rank": 2,
+    "id": "wbg-ar-2026:p043:para1000:007",
+    "page": 43,
+    "score": 0.81104,
+    "hit": false,
+    "hit_day6_labels": false
+   },
+   {
+    "rank": 3,
+    "id": "wbg-ar-2026:p044:para1000:001",
+    "page": 44,
+    "score": 0.80083,
+    "hit": false,
+    "hit_day6_labels": false
+   }
+  ],
+  "context_ids": [
+   "wbg-ar-2026:p044:para1000:000",
+   "wbg-ar-2026:p043:para1000:007",
+   "wbg-ar-2026:p044:para1000:001"
+  ],
+  "context_chars": 2655,
+  "seconds": 0.508,
+  "hit1": true,
+  "hit3": true,
+  "context_hit": true,
+  "day6_labels": {
+   "hit1": true,
+   "hit3": true,
+   "context_hit": true
+  }
+ }
+]

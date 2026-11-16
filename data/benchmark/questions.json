@@ -1,0 +1,432 @@
+[
+ {
+  "id": "d01",
+  "split": "dev",
+  "type": "direct",
+  "question": "How much private capital did the World Bank Group mobilize in fiscal 2026?",
+  "expected_answer": "$112 billion, more than triple the $35 billion mobilized in fiscal 2022",
+  "gold": [
+   {
+    "source_id": "wbg-ar-2026",
+    "page": 6,
+    "evidence": "we mobilized $112 billion in private funds in fiscal 2026 — more than triple the $35 billion mobilized in fiscal 2022"
+   },
+   {
+    "source_id": "wbg-ar-2026",
+    "page": 18,
+    "evidence": "private capital mobilization surged from $35 billion in fiscal 2022 to $112 billion in fiscal 2026"
+   },
+   {
+    "source_id": "wbg-ar-2026",
+    "page": 4,
+    "evidence": "Total private capital mobilized during the fiscal year reached $112 billion",
+    "origin": "day7_audit"
+   },
+   {
+    "source_id": "wbg-ar-2026",
+    "page": 5,
+    "evidence": "We mobilized $112 billion in private capital, more than triple the $35 billion we mobilized in fiscal 2022",
+    "origin": "day7_audit"
+   },
+   {
+    "source_id": "wbg-ar-2026",
+    "page": 32,
+    "evidence": "The World Bank Group mobilized $112 billion in private capital in fiscal 2026, more than tripling from $35 billion in fiscal 2022",
+    "origin": "day7_audit"
+   }
+  ],
+  "gold_day6_count": 2
+ },
+ {
+  "id": "d02",
+  "split": "dev",
+  "type": "paraphrase",
+  "question": "How much faster does the World Bank Group now get projects approved?",
+  "expected_answer": "Average approval time fell from 19 months to nine; some low-risk projects are approved in as little as 60 days",
+  "gold": [
+   {
+    "source_id": "wbg-ar-2026",
+    "page": 6,
+    "evidence": "We cut average project-approval times from 19 months to nine, with some low-risk projects approved in as little as 60 days"
+   },
+   {
+    "source_id": "wbg-ar-2026",
+    "page": 5,
+    "evidence": "We shortened average project preparation and approval times from 19 months to nine",
+    "origin": "day7_audit"
+   }
+  ],
+  "gold_day6_count": 1
+ },
+ {
+  "id": "d03",
+  "split": "dev",
+  "type": "direct",
+  "question": "On current trajectories, how many jobs are developing countries expected to generate while 1.2 billion young people reach working age?",
+  "expected_answer": "Only about 420 million jobs",
+  "gold": [
+   {
+    "source_id": "wbg-ar-2026",
+    "page": 7,
+    "evidence": "On current trajectories, developing countries are expected to generate only about 420 million jobs over that same period"
+   },
+   {
+    "source_id": "wbg-ar-2026",
+    "page": 5,
+    "evidence": "Those countries are expected to create only about 420 million jobs",
+    "origin": "day7_audit"
+   }
+  ],
+  "gold_day6_count": 1
+ },
+ {
+  "id": "d04",
+  "split": "dev",
+  "type": "direct",
+  "question": "What share of Jordan's domestic water supply is the Aqaba-Amman project expected to deliver by 2030?",
+  "expected_answer": "Approximately 40 percent",
+  "gold": [
+   {
+    "source_id": "wbg-ar-2026",
+    "page": 9,
+    "evidence": "By 2030, the project is expected to deliver approximately 40 percent of Jordan’s domestic water supply"
+   }
+  ],
+  "gold_day6_count": 1
+ },
+ {
+  "id": "d05",
+  "split": "dev",
+  "type": "paraphrase",
+  "question": "How many people in Ukraine will get power from the two wind farms backed by IFC?",
+  "expected_answer": "Around 800,000 people",
+  "gold": [
+   {
+    "source_id": "wbg-ar-2026",
+    "page": 10,
+    "evidence": "The two projects are expected to contribute to Ukraine’s energy grid stability and provide electricity to around 800,000 people"
+   }
+  ],
+  "gold_day6_count": 1
+ },
+ {
+  "id": "d06",
+  "split": "dev",
+  "type": "direct",
+  "question": "How many family farms in Brazil does the World Bank Group partnership aim to support by 2030?",
+  "expected_answer": "1 million family farms",
+  "gold": [
+   {
+    "source_id": "wbg-ar-2026",
+    "page": 11,
+    "evidence": "aims to support 1 million family farms with improved technology, market logistics, and insurance by 2030"
+   }
+  ],
+  "gold_day6_count": 1
+ },
+ {
+  "id": "d07",
+  "split": "dev",
+  "type": "condition",
+  "question": "Which countries does the PHIT health project cover directly, and which only through the Pacific Community?",
+  "expected_answer": "Directly: Fiji, Kiribati, Tonga, Tuvalu; through the Pacific Community: Naoero, Samoa, Solomon Islands, Vanuatu",
+  "gold": [
+   {
+    "source_id": "wbg-ar-2026",
+    "page": 12,
+    "evidence": "The $239.5 million project covers Fiji, Kiribati, Tonga, and Tuvalu, and — through the Pacific Community — Naoero, Samoa, Solomon Islands, and Vanuatu"
+   }
+  ],
+  "gold_day6_count": 1
+ },
+ {
+  "id": "d08",
+  "split": "dev",
+  "type": "direct",
+  "question": "How much did IFC invest in Hygenco Green Energies in India?",
+  "expected_answer": "$25 million, IFC's first direct green hydrogen investment in India",
+  "gold": [
+   {
+    "source_id": "wbg-ar-2026",
+    "page": 14,
+    "evidence": "IFC invested $25 million in Hygenco Green Energies — its first direct green hydrogen investment in India"
+   }
+  ],
+  "gold_day6_count": 1
+ },
+ {
+  "id": "d09",
+  "split": "dev",
+  "type": "direct",
+  "question": "What was MIGA's exposure to small states in fiscal 2026?",
+  "expected_answer": "$790 million",
+  "gold": [
+   {
+    "source_id": "wbg-ar-2026",
+    "page": 19,
+    "evidence": "In fiscal 2026, IBRD/IDA portfolio net commitments to small states reached $8.9 billion, IFC portfolio exposure reached $682 million, and MIGA exposure reached $790 million"
+   }
+  ],
+  "gold_day6_count": 1
+ },
+ {
+  "id": "d10",
+  "split": "dev",
+  "type": "paraphrase",
+  "question": "What did Jamaica receive from its World Bank catastrophe bond after Hurricane Melissa?",
+  "expected_answer": "A full $150 million payout",
+  "gold": [
+   {
+    "source_id": "wbg-ar-2026",
+    "page": 20,
+    "evidence": "Hurricane Melissa triggered a full $150 million payout to the Government of Jamaica from a catastrophe bond issued by the World Bank for Jamaica in 2024"
+   }
+  ],
+  "gold_day6_count": 1
+ },
+ {
+  "id": "d11",
+  "split": "dev",
+  "type": "paraphrase",
+  "question": "How many country offices now operate under one Country Manager for IFC, MIGA and the World Bank?",
+  "expected_answer": "88 country offices",
+  "gold": [
+   {
+    "source_id": "wbg-ar-2026",
+    "page": 22,
+    "evidence": "we have merged 88 country offices to unify leadership across IFC, MIGA, and the World Bank under a single Country Manager"
+   }
+  ],
+  "gold_day6_count": 1
+ },
+ {
+  "id": "d12",
+  "split": "dev",
+  "type": "direct",
+  "question": "Which bodies were combined into the Independent Accountability Mechanism?",
+  "expected_answer": "The Inspection Panel, the Compliance Advisor Ombudsman, and the Dispute Resolution Service",
+  "gold": [
+   {
+    "source_id": "wbg-ar-2026",
+    "page": 23,
+    "evidence": "approved the integration of the Inspection Panel, the Compliance Advisor Ombudsman, and the Dispute Resolution Service into a single Independent Accountability Mechanism (IAM)"
+   }
+  ],
+  "gold_day6_count": 1
+ },
+ {
+  "id": "d13",
+  "split": "dev",
+  "type": "disambiguation",
+  "question": "How much did World Bank trust funds hold in trust at the end of fiscal 2026?",
+  "expected_answer": "$27.9 billion (not the $45.2 billion held for financial intermediary funds)",
+  "gold": [
+   {
+    "source_id": "wbg-ar-2026",
+    "page": 25,
+    "evidence": "At the end of fiscal 2026, World Bank trust funds held $27.9 billion in trust as cash, investments, and promissory notes"
+   }
+  ],
+  "gold_day6_count": 1
+ },
+ {
+  "id": "d14",
+  "split": "dev",
+  "type": "metadata_filter",
+  "question": "How much did IBRD raise by issuing bonds in fiscal 2026?",
+  "expected_answer": "Nearly $50 billion in medium- and long-term bonds",
+  "gold": [
+   {
+    "source_id": "wbg-ar-2026",
+    "page": 28,
+    "evidence": "In fiscal 2026, IBRD raised nearly $50 billion by issuing medium- and long-term bonds in a variety of currencies"
+   },
+   {
+    "source_id": "wbg-ar-2026",
+    "page": 19,
+    "evidence": "In fiscal 2026, IBRD, which is rated triple-A by the major credit rating agencies, raised nearly $50 billion through Sustainable Development Bonds",
+    "origin": "day7_audit"
+   }
+  ],
+  "gold_day6_count": 1,
+  "filter": {
+   "institution": "ibrd_ida"
+  },
+  "filter_source": "question names IBRD"
+ },
+ {
+  "id": "d15",
+  "split": "dev",
+  "type": "metadata_filter",
+  "question": "How many donors supported the replenishment policy package that took effect on July 1, 2025?",
+  "expected_answer": "57 donors (IDA21)",
+  "gold": [
+   {
+    "source_id": "wbg-ar-2026",
+    "page": 29,
+    "evidence": "Fiscal 2026 marked the start of the IDA21 policy package, which took effect on July 1, 2025, with support from 57 donors"
+   }
+  ],
+  "gold_day6_count": 1,
+  "filter": {
+   "institution": "ibrd_ida"
+  },
+  "filter_source": "user context: reading the World Bank (IBRD/IDA) chapter"
+ },
+ {
+  "id": "d16",
+  "split": "dev",
+  "type": "metadata_filter",
+  "question": "What record level of investment commitments did IFC reach in fiscal 2026?",
+  "expected_answer": "$105.6 billion, including over $73.6 billion in private capital mobilized",
+  "gold": [
+   {
+    "source_id": "wbg-ar-2026",
+    "page": 32,
+    "evidence": "In fiscal 2026, IFC achieved a record $105.6 billion in investment commitments, including over $73.6 billion in private capital mobilized"
+   }
+  ],
+  "gold_day6_count": 1,
+  "filter": {
+   "institution": "ifc"
+  },
+  "filter_source": "question names IFC"
+ },
+ {
+  "id": "d17",
+  "split": "dev",
+  "type": "metadata_filter",
+  "question": "What record amount of new guarantees was issued this fiscal year, and for how many projects?",
+  "expected_answer": "$10.6 billion across 60 projects (MIGA)",
+  "gold": [
+   {
+    "source_id": "wbg-ar-2026",
+    "page": 38,
+    "evidence": "Of this, MIGA issued a record $10.6 billion in new guarantees across 60 projects"
+   },
+   {
+    "source_id": "wbg-ar-2026",
+    "page": 39,
+    "evidence": "MIGA’s new guarantee business volume during fiscal 2026 reached a record high of $10.6 billion in support of 60 projects"
+   }
+  ],
+  "gold_day6_count": 2,
+  "filter": {
+   "institution": "miga"
+  },
+  "filter_source": "user context: reading the MIGA chapter"
+ },
+ {
+  "id": "d18",
+  "split": "dev",
+  "type": "condition",
+  "question": "How many new cases did ICSID register in fiscal 2026, and under which rules?",
+  "expected_answer": "60 new cases: 57 arbitrations under the ICSID Convention and three under the Additional Facility Rules",
+  "gold": [
+   {
+    "source_id": "wbg-ar-2026",
+    "page": 43,
+    "evidence": "During fiscal 2026, ICSID registered 60 new cases — 57 arbitrations under the ICSID Convention and three under the Additional Facility Rules"
+   }
+  ],
+  "gold_day6_count": 1
+ },
+ {
+  "id": "t01",
+  "split": "test",
+  "type": "paraphrase",
+  "question": "How much have passenger volumes grown thanks to the financing of Cabo Verde's airports?",
+  "expected_answer": "A 60 percent surge since 2022, with 35 new air routes",
+  "gold": [
+   {
+    "source_id": "wbg-ar-2026",
+    "page": 13,
+    "evidence": "helped establish 35 new air routes — driving a 60 percent surge in passenger volumes since 2022"
+   }
+  ],
+  "gold_day6_count": 1
+ },
+ {
+  "id": "t02",
+  "split": "test",
+  "type": "condition",
+  "question": "How long does a Country Partnership Framework usually last, and what is the maximum?",
+  "expected_answer": "Typically four to six years, with a maximum of 10 years",
+  "gold": [
+   {
+    "source_id": "wbg-ar-2026",
+    "page": 18,
+    "evidence": "CPFs typically span four to six years, with a maximum duration of 10 years"
+   }
+  ],
+  "gold_day6_count": 1
+ },
+ {
+  "id": "t03",
+  "split": "test",
+  "type": "direct",
+  "question": "How many entities and individuals were sanctioned through settlement agreements in fiscal 2026?",
+  "expected_answer": "Eight",
+  "gold": [
+   {
+    "source_id": "wbg-ar-2026",
+    "page": 24,
+    "evidence": "the World Bank Group sanctioned 16 entities and individuals via uncontested determinations of the Chief Suspension and Debarment Officer, three entities and individuals via decisions of the Sanctions Board, and eight entities and individuals via settlement agreements"
+   }
+  ],
+  "gold_day6_count": 1
+ },
+ {
+  "id": "t04",
+  "split": "test",
+  "type": "metadata_filter",
+  "question": "How much did IDA issue in the capital markets in fiscal 2026, and across how many currencies?",
+  "expected_answer": "$13.9 billion equivalent across six currencies",
+  "gold": [
+   {
+    "source_id": "wbg-ar-2026",
+    "page": 31,
+    "evidence": "In fiscal 2026, IDA issued $13.9 billion equivalent across six currencies"
+   }
+  ],
+  "gold_day6_count": 1,
+  "filter": {
+   "institution": "ibrd_ida"
+  },
+  "filter_source": "question names IDA"
+ },
+ {
+  "id": "t05",
+  "split": "test",
+  "type": "metadata_filter",
+  "question": "What was the gross outstanding guarantee portfolio as of June 30, 2026?",
+  "expected_answer": "A record $41.4 billion (MIGA), up 13 percent",
+  "gold": [
+   {
+    "source_id": "wbg-ar-2026",
+    "page": 39,
+    "evidence": "MIGA’s gross outstanding guarantee portfolio reached a record high of $41.4 billion, representing a 13 percent increase"
+   }
+  ],
+  "gold_day6_count": 1,
+  "filter": {
+   "institution": "miga"
+  },
+  "filter_source": "user context: reading the MIGA chapter"
+ },
+ {
+  "id": "t06",
+  "split": "test",
+  "type": "exception",
+  "question": "In fiscal 2026, what share of arbitration cases decided by ICSID tribunals awarded no damages to claimants?",
+  "expected_answer": "70 percent",
+  "gold": [
+   {
+    "source_id": "wbg-ar-2026",
+    "page": 44,
+    "evidence": "In fiscal 2026, 70 percent of arbitration cases decided by tribunals resulted in no damages awarded to claimants"
+   }
+  ],
+  "gold_day6_count": 1
+ }
+]

@@ -1,0 +1,32 @@
+{
+ "config": "agent_dense",
+ "method": "dense",
+ "top_k": 3,
+ "budget": 3000,
+ "use_filter": false,
+ "max_searches": 3,
+ "model": "gemini-3.5-flash-lite",
+ "split": "test",
+ "cases": 8,
+ "errors": 0,
+ "rerun_after_error": [],
+ "status": {
+  "answered": 6,
+  "abstain": 2,
+  "error": 0
+ },
+ "searches_distribution": {
+  "1": 6,
+  "2": 1,
+  "3": 1
+ },
+ "mean_searches": 1.38,
+ "model_calls": 20,
+ "prompt_tokens": 19000,
+ "output_tokens": 1252,
+ "retries": 6,
+ "median_seconds": 2.53,
+ "total_seconds": 41.7,
+ "avg_context_chars": 2783.9,
+ "rerank_usage": null
+}

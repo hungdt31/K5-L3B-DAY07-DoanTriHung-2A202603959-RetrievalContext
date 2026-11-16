@@ -1,0 +1,70 @@
+[
+ {
+  "query_id": "t01",
+  "reviewer": "Claude Code (AI) đọc đối chiếu context/citation; sinh viên cần xác nhận lại",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng: tăng 60% lượng hành khách từ 2022 (câu hỏi chỉ hỏi mức tăng); citation p13 chứa nguyên văn.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "t02",
+  "reviewer": "Claude Code (AI) đọc đối chiếu context/citation; sinh viên cần xác nhận lại",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ cả hai điều kiện: thường 4–6 năm, tối đa 10 năm; citation p18.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "t03",
+  "reviewer": "Claude Code (AI) đọc đối chiếu context/citation; sinh viên cần xác nhận lại",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng (8) và đúng loại xử phạt (settlement agreements), không nhầm với 16/3 của hai hình thức khác; citation p24.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "t04",
+  "reviewer": "Claude Code (AI) đọc đối chiếu context/citation; sinh viên cần xác nhận lại",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và đủ: $13.9 tỷ, 6 loại tiền; citation p31.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "t05",
+  "reviewer": "Claude Code (AI) đọc đối chiếu context/citation; sinh viên cần xác nhận lại",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng giá trị được hỏi ($41.4 tỷ, kỷ lục, MIGA); không nêu 'tăng 13%' nhưng câu hỏi chỉ hỏi giá trị danh mục; citation p39.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "t06",
+  "reviewer": "Claude Code (AI) đọc đối chiếu context/citation; sinh viên cần xác nhận lại",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng (70%) kèm điều kiện (bác thẩm quyền, không có trách nhiệm, có trách nhiệm nhưng không bồi thường); citation p44.",
+  "answer_grade": 2
+ },
+ {
+  "query_id": "u03",
+  "reviewer": "Claude Code (AI) đọc đối chiếu context/citation; sinh viên cần xác nhận lại",
+  "citation_support": [],
+  "reason": "Từ chối đúng: nói rõ tài liệu không có số hành khách tuyệt đối, chỉ nêu mức tăng 60% có trong tài liệu, không bịa số.",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "u04",
+  "reviewer": "Claude Code (AI) đọc đối chiếu context/citation; sinh viên cần xác nhận lại",
+  "citation_support": [],
+  "reason": "Từ chối đúng: chỉ nêu điều tài liệu có (8% vụ > $50 triệu), không suy ra con số cụ thể.",
+  "abstention_correct": true
+ }
+]

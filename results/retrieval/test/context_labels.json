@@ -1,0 +1,181 @@
+[
+ {
+  "config": "dense",
+  "query_id": "t01",
+  "context_ids": [
+   "wbg-ar-2026:p013:para1000:002",
+   "wbg-ar-2026:p013:para1000:001",
+   "wbg-ar-2026:p013:para1000:003"
+  ],
+  "evidence_chunks": [
+   "wbg-ar-2026:p013:para1000:002"
+  ],
+  "context_score_0_2": 2,
+  "reason": "Context có wbg-ar-2026:p013:para1000:002 (đúng trang 13) chứa nguyên văn evidence và đủ điều kiện của câu hỏi; header ghi nguồn + trang.",
+  "reviewer": "Claude Code (AI) đọc context; sinh viên cần xác nhận lại"
+ },
+ {
+  "config": "dense",
+  "query_id": "t02",
+  "context_ids": [
+   "wbg-ar-2026:p018:para1000:003",
+   "wbg-ar-2026:p018:para1000:004",
+   "wbg-ar-2026:p031:para1000:005"
+  ],
+  "evidence_chunks": [
+   "wbg-ar-2026:p018:para1000:003"
+  ],
+  "context_score_0_2": 2,
+  "reason": "Context có wbg-ar-2026:p018:para1000:003 (đúng trang 18) chứa nguyên văn evidence và đủ điều kiện của câu hỏi; header ghi nguồn + trang.",
+  "reviewer": "Claude Code (AI) đọc context; sinh viên cần xác nhận lại"
+ },
+ {
+  "config": "dense",
+  "query_id": "t03",
+  "context_ids": [
+   "wbg-ar-2026:p024:para1000:001",
+   "wbg-ar-2026:p043:para1000:007",
+   "wbg-ar-2026:p042:para1000:003"
+  ],
+  "evidence_chunks": [
+   "wbg-ar-2026:p024:para1000:001"
+  ],
+  "context_score_0_2": 2,
+  "reason": "Context có wbg-ar-2026:p024:para1000:001 (đúng trang 24) chứa nguyên văn evidence và đủ điều kiện của câu hỏi; header ghi nguồn + trang.",
+  "reviewer": "Claude Code (AI) đọc context; sinh viên cần xác nhận lại"
+ },
+ {
+  "config": "dense",
+  "query_id": "t04",
+  "context_ids": [
+   "wbg-ar-2026:p031:para1000:001",
+   "wbg-ar-2026:p019:para1000:003",
+   "wbg-ar-2026:p031:para1000:003"
+  ],
+  "evidence_chunks": [
+   "wbg-ar-2026:p031:para1000:001"
+  ],
+  "context_score_0_2": 2,
+  "reason": "Context có wbg-ar-2026:p031:para1000:001 (đúng trang 31) chứa nguyên văn evidence và đủ điều kiện của câu hỏi; header ghi nguồn + trang.",
+  "reviewer": "Claude Code (AI) đọc context; sinh viên cần xác nhận lại"
+ },
+ {
+  "config": "dense",
+  "query_id": "t05",
+  "context_ids": [
+   "wbg-ar-2026:p039:para1000:000",
+   "wbg-ar-2026:p039:para1000:002",
+   "wbg-ar-2026:p033:para1000:000"
+  ],
+  "evidence_chunks": [
+   "wbg-ar-2026:p039:para1000:000"
+  ],
+  "context_score_0_2": 2,
+  "reason": "Context có wbg-ar-2026:p039:para1000:000 (đúng trang 39) chứa nguyên văn evidence và đủ điều kiện của câu hỏi; header ghi nguồn + trang.",
+  "reviewer": "Claude Code (AI) đọc context; sinh viên cần xác nhận lại"
+ },
+ {
+  "config": "dense",
+  "query_id": "t06",
+  "context_ids": [
+   "wbg-ar-2026:p044:para1000:000",
+   "wbg-ar-2026:p043:para1000:007",
+   "wbg-ar-2026:p044:para1000:001"
+  ],
+  "evidence_chunks": [
+   "wbg-ar-2026:p044:para1000:000"
+  ],
+  "context_score_0_2": 2,
+  "reason": "Context có wbg-ar-2026:p044:para1000:000 (đúng trang 44) chứa nguyên văn evidence và đủ điều kiện của câu hỏi; header ghi nguồn + trang.",
+  "reviewer": "Claude Code (AI) đọc context; sinh viên cần xác nhận lại"
+ },
+ {
+  "config": "hybrid_filter",
+  "query_id": "t01",
+  "context_ids": [
+   "wbg-ar-2026:p013:para1000:002",
+   "wbg-ar-2026:p013:para1000:001",
+   "wbg-ar-2026:p013:para1000:003"
+  ],
+  "evidence_chunks": [
+   "wbg-ar-2026:p013:para1000:002"
+  ],
+  "context_score_0_2": 2,
+  "reason": "Context có wbg-ar-2026:p013:para1000:002 (đúng trang 13) chứa nguyên văn evidence và đủ điều kiện của câu hỏi; header ghi nguồn + trang.",
+  "reviewer": "Claude Code (AI) đọc context; sinh viên cần xác nhận lại"
+ },
+ {
+  "config": "hybrid_filter",
+  "query_id": "t02",
+  "context_ids": [
+   "wbg-ar-2026:p018:para1000:003",
+   "wbg-ar-2026:p019:para1000:002",
+   "wbg-ar-2026:p019:para1000:009"
+  ],
+  "evidence_chunks": [
+   "wbg-ar-2026:p018:para1000:003"
+  ],
+  "context_score_0_2": 2,
+  "reason": "Context có wbg-ar-2026:p018:para1000:003 (đúng trang 18) chứa nguyên văn evidence và đủ điều kiện của câu hỏi; header ghi nguồn + trang.",
+  "reviewer": "Claude Code (AI) đọc context; sinh viên cần xác nhận lại"
+ },
+ {
+  "config": "hybrid_filter",
+  "query_id": "t03",
+  "context_ids": [
+   "wbg-ar-2026:p024:para1000:001",
+   "wbg-ar-2026:p042:para1000:003",
+   "wbg-ar-2026:p043:para1000:003"
+  ],
+  "evidence_chunks": [
+   "wbg-ar-2026:p024:para1000:001"
+  ],
+  "context_score_0_2": 2,
+  "reason": "Context có wbg-ar-2026:p024:para1000:001 (đúng trang 24) chứa nguyên văn evidence và đủ điều kiện của câu hỏi; header ghi nguồn + trang.",
+  "reviewer": "Claude Code (AI) đọc context; sinh viên cần xác nhận lại"
+ },
+ {
+  "config": "hybrid_filter",
+  "query_id": "t04",
+  "context_ids": [
+   "wbg-ar-2026:p031:para1000:001",
+   "wbg-ar-2026:p029:para1000:003"
+  ],
+  "evidence_chunks": [
+   "wbg-ar-2026:p031:para1000:001"
+  ],
+  "context_score_0_2": 2,
+  "reason": "Context có wbg-ar-2026:p031:para1000:001 (đúng trang 31) chứa nguyên văn evidence và đủ điều kiện của câu hỏi; header ghi nguồn + trang.",
+  "reviewer": "Claude Code (AI) đọc context; sinh viên cần xác nhận lại"
+ },
+ {
+  "config": "hybrid_filter",
+  "query_id": "t05",
+  "context_ids": [
+   "wbg-ar-2026:p039:para1000:000",
+   "wbg-ar-2026:p039:para1000:002",
+   "wbg-ar-2026:p040:para1000:001"
+  ],
+  "evidence_chunks": [
+   "wbg-ar-2026:p039:para1000:000"
+  ],
+  "context_score_0_2": 2,
+  "reason": "Context có wbg-ar-2026:p039:para1000:000 (đúng trang 39) chứa nguyên văn evidence và đủ điều kiện của câu hỏi; header ghi nguồn + trang.",
+  "reviewer": "Claude Code (AI) đọc context; sinh viên cần xác nhận lại"
+ },
+ {
+  "config": "hybrid_filter",
+  "query_id": "t06",
+  "context_ids": [
+   "wbg-ar-2026:p044:para1000:000",
+   "wbg-ar-2026:p043:para1000:007",
+   "wbg-ar-2026:p044:para1000:001"
+  ],
+  "evidence_chunks": [
+   "wbg-ar-2026:p044:para1000:000"
+  ],
+  "context_score_0_2": 2,
+  "reason": "Context có wbg-ar-2026:p044:para1000:000 (đúng trang 44) chứa nguyên văn evidence và đủ điều kiện của câu hỏi; header ghi nguồn + trang.",
+  "reviewer": "Claude Code (AI) đọc context; sinh viên cần xác nhận lại"
+ }
+]

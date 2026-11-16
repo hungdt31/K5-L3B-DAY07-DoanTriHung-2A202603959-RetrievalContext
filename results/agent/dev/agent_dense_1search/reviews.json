@@ -1,0 +1,178 @@
+[
+ {
+  "query_id": "d01",
+  "reviewer": "Claude Code (AI) đọc đối chiếu context/citation; sinh viên cần xác nhận lại",
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với expected_answer; citation chứa evidence.",
+  "citation_support": [
+   true,
+   true
+  ]
+ },
+ {
+  "query_id": "d02",
+  "reviewer": "Claude Code (AI) đọc đối chiếu context/citation; sinh viên cần xác nhận lại",
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với expected_answer; citation chứa evidence.",
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "d03",
+  "reviewer": "Claude Code (AI) đọc đối chiếu context/citation; sinh viên cần xác nhận lại",
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với expected_answer; citation chứa evidence.",
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "d04",
+  "reviewer": "Claude Code (AI) đọc đối chiếu context/citation; sinh viên cần xác nhận lại",
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với expected_answer; citation chứa evidence.",
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "d05",
+  "reviewer": "Claude Code (AI) đọc đối chiếu context/citation; sinh viên cần xác nhận lại",
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với expected_answer; citation chứa evidence.",
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "d06",
+  "reviewer": "Claude Code (AI) đọc đối chiếu context/citation; sinh viên cần xác nhận lại",
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với expected_answer; citation chứa evidence.",
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "d07",
+  "reviewer": "Claude Code (AI) đọc đối chiếu context/citation; sinh viên cần xác nhận lại",
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với expected_answer; citation chứa evidence.",
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "d08",
+  "reviewer": "Claude Code (AI) đọc đối chiếu context/citation; sinh viên cần xác nhận lại",
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với expected_answer; citation chứa evidence.",
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "d09",
+  "reviewer": "Claude Code (AI) đọc đối chiếu context/citation; sinh viên cần xác nhận lại",
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với expected_answer; citation chứa evidence.",
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "d10",
+  "reviewer": "Claude Code (AI) đọc đối chiếu context/citation; sinh viên cần xác nhận lại",
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với expected_answer; citation chứa evidence.",
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "d11",
+  "reviewer": "Claude Code (AI) đọc đối chiếu context/citation; sinh viên cần xác nhận lại",
+  "answer_grade": 0,
+  "reason": "Từ chối nhầm: agent viết lại query thành 'Country Manager IFC MIGA World Bank country offices', dense trả p38/p40 (MIGA), không có p22; chỉ được 1 lần search nên không tìm lại.",
+  "citation_support": []
+ },
+ {
+  "query_id": "d12",
+  "reviewer": "Claude Code (AI) đọc đối chiếu context/citation; sinh viên cần xác nhận lại",
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với expected_answer; citation chứa evidence.",
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "d13",
+  "reviewer": "Claude Code (AI) đọc đối chiếu context/citation; sinh viên cần xác nhận lại",
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với expected_answer; citation chứa evidence.",
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "d14",
+  "reviewer": "Claude Code (AI) đọc đối chiếu context/citation; sinh viên cần xác nhận lại",
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với expected_answer; citation chứa evidence.",
+  "citation_support": [
+   true,
+   true
+  ]
+ },
+ {
+  "query_id": "d15",
+  "reviewer": "Claude Code (AI) đọc đối chiếu context/citation; sinh viên cần xác nhận lại",
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với expected_answer; citation chứa evidence.",
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "d16",
+  "reviewer": "Claude Code (AI) đọc đối chiếu context/citation; sinh viên cần xác nhận lại",
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với expected_answer; citation chứa evidence.",
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "d17",
+  "reviewer": "Claude Code (AI) đọc đối chiếu context/citation; sinh viên cần xác nhận lại",
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với expected_answer; citation chứa evidence.",
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "d18",
+  "reviewer": "Claude Code (AI) đọc đối chiếu context/citation; sinh viên cần xác nhận lại",
+  "answer_grade": 2,
+  "reason": "Đúng và đủ so với expected_answer; citation chứa evidence.",
+  "citation_support": [
+   true
+  ]
+ },
+ {
+  "query_id": "u01",
+  "reviewer": "Claude Code (AI) đọc đối chiếu context/citation; sinh viên cần xác nhận lại",
+  "abstention_correct": true,
+  "reason": "Từ chối đúng; nêu điều tài liệu có nói (payout/đầu tư) nhưng không bịa con số.",
+  "citation_support": []
+ },
+ {
+  "query_id": "u02",
+  "reviewer": "Claude Code (AI) đọc đối chiếu context/citation; sinh viên cần xác nhận lại",
+  "abstention_correct": true,
+  "reason": "Từ chối đúng; nêu điều tài liệu có nói (payout/đầu tư) nhưng không bịa con số.",
+  "citation_support": []
+ }
+]

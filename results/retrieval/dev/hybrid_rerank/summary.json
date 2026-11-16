@@ -1,0 +1,36 @@
+{
+ "config": "hybrid_rerank",
+ "method": "hybrid_rerank",
+ "top_k": 3,
+ "budget": 3000,
+ "use_filter": true,
+ "candidates": 12,
+ "split": "dev",
+ "N": 18,
+ "hit1": "18/18",
+ "hit1_rate": 1.0,
+ "evidence_hit3": "18/18",
+ "evidence_hit3_rate": 1.0,
+ "context_evidence": "18/18",
+ "context_evidence_rate": 1.0,
+ "avg_context_chars": 2442.2,
+ "median_seconds": 1.744,
+ "total_seconds": 35.97,
+ "new_query_embeddings": 0,
+ "llm_usage": {
+  "calls": 18,
+  "prompt_tokens": 42309,
+  "output_tokens": 6893,
+  "thought_tokens": 0,
+  "retries": 1,
+  "seconds": 33.06,
+  "errors": []
+ },
+ "day6_labels": {
+  "hit1": "17/18",
+  "hit3": "18/18",
+  "context_hit": "18/18"
+ },
+ "misses_hit3": [],
+ "misses_context": []
+}
