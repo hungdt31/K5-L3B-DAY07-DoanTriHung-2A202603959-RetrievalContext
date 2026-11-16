@@ -1,0 +1,22 @@
+{
+ "page": 231,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "table",
+   "label": "Box 4.7",
+   "title": "Standards induced by foreign direct investment drive transformation in the automotive sector",
+   "bbox": [
+    116,
+    256,
+    889,
+    882
+   ],
+   "content": "Multinational enterprises have introduced strict standards for quality and sustainability, such as International Organization for Standardization (ISO) 9001 and International Automotive Task Force (IATF) 16949,a into their operations in host countries. Increasingly, many automotive manufacturers are setting more ambitious targets in response to global commitments related to climate and market-driven sustainability goals. For example, Mercedes-Benz aims to be carbon neutral by 2039 and in the future will work only with suppliers that are completely carbon neutral.b As multinational enterprises push for targets of this type, suppliers are compelled to upgrade their practices or risk exclusion from global value chains.\n\nTunisia’s automotive components sector: Upgrading sustainability practices\nTunisia’s automotive components sector has become a magnet for foreign direct investment (FDI) from Europe on account of the country’s proximity to much of Europe, skilled labor force, and integration into the European Union’s automotive supply chain. The sector, which accounted for 14 percent of Tunisia’s exports and employed more than 90,000 people as of 2021,c has experienced an average growth rate of 10 percent since 2010 as a result of foreign participation. The global push toward sustainability means that the Tunisian automotive industry must meet environmental regulations and cut its carbon footprint earlier than 2050. The Tunisian Automotive Association (TAA) has responded to this requirement by promoting adoption of environmental, social, and governance sustainability practices among local companies and supporting compliance with environmental goals, fair labor conditions, and good governance practices.d\n\nCOFICAB: A case of upgrading driven by FDI\nFirms like COFICAB Group, a producer of cables, show how integration into global networks of multinational enterprises can speed up the adoption of international standards. As a supplier to major automakers, including Volkswagen (VW), Bayerische Motoren Werke Aktiengesellschaft (BMW), and General Motors (GM),e COFICAB has embedded global standards into its operations, including ISO and IATF certifications of quality, environment, and"
+  }
+ ],
+ "seconds": 6.63,
+ "prompt_tokens": 2260,
+ "output_tokens": 532
+}

@@ -1,0 +1,22 @@
+{
+ "page": 206,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure 4.1",
+   "title": "Adoption of standards increases with a country’s level of development and the strength of national quality infrastructure",
+   "bbox": [
+    103,
+    113,
+    485,
+    886
+   ],
+   "content": "Line chart consisting of two panels: Panel a. Share of adopters and GDP per capita, and Panel b. Share of adopters and score on national quality index. Legend shows two series: Exporters and Nonexporters.\nPanel a: Y-axis is 'Share of firms adopting internationally recognized standards (%)' ranging from 0 to 60. X-axis is 'GDP per capita (log scale)' ranging from 1,000 to 100,000. Both Exporters and Nonexporters show an upward-sloping trend, with Exporters having a higher share of adoption than Nonexporters across all GDP levels.\nPanel b: Y-axis is 'Share of firms adopting internationally recognized standards (%)' ranging from 0 to 60. X-axis is 'Score on GQII, 2023' ranging from 0.2 to 1.0. Both Exporters and Nonexporters show an upward-sloping trend as the GQII score increases, with Exporters maintaining a higher adoption rate.\nSource: WDR 2025 team, based on World Bank Enterprise Surveys (dashboard), World Bank, https://www.enterprisesurveys.org/en/data.\nNote: Examples of internationally recognized standards include quality standards (International Organization for Standardization [ISO] 9000 family), sustainability standards (ISO 14000 family), standards for food safety (ISO 22000 family), and standards for worker safety (ISO 45000 family). The Global Quality Infrastructure Index (GQII) ranks 185 countries according to the relative development of their quality infrastructure systems. For more information, refer to GQII 2023 (dashboard), Global Quality Infrastructure Index (GQII) Program, Mesopartner and Analyticar, https://gqii.org/gqii-2023/."
+  }
+ ],
+ "seconds": 2.74,
+ "prompt_tokens": 2291,
+ "output_tokens": 506
+}

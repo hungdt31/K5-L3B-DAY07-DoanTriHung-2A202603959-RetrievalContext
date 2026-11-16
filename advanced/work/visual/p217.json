@@ -1,0 +1,38 @@
+{
+ "page": 217,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "table",
+   "label": "Box 4.3",
+   "title": "Are food safety regulations protecting consumers or producers?",
+   "bbox": [
+    [
+     115,
+     228,
+     601,
+     881
+    ]
+   ],
+   "content": "The Codex Alimentarius provides international benchmarks for food safety regulations, setting Maximum Residue Limits for pesticides, for example, to protect consumers and facilitate trade. Developing countries typically adopt Codex Maximum Residue Limits directly as national standards (refer to spotlight 2 for details on Codex Alimentarius). As they industrialize, they generally expand the number of pesticides covered and diverge from Codex levels, sometimes tightening limits.\n\nAnalysis for this Report using data from FoodChain ID shows that low- and lower-middle-income countries usually mirror Codex values for pesticide limits, upper-middle-income countries apply them on average but with more variation, and high-income countries set median Maximum Residue Limits that are stricter than those that Codex recommends. This partly reflects wealthier consumers’ preferences for more stringent safety requirements, but the data also suggest that some governments lower Maximum Residue Limits strategically to protect domestic producers, especially for crops that can be grown domestically.\n\nSource: WDR 2025 team."
+  },
+  {
+   "type": "table",
+   "label": "Box 4.4",
+   "title": "Some regulations may undermine international responses to humanitarian crises",
+   "bbox": [
+    [
+     646,
+     228,
+     922,
+     881
+    ]
+   ],
+   "content": "Millions of people rely on humanitarian food assistance each year. Agencies such as the World Food Programme (WFP) pre-position food stocks in regional warehouses to respond quickly to emergencies, but inconsistent or overly strict national regulations often slow delivery.\n\nFor example, limits imposed by products’ shelf life or sourcing restrictions can prevent the release of pre-positioned food, increasing lead times and delivery costs. In one case, a destination country rejected 12,500 metric tons of wheat flour because it contained a few dead insects, a level permitted under international norms but not under the country’s national standards. The rejection caused losses of about US$1.7 million, equivalent\n\n(Box continues next page)"
+  }
+ ],
+ "seconds": 2.87,
+ "prompt_tokens": 2123,
+ "output_tokens": 518
+}

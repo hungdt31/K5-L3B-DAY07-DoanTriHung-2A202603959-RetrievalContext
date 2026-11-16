@@ -1,0 +1,24 @@
+{
+ "page": 209,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "table",
+   "label": "Table 4.2",
+   "title": "Examples of certification costs for firms in selected markets for meeting the ISO 14001 quality standard (continued)",
+   "bbox": [
+    [
+     83,
+     137,
+     590,
+     915
+    ]
+   ],
+   "content": "COUNTRY | INITIAL CERTIFICATION COSTS | SURVEILLANCE AND RECERTIFICATION COSTS\nDeveloping countries | | \nBangladeshc | ISO registration cost: US$458–US$606 (Tk 53,000–Tk 70,000). ISO certification fee: US$87 (Tk 10,000). | Renewal fee: US$43 (Tk 5,000). Inspection fee: US$35 (Tk 4,000).\nBrazild | Certification fee: US$1,096 (R$5,760) for microentrepreneurs; US$1,800 (R$9,700) for small businesses. | Implementation cost (consulting and project support): US$2,783 (R$15,000) for both microentrepreneurs and small businesses.\nChinae | Application fee: US$940 (¥6,765). | Annual management fee: US$942 (¥6,765). Full-day rate for consultant: US$959 (¥6,900).\nEthiopiaf | The cost, including implementation and accreditation, ranges from US$700 to US$5,000 (Br 106,838 to Br 763,125). | Not available.\nMexicog | Certificate issuance fee: US$546 (Mex$10,000). | For three-year certification cycle: US$1,147 (Mex$21,000) per auditor per day. For administrative fee: US$137 (Mex$2,500).\nViet Namh | Total costs typically include those for consulting by providers of certification services ranging from US$1,035 to US$1,862 (D25,000,000 to D45,000,000). Some providers of certification services may also charge training fees. | Not available.\nSource: WDR 2025 team.\nNote: ISO 14001 is a standard for environmental management. ISO = International Organization for Standardization.\na. The costs depend on the specific industry, location, size of the company, and other factors. Refer to Kosten für die ISO 14001-Zertifizierung [ISO 14001 Certification Cost] (website), Integrated Assessment Services, https://iasiso-europe.com/blog/iso-14001-certification-cost/.\nb. The costs may vary depending on business size and complexity, number of employees and sites, geographic location, industry standards, and other factors. Refer to Compliance Monitoring: Understanding ISO 14001 Certification Cost (dashboard), BPR Hub, https://www.bprhub.com/blogs/iso-14001-certification-cost-analysis.\nc. The costs listed are for ISO certification in general, including that for ISO 14001. Prices may vary. Refer to ISO Registration in Bangladesh (website), HelpInk Consultancy, https://helpinkbd.com/iso-registration-in-bd/.\nd. These are the prices charged in 2016 by Sebraetec, a private nonprofit organization supporting the development of small business activity. Sebrae (Serviço Brasileiro de Apoio às Micro e Pequenas Empresas [Brazilian Support Service for Micro and Small Enterprises]) may subsidize parts of the expense according to the rules regarding eligibility for such subsidization. Refer to Sebrae (2016).\ne. The year of the price data is unspecified but is likely 2023. Refer to Authentication Service Pricing and Fee Disclosure Information (website) [in Chinese], BSI Management Systems Certification (Beijing) Co., Ltd., British Standards Institution, https://www.bsigroup.com/globalassets/localfiles/zh-cn/pdf/2023/bsi2023.pdf.\nf. The costs are for overall ISO certification, including that for ISO 14001. The ISO certification costs depend on multiple factors, such as the ISO standard involved, its complexity, the processes involved, a firm’s number of employees, its number of operations or locations, the certification body involved, and the accreditation authority involved. Refer to ISO Certification in Ethiopia (dashboard), Auditmindz, Genveritas Technologies Private Limited, https://auditmindz.com/iso-certification-in-ethiopia/.\ng. These are the prices as of late 2023. Refer to MB Certification México (2023).\nh. Factors affecting the cost include company size, prior experience with ISO 14001, existing facilities and systems, and geographic location. Refer to ISO 14001 Environmental Certification Costs (dashboard), Vinacontrol CE, https://vnce.vn/chi-phi-chung-nhan-iso-14001."
+  }
+ ],
+ "seconds": 4.31,
+ "prompt_tokens": 2801,
+ "output_tokens": 1189
+}

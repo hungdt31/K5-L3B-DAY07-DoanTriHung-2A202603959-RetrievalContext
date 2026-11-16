@@ -1,0 +1,19 @@
+2026-11-16 23:17:44,689 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.1-flash-lite:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-11-16 23:17:44,692 WARNING src.day7.llm: gemini-3.1-flash-lite 503, retry 1/6 in 2s
+2026-11-16 23:17:49,741 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.1-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-11-16 23:17:53,401 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.1-flash-lite:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-11-16 23:17:53,404 WARNING src.day7.llm: gemini-3.1-flash-lite 503, retry 1/6 in 2s
+2026-11-16 23:17:57,418 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.1-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-11-16 23:17:57,423 INFO adv.agent: text_dense d-tab1 answered tools={'search_document': 1} 14.1s According to Table 4.2, small companies in Germany pay total initial certification costs of about US$3,000 (€2
+2026-11-16 23:18:03,742 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.1-flash-lite:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-11-16 23:18:03,742 WARNING src.day7.llm: gemini-3.1-flash-lite 503, retry 1/6 in 2s
+2026-11-16 23:18:08,899 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.1-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-11-16 23:18:11,477 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.1-flash-lite:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-11-16 23:18:11,479 WARNING src.day7.llm: gemini-3.1-flash-lite 503, retry 1/6 in 2s
+2026-11-16 23:18:16,680 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.1-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-11-16 23:19:18,202 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.1-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-11-16 23:19:44,737 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.1-flash-lite:generateContent "HTTP/1.1 503 Service Unavailable"
+2026-11-16 23:19:44,739 WARNING src.day7.llm: gemini-3.1-flash-lite 503, retry 1/6 in 2s
+2026-11-16 23:19:49,169 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.1-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-11-16 23:19:52,327 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.1-flash-lite:generateContent "HTTP/1.1 200 OK"
+2026-11-16 23:20:18,879 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.1-flash-lite:generateContent "HTTP/1.1 200 OK"

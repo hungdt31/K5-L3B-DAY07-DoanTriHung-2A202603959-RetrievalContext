@@ -1,0 +1,24 @@
+{
+ "page": 154,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "table",
+   "label": "Table 3.1",
+   "title": "Illustrative examples of functions of quality infrastructure relating to voluntary and mandatory standards",
+   "bbox": [
+    [
+     611,
+     117,
+     883,
+     885
+    ]
+   ],
+   "content": "QUALITY INFRASTRUCTURE FUNCTIONS | VOLUNTARY | MANDATORY\nStandards | • National standards bodies develop voluntary national standards and participate in development of international standards.\n• Private technology consortia develop interoperability standards.\n• Nongovernmental organizations develop sustainability standards. | • Environmental protection authorities mandate standards for clean water.\n• Health authorities set hygiene standards.\nConformity assessment | • Private certification bodies audit and certify food safety management systems. | • Government or private laboratories test water quality."
+  }
+ ],
+ "seconds": 6.15,
+ "prompt_tokens": 2180,
+ "output_tokens": 203
+}

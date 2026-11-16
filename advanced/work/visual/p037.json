@@ -1,0 +1,24 @@
+{
+ "page": 37,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "diagram",
+   "label": "Figure O.1",
+   "title": "Standards have a great impact on development",
+   "bbox": [
+    [
+     112,
+     116,
+     888,
+     369
+    ]
+   ],
+   "content": "A conceptual diagram showing the 'Development trajectory' through three stages:\n1. Adapt -> Adapt international standards for the domestic market.\n2. Align -> Align the domestic market with international standards.\n3. Author -> Shape international standards with the global community.\n\nAxes and elements:\n- Vertical axis shows 'International standards' (dashed line) and 'Domestic standards' (solid line).\n- A blue curving line/arrow titled 'Drive global knowledge' moves upward along the trajectory toward the 'Path to higher standards'.\n- Source: WDR 2025 team."
+  }
+ ],
+ "seconds": 2.48,
+ "prompt_tokens": 2265,
+ "output_tokens": 210
+}

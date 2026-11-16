@@ -1,0 +1,22 @@
+{
+ "page": 123,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "infographic",
+   "label": "Box 2.1",
+   "title": "Box 2.1 Standards for measuring poverty: A trade-off between uniformity and local relevance",
+   "bbox": [
+    117,
+    117,
+    922,
+    882
+   ],
+   "content": "Box 2.1 Standards for measuring poverty: A trade-off between uniformity and local relevance\n\nA core challenge in measuring poverty lies in balancing uniformity and diversity. Uniform standards facilitate international comparability, enabling global monitoring, target setting, and resource allocation. In contrast, diversity allows national poverty measures to be adapted to local economic conditions, institutional capacities, and policy needs, enhancing their relevance and accuracy.\n\nCountries follow different standards for measuring and setting national poverty lines, reflecting context-specific decisions based on a country’s typical living conditions, consumption behavior, and policy priorities.a For example, countries adopt either consumption- or income-based measures of poverty depending on their own specific contexts. Low-income countries often prefer to use consumption data because of the prevalence of informality, in-kind transactions, and subsistence production. In contrast, middle- and high-income countries typically rely on income data, leveraging administrative systems and formal labor markets.b\n\nInstruments used in surveys intended to measure poverty are adapted to local contexts, resulting in variation in definitions, item coverage, and methods for collecting data. Even in\n(Box continues next page)"
+  }
+ ],
+ "seconds": 6.46,
+ "prompt_tokens": 2261,
+ "output_tokens": 332
+}

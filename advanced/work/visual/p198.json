@@ -1,0 +1,22 @@
+{
+ "page": 198,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure S3.4",
+   "title": "National standards bodies in high-income countries adopt a greater share of regional standards, on average, than those in low- and middle-income countries",
+   "bbox": [
+    103,
+    117,
+    485,
+    486
+   ],
+   "content": "Chart type: Horizontal stacked bar chart. X-axis: Average share of standards, by origin, published by national standards bodies (%) ranging from 0 to 100 with intervals of 20. Y-axis: Income groups (HICs, UMICs, LMICs, LICs). Legend: Indigenous, International, Regional. Data values by group (approximate/exact sums): HICs: Indigenous = 16, International = 35, Regional = 49 (Sum: 100); UMICs: Indigenous = 33, International = 35, Regional = 33 (Sum: 101); LMICs: Indigenous = 27, International = 50, Regional = 23 (Sum: 100); LICs: Indigenous = 34, International = 49, Regional = 17 (Sum: 100). Source: WDR 2025 team, based on World Bank and ISO 2025. Note: “Indigenous” standards are new standards developed by a country. “International” standards are those developed by international standards development organizations and then adopted by a country. “Regional” standards are standards developed by regional standards development organizations and then adopted by a country. The survey sample includes 116 national standards bodies: 13 in low-income countries, 28 in lower-middle-income countries, 34 in upper-middle-income countries, and 41 in high-income countries. Constituent percentages for each country income group may not sum exactly to 100 percent as a result of rounding. HICs = high-income countries; LICs = low-income countries; LMICs = lower-middle-income countries; UMICs = upper-middle-income countries."
+  }
+ ],
+ "seconds": 3.23,
+ "prompt_tokens": 2352,
+ "output_tokens": 492
+}

@@ -1,0 +1,24 @@
+{
+ "page": 163,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "infographic",
+   "label": "Box 3.2",
+   "title": "Indexes that compare countries’ quality infrastructure systems",
+   "bbox": [
+    [
+     598,
+     116,
+     893,
+     882
+    ]
+   ],
+   "content": "Box 3.2 Indexes that compare countries’ quality infrastructure systems\n\nSeveral indexes aim to benchmark the performance of a country’s quality infrastructure against that in other countries in the same region or in the world.\n\nThe Global Quality Infrastructure Index (GQII) is a comprehensive database and ranking system that evaluates and compares the state of development of quality infrastructure across 185 countries worldwide. Developed by two consulting firms, Mesopartner and Analyticar, the index draws on publicly available data covering key components of quality infrastructure such as standardization, accreditation, and metrology, as well as related international recognition.a It builds on publicly available data such as whether a country is a member of international organizations that deal with quality infrastructure like the International Organization for Standardization (ISO), the International Electrotechnical Commission (IEC), and the International Bureau of Weights and Measures (BIPM); the number of ISO management\n\n(Box continues next page)"
+  }
+ ],
+ "seconds": 2.36,
+ "prompt_tokens": 2277,
+ "output_tokens": 286
+}

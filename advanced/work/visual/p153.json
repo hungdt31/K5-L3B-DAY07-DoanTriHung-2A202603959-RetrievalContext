@@ -1,0 +1,22 @@
+{
+ "page": 153,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "diagram",
+   "label": "Figure 3.1",
+   "title": "Elements of a quality infrastructure system",
+   "bbox": [
+    116,
+    103,
+    878,
+    396
+   ],
+   "content": "Products, organizations, and people -> Standardization: Provides technical specifications\nStandardization -> Accreditation: Specifies assessment methods\nStandardization -> Metrology: Defines units\nMetrology -> Accreditation: Provides reference standards, materials, and calibration\nStandardization -> Conformity assessment: Demonstrates conformity with specifications\nAccreditation -> Conformity assessment: Attests to technical competence\nConformity assessment -> Products, organizations, and people: Monitors compliance with legislation and imposes sanctions\nMarket surveillance (for regulated areas) -> Products, organizations, and people: Monitors compliance with legislation and imposes sanctions\nOutcomes: Quality, Health and safety, Environmental protection, Security, Market access, Innovation"
+  }
+ ],
+ "seconds": 6.19,
+ "prompt_tokens": 2184,
+ "output_tokens": 224
+}

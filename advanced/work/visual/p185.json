@@ -1,0 +1,22 @@
+{
+ "page": 185,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "diagram",
+   "label": "Figure 3.14",
+   "title": "Decision tree for assessing the feasibility of sharing resources related to quality infrastructure between countries",
+   "bbox": [
+    104,
+    115,
+    886,
+    452
+   ],
+   "content": "Flow / Decision Logic:\n- Box 1: \"1. Is the existing quality infrastructure service in the host country currently high cost, is there currently low demand for it, and are both of these conditions expected to remain true?\"\n  - Arrow 'NO' -> Box 4: \"4. Sharing of the quality infrastructure services among countries is likely not needed or feasible.\"\n  - Arrow 'YES' -> Box 2: \"2. Is the quality infrastructure service commercially available abroad?\"\n- Box 2:\n  - Arrow 'NO' -> Box 3.1: \"3.1. Are political relations with the potential partner country favorable?\"\n  - Arrow 'YES' -> Box 3.2: \"3.2. Are costs and time associated with accessing the quality infrastructure service commercially abroad a problem?\"\n- Box 3.1:\n  - Arrow 'YES' -> Box 4: \"4. Sharing of quality infrastructure services among countries may be feasible.\"\n  - Arrow 'NO' -> Box 4: \"4. Sharing of the quality infrastructure services among countries is likely not needed or feasible.\"\n- Box 3.2:\n  - Arrow 'YES' -> Box 3.1: \"3.1. Are political relations with the potential partner country favorable?\"\n  - Arrow 'NO' -> Box 4: \"4. Sharing of the quality infrastructure services among countries is likely not needed or feasible.\"\n\nSource: WDR 2025 team, in collaboration with Physikalisch-Technische Bundesanstalt."
+  }
+ ],
+ "seconds": 4.35,
+ "prompt_tokens": 2272,
+ "output_tokens": 435
+}

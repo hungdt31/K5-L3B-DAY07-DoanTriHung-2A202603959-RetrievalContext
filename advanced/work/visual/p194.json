@@ -1,0 +1,22 @@
+{
+ "page": 194,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "table",
+   "label": "Table S3.2",
+   "title": "Process of developing standards by national standards bodies",
+   "bbox": [
+    113,
+    117,
+    883,
+    839
+   ],
+   "content": "CHARACTERISTIC | LOW-INCOME COUNTRIES | LOWER-MIDDLE-INCOME COUNTRIES | UPPER-MIDDLE-INCOME COUNTRIES | HIGH-INCOME COUNTRIES\nNumber of published standards in 2024a | 276 (80) | 460 (203) | 981 (280) | 1,402 (1,334)\nNumber of published standards per employee in 2024b | 21 (3) | 37 (6) | 111 (11) | 103 (30)\nNumber of ISO and IEC standards adopted in 2024 | 116 (18) | 249 (46) | 220 (92) | 510 (433)\nNumber of technical committees | 58 (48) | 119 (45) | 166 (60) | 201 (118)\nPercentage of countries with frameworks for technical regulationsc | 69 | 79 | 82 | 70\nPercentage of countries in which national standards body is involved in drafting technical regulations | 77 | 79 | 68 | 35\nPercentage of countries in which national standards body conducts impact assessmentsd | 38 | 61 | 47 | 55\nSource: WDR 2025 team, based on World Bank and ISO 2025.\nNote: Data on the number of standards and number of technical committees include the mean and the median (50th percentile), the latter of which is reported in parentheses. The survey sample includes 116 national standards bodies: 13 in low-income countries, 28 in lower-middle-income countries, 34 in upper-middle-income countries, and 41 in high-income countries. IEC = International Electrotechnical Commission; ISO = International Organization for Standardization.\na. The average number of published standards includes nationally developed standards as well as international standards that have been adopted.\nb. The number of published standards per employee is the ratio, in 2024, of the number of standards published by a country’s national standards body to the number of employees in the national standards body dedicated to standards development.\nc. A framework for technical regulations defines and harmonizes how standards are applied in technical regulations across government bodies.\nd. Countries conduct impact assessments to evaluate the potential effects of standards before or during their development."
+  }
+ ],
+ "seconds": 6.3,
+ "prompt_tokens": 2235,
+ "output_tokens": 647
+}

@@ -1,0 +1,22 @@
+{
+ "page": 169,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure 3.5",
+   "title": "The number of services offered by national standards bodies falls as countries develop",
+   "bbox": [
+    517,
+    93,
+    893,
+    896
+   ],
+   "content": "Chart type: Scatter plot with a negative downward-sloping linear trendline in red.\n y-axis: Number of services offered by national standards body, ranging from 0 to 10.\n x-axis: GDP per capita (US$), on a logarithmic scale ranging from 100 to 100,000.\n Data points: Multiple scatter points distributed across the chart area, showing a general trend that countries with lower GDP per capita tend to have a higher number of services offered by national standards bodies, while countries with higher GDP per capita tend to have fewer services.\nSource: WDR 2025 team, based on World Bank and ISO 2025.\nNote: The survey sample includes 116 national standards bodies: 13 in low-income countries, 28 in lower-middle-income countries, 34 in upper-middle-income countries, and 41 in high-income countries."
+  }
+ ],
+ "seconds": 9.42,
+ "prompt_tokens": 2364,
+ "output_tokens": 291
+}

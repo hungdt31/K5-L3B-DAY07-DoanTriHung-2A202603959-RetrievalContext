@@ -1,0 +1,22 @@
+{
+ "page": 170,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure 3.6",
+   "title": "National standards bodies in lower-income countries tend to offer more services relating to quality infrastructure than their peers in higher-income countries",
+   "bbox": [
+    93,
+    86,
+    886,
+    508
+   ],
+   "content": "Chart type: Grouped bar chart. Share of NSBs that offer a given service, 2025 (%).\nCategories (Income groups) and Series:\nSeries legend: Conformity assessment, Metrology (legal and scientific), Accreditation.\n\nData values by category:\n- Low income:\n  - Conformity assessment: 95\n  - Metrology (legal and scientific): 91\n  - Accreditation: 44\n\n- Lower middle income:\n  - Conformity assessment: 80\n  - Metrology (legal and scientific): 44\n  - Accreditation: 30\n\n- Upper middle income:\n  - Conformity assessment: 61\n  - Metrology (legal and scientific): 58\n  - Accreditation: 30\n\n- High income:\n  - Conformity assessment: 25\n  - Metrology (legal and scientific): 34\n  - Accreditation: 29\n\nSource: WDR 2025 team, based on World Bank and ISO 2025.\nNote: The survey sample includes 116 national standards bodies (NSBs): 13 in low-income countries, 28 in lower-middle-income countries, 34 in upper-middle-income countries, and 41 in high-income countries. The figure does not show data regarding standards development because of the lack of variation among country income groups in the share of national standards bodies that offer standards development services."
+  }
+ ],
+ "seconds": 13.36,
+ "prompt_tokens": 2211,
+ "output_tokens": 447
+}

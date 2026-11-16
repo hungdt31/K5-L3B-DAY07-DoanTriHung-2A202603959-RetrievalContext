@@ -1,0 +1,24 @@
+{
+ "page": 40,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure O.4",
+   "title": "Lower-income countries depend too much on revenues from services related to assessing conformity with standards",
+   "bbox": [
+    [
+     518,
+     517,
+     765,
+     874
+    ]
+   ],
+   "content": "Chart type: Stacked bar chart. Title: Share of total revenues of national standards body, 2025 (%). Y-axis: Percentage from 0 to 100. X-axis categories: Low income, Lower middle income, Upper middle income, High income. Legend / Series: Sale of standards (including subscriptions), Conformity assessment services (testing and certification), Government transfers, Other. Data values per category: \n- Low income: Sale of standards = 9, Conformity assessment services = 25, Government transfers = 34, Other = 32. \n- Lower middle income: Sale of standards = 7, Conformity assessment services = 37, Government transfers = 32, Other = 23. \n- Upper middle income: Sale of standards = 14, Conformity assessment services = 24, Government transfers = 43, Other = 19. \n- High income: Sale of standards = 39, Conformity assessment services = 13, Government transfers = 30, Other = 18. \nSource: WDR 2025 team, based on World Bank and ISO 2025. \nNote: The figure shows revenue sources of national standards bodies as of 2025. The survey sample includes 116 national standards bodies: 13 in low-income countries, 28 in lower-middle-income countries, 34 in upper-middle-income countries, and 41 in high-income countries. “Other” includes revenues from accreditation, metrology, partnerships or donor funding, and training and consulting services. Shares of components within bars may not sum exactly to 100 because of rounding."
+  }
+ ],
+ "seconds": 2.68,
+ "prompt_tokens": 2420,
+ "output_tokens": 470
+}

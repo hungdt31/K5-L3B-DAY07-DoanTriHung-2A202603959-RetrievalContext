@@ -1,0 +1,247 @@
+2026-11-16 12:49:07,748 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:49:29,927 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+2026-11-16 12:49:29,936 INFO adv.extract: p333: 0 elements 22.24
+2026-11-16 12:49:30,819 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:50:02,162 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+2026-11-16 12:50:02,167 INFO adv.extract: p334: 0 elements 31.35
+2026-11-16 12:50:03,223 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:50:03,692 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 12:50:03,695 WARNING src.day7.llm: gemini-3.6-flash 429, retry 1/6 in 2s
+2026-11-16 12:50:05,695 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:50:36,256 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+2026-11-16 12:50:36,261 INFO adv.extract: p335: 0 elements 33.04
+2026-11-16 12:50:37,344 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:50:37,899 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 12:50:37,902 WARNING src.day7.llm: gemini-3.6-flash 429, retry 1/6 in 2s
+2026-11-16 12:50:39,903 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:50:40,500 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 12:50:40,503 WARNING src.day7.llm: gemini-3.6-flash 429, retry 2/6 in 4s
+2026-11-16 12:50:44,503 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:50:45,038 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 12:50:45,040 WARNING src.day7.llm: gemini-3.6-flash 429, retry 3/6 in 8s
+2026-11-16 12:50:53,041 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:50:53,977 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 12:50:53,978 WARNING src.day7.llm: gemini-3.6-flash 429, retry 4/6 in 16s
+2026-11-16 12:51:09,978 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:51:10,489 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 12:51:10,491 WARNING src.day7.llm: gemini-3.6-flash 429, retry 5/6 in 32s
+2026-11-16 12:51:42,492 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:51:45,218 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 12:51:45,218 WARNING src.day7.llm: gemini-3.6-flash 429, retry 6/6 in 60s
+2026-11-16 12:52:45,218 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:52:45,926 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 12:52:45,928 ERROR adv.extract: p336: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 2h7m14.099502689s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '7634s'}]}}
+2026-11-16 12:52:45,929 INFO adv.extract: p336: 0 elements None
+2026-11-16 12:52:46,984 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:52:47,424 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 12:52:47,426 WARNING src.day7.llm: gemini-3.6-flash 429, retry 1/6 in 2s
+2026-11-16 12:52:49,426 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:52:49,900 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 12:52:49,902 WARNING src.day7.llm: gemini-3.6-flash 429, retry 2/6 in 4s
+2026-11-16 12:52:53,902 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:52:54,447 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 12:52:54,449 WARNING src.day7.llm: gemini-3.6-flash 429, retry 3/6 in 8s
+2026-11-16 12:53:02,450 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:53:02,997 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 12:53:02,999 WARNING src.day7.llm: gemini-3.6-flash 429, retry 4/6 in 16s
+2026-11-16 12:53:19,000 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:53:19,674 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 12:53:19,675 WARNING src.day7.llm: gemini-3.6-flash 429, retry 5/6 in 32s
+2026-11-16 12:53:51,676 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:53:52,542 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 12:53:52,544 WARNING src.day7.llm: gemini-3.6-flash 429, retry 6/6 in 60s
+2026-11-16 12:54:52,545 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:54:55,384 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 12:54:55,385 ERROR adv.extract: p337: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 2h5m4.633865175s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.6-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '7504s'}]}}
+2026-11-16 12:54:55,386 INFO adv.extract: p337: 0 elements None
+2026-11-16 12:54:56,483 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:54:57,305 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 12:54:57,306 WARNING src.day7.llm: gemini-3.6-flash 429, retry 1/6 in 2s
+2026-11-16 12:54:59,307 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:54:59,808 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 12:54:59,808 WARNING src.day7.llm: gemini-3.6-flash 429, retry 2/6 in 4s
+2026-11-16 12:55:03,809 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:55:04,383 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 12:55:04,386 WARNING src.day7.llm: gemini-3.6-flash 429, retry 3/6 in 8s
+2026-11-16 12:55:12,386 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:55:12,864 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 12:55:12,866 WARNING src.day7.llm: gemini-3.6-flash 429, retry 4/6 in 16s
+2026-11-16 12:55:28,866 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:55:29,409 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 12:55:29,411 WARNING src.day7.llm: gemini-3.6-flash 429, retry 5/6 in 32s
+2026-11-16 12:56:01,412 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:56:01,923 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 12:56:01,927 WARNING src.day7.llm: gemini-3.6-flash 429, retry 6/6 in 60s
+2026-11-16 12:57:01,927 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:57:02,642 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 12:57:02,644 ERROR adv.extract: p338: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 2h2m57.380000858s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '7377s'}]}}
+2026-11-16 12:57:02,645 INFO adv.extract: p338: 0 elements None
+2026-11-16 12:57:03,563 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:57:04,028 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 12:57:04,030 WARNING src.day7.llm: gemini-3.6-flash 429, retry 1/6 in 2s
+2026-11-16 12:57:06,030 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:57:06,496 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 12:57:06,497 WARNING src.day7.llm: gemini-3.6-flash 429, retry 2/6 in 4s
+2026-11-16 12:57:10,498 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:57:10,924 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 12:57:10,926 WARNING src.day7.llm: gemini-3.6-flash 429, retry 3/6 in 8s
+2026-11-16 12:57:18,930 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:57:19,349 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 12:57:19,350 WARNING src.day7.llm: gemini-3.6-flash 429, retry 4/6 in 16s
+2026-11-16 12:57:35,351 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:57:35,889 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 12:57:35,892 WARNING src.day7.llm: gemini-3.6-flash 429, retry 5/6 in 32s
+2026-11-16 12:58:07,895 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:58:08,403 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 12:58:08,405 WARNING src.day7.llm: gemini-3.6-flash 429, retry 6/6 in 60s
+2026-11-16 12:59:08,406 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:59:09,012 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 12:59:09,014 ERROR adv.extract: p339: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 5, model: gemini-3.6-flash, description: Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 51.006691481s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per minute limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.6-flash', 'location': 'global'}, 'quotaValue': '5'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '51s'}]}}
+2026-11-16 12:59:09,015 INFO adv.extract: p339: 0 elements None
+2026-11-16 12:59:09,798 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:59:10,106 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 12:59:10,108 WARNING src.day7.llm: gemini-3.6-flash 429, retry 1/6 in 2s
+2026-11-16 12:59:12,108 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:59:12,313 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 12:59:12,316 WARNING src.day7.llm: gemini-3.6-flash 429, retry 2/6 in 4s
+2026-11-16 12:59:16,316 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:59:16,576 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 12:59:16,579 WARNING src.day7.llm: gemini-3.6-flash 429, retry 3/6 in 8s
+2026-11-16 12:59:24,580 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:59:24,858 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 12:59:24,860 WARNING src.day7.llm: gemini-3.6-flash 429, retry 4/6 in 16s
+2026-11-16 12:59:40,860 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:59:41,245 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 12:59:41,247 WARNING src.day7.llm: gemini-3.6-flash 429, retry 5/6 in 32s
+2026-11-16 13:00:13,248 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:00:13,648 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:00:13,650 WARNING src.day7.llm: gemini-3.6-flash 429, retry 6/6 in 60s
+2026-11-16 13:01:13,650 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:01:14,040 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:01:14,042 ERROR adv.extract: p340: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 1h58m45.975795412s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.6-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '7125s'}]}}
+2026-11-16 13:01:14,043 INFO adv.extract: p340: 0 elements None
+2026-11-16 13:01:15,214 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:01:15,697 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:01:15,699 WARNING src.day7.llm: gemini-3.6-flash 429, retry 1/6 in 2s
+2026-11-16 13:01:17,699 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:01:18,198 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:01:18,200 WARNING src.day7.llm: gemini-3.6-flash 429, retry 2/6 in 4s
+2026-11-16 13:01:22,201 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:01:22,593 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:01:22,595 WARNING src.day7.llm: gemini-3.6-flash 429, retry 3/6 in 8s
+2026-11-16 13:01:30,596 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:01:31,129 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:01:31,131 WARNING src.day7.llm: gemini-3.6-flash 429, retry 4/6 in 16s
+2026-11-16 13:01:47,131 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:01:47,632 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:01:47,634 WARNING src.day7.llm: gemini-3.6-flash 429, retry 5/6 in 32s
+2026-11-16 13:02:19,635 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:02:20,193 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:02:20,195 WARNING src.day7.llm: gemini-3.6-flash 429, retry 6/6 in 60s
+2026-11-16 13:03:20,195 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:03:20,694 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:03:20,695 ERROR adv.extract: p341: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 1h56m39.322815376s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '6999s'}]}}
+2026-11-16 13:03:20,696 INFO adv.extract: p341: 0 elements None
+2026-11-16 13:03:21,776 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:03:22,211 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:03:22,213 WARNING src.day7.llm: gemini-3.6-flash 429, retry 1/6 in 2s
+2026-11-16 13:03:24,213 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:03:24,551 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:03:24,552 WARNING src.day7.llm: gemini-3.6-flash 429, retry 2/6 in 4s
+2026-11-16 13:03:28,553 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:03:28,956 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:03:28,957 WARNING src.day7.llm: gemini-3.6-flash 429, retry 3/6 in 8s
+2026-11-16 13:03:36,958 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:03:37,465 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:03:37,467 WARNING src.day7.llm: gemini-3.6-flash 429, retry 4/6 in 16s
+2026-11-16 13:03:53,467 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:03:53,952 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:03:53,954 WARNING src.day7.llm: gemini-3.6-flash 429, retry 5/6 in 32s
+2026-11-16 13:04:25,955 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:04:26,413 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:04:26,414 WARNING src.day7.llm: gemini-3.6-flash 429, retry 6/6 in 60s
+2026-11-16 13:05:26,414 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:05:26,962 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:05:26,965 ERROR adv.extract: p342: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 1h54m33.054025806s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.6-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '6873s'}]}}
+2026-11-16 13:05:26,966 INFO adv.extract: p342: 0 elements None
+2026-11-16 13:05:28,007 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:05:28,466 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:05:28,468 WARNING src.day7.llm: gemini-3.6-flash 429, retry 1/6 in 2s
+2026-11-16 13:05:30,469 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:05:30,947 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:05:30,947 WARNING src.day7.llm: gemini-3.6-flash 429, retry 2/6 in 4s
+2026-11-16 13:05:34,947 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:05:35,347 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:05:35,349 WARNING src.day7.llm: gemini-3.6-flash 429, retry 3/6 in 8s
+2026-11-16 13:05:43,349 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:05:43,857 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:05:43,860 WARNING src.day7.llm: gemini-3.6-flash 429, retry 4/6 in 16s
+2026-11-16 13:05:59,861 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:06:00,375 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:06:00,377 WARNING src.day7.llm: gemini-3.6-flash 429, retry 5/6 in 32s
+2026-11-16 13:06:32,378 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:06:32,857 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:06:32,860 WARNING src.day7.llm: gemini-3.6-flash 429, retry 6/6 in 60s
+2026-11-16 13:07:32,860 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:07:33,328 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:07:33,331 ERROR adv.extract: p343: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 1h52m26.68686325s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.6-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '6746s'}]}}
+2026-11-16 13:07:33,332 INFO adv.extract: p343: 0 elements None
+2026-11-16 13:07:34,332 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:07:34,722 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:07:34,726 WARNING src.day7.llm: gemini-3.6-flash 429, retry 1/6 in 2s
+2026-11-16 13:07:36,726 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:07:37,057 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:07:37,060 WARNING src.day7.llm: gemini-3.6-flash 429, retry 2/6 in 4s
+2026-11-16 13:07:41,061 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:07:41,591 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:07:41,593 WARNING src.day7.llm: gemini-3.6-flash 429, retry 3/6 in 8s
+2026-11-16 13:07:49,594 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:07:50,058 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:07:50,060 WARNING src.day7.llm: gemini-3.6-flash 429, retry 4/6 in 16s
+2026-11-16 13:08:06,061 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:08:06,611 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:08:06,613 WARNING src.day7.llm: gemini-3.6-flash 429, retry 5/6 in 32s
+2026-11-16 13:08:38,614 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:08:39,032 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:08:39,034 WARNING src.day7.llm: gemini-3.6-flash 429, retry 6/6 in 60s
+2026-11-16 13:09:39,034 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:09:39,571 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:09:39,572 ERROR adv.extract: p344: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 1h50m20.449088438s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.6-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '6620s'}]}}
+2026-11-16 13:09:39,572 INFO adv.extract: p344: 0 elements None
+2026-11-16 13:09:40,371 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:09:40,791 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:09:40,791 WARNING src.day7.llm: gemini-3.6-flash 429, retry 1/6 in 2s
+2026-11-16 13:09:42,792 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:09:43,155 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:09:43,158 WARNING src.day7.llm: gemini-3.6-flash 429, retry 2/6 in 4s
+2026-11-16 13:09:47,158 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:09:47,552 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:09:47,553 WARNING src.day7.llm: gemini-3.6-flash 429, retry 3/6 in 8s
+2026-11-16 13:09:55,553 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:09:55,935 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:09:55,936 WARNING src.day7.llm: gemini-3.6-flash 429, retry 4/6 in 16s
+2026-11-16 13:10:11,936 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:10:12,370 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:10:12,373 WARNING src.day7.llm: gemini-3.6-flash 429, retry 5/6 in 32s
+2026-11-16 13:10:44,373 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:10:44,946 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:10:44,947 WARNING src.day7.llm: gemini-3.6-flash 429, retry 6/6 in 60s
+2026-11-16 13:11:44,948 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:11:45,407 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:11:45,408 ERROR adv.extract: p345: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://aistudio.google.com/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-3.6-flash, description: Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.\nPlease retry in 1h48m14.614472704s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://aistudio.google.com/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'description': 'Generate content requests per day limit exceeded on Free Tier. See https://aistudio.google.com/docs/rate-limits.', 'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-3.6-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '6494s'}]}}
+2026-11-16 13:11:45,408 INFO adv.extract: p345: 0 elements None
+2026-11-16 13:11:46,285 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:11:46,664 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:11:46,665 WARNING src.day7.llm: gemini-3.6-flash 429, retry 1/6 in 2s
+2026-11-16 13:11:48,665 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:11:49,101 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:11:49,101 WARNING src.day7.llm: gemini-3.6-flash 429, retry 2/6 in 4s
+2026-11-16 13:11:53,102 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:11:53,512 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:11:53,513 WARNING src.day7.llm: gemini-3.6-flash 429, retry 3/6 in 8s
+2026-11-16 13:12:01,513 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:12:01,986 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:12:01,987 WARNING src.day7.llm: gemini-3.6-flash 429, retry 4/6 in 16s
+2026-11-16 13:12:17,987 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 13:12:18,519 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2026-11-16 13:12:18,519 WARNING src.day7.llm: gemini-3.6-flash 429, retry 5/6 in 32s

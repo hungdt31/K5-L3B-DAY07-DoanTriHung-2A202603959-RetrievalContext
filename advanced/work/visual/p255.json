@@ -1,0 +1,22 @@
+{
+ "page": 255,
+ "model": "gemini-3.6-flash",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure S4.1",
+   "title": "Many developing countries are still using Basel I or Basel II bank capital requirement regimes",
+   "bbox": [
+    115,
+    360,
+    485,
+    922
+   ],
+   "content": "Chart type: 100% stacked bar chart\nY-axis title: Percent (range 0 to 100)\nX-axis categories: Low income, Lower middle income, Upper middle income, High income\nLegend / Series: Basel I (dark blue), Basel II (light blue), Basel III (red)\n\nData values (stacked from bottom to top):\n- Low income: Basel I = 64, Basel II = 36, Basel III = 0\n- Lower middle income: Basel I = 41, Basel II = 26, Basel III = 32\n- Upper middle income: Basel I = 34, Basel II = 23, Basel III = 43\n- High income: Basel I = 8, Basel II = 8, Basel III = 84\n\nSource: Bank Regulation and Supervision Survey (dashboard), World Bank, https://www.worldbank.org/en/research/brief/BRSS.\nNote: The Basel accords outline minimum capital requirements for banks. Basel I dates from 1988, Basel II from 2004, and Basel III from 2009. The sample includes 134 countries. Constituent percentages in each bar may not sum to exactly 100 percent because of rounding."
+  }
+ ],
+ "seconds": 13.61,
+ "prompt_tokens": 2505,
+ "output_tokens": 380
+}

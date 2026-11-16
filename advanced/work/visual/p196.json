@@ -1,0 +1,22 @@
+{
+ "page": 196,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure S3.3",
+   "title": "Among income groups, the private sector has the greatest representation in technical committees of national standards bodies in high-income countries",
+   "bbox": [
+    102,
+    117,
+    526,
+    434
+   ],
+   "content": "Chart type: Horizontal stacked 100% bar chart. X-axis: Average share of delegates, by employer type, sent by NSBs to attend technical committee meetings (%). Y-axis: Income groups (HICs, UMICs, LMICs, LICs). Legend/Series: Private sector (dark blue), Government (blue), NSB representatives (red), Academia (light blue), Other (green). Data values by income group: HICs: Private sector = 49, Government = 17, NSB representatives = 4, Academia = 14, Other = 16. UMICs: Private sector = 39, Government = 22, NSB representatives = 6, Academia = 17, Other = 16. LMICs: Private sector = 25, Government = 25, NSB representatives = 13, Academia = 16, Other = 21. LICs: Private sector = 31, Government = 23, NSB representatives = 16, Academia = 16, Other = 14. Source: WDR 2025 team, based on World Bank and ISO 2025. Note: The survey sample includes 116 national standards bodies (NSBs): 13 in low-income countries, 28 in lower-middle-income countries, 34 in upper-middle-income countries, and 41 in high-income countries. “Other” includes representatives from nongovernmental organizations, standards application organizations, and labor organizations. HICs = high-income countries; LICs = low-income countries; LMICs = lower-middle-income countries; UMICs = upper-middle-income countries."
+  }
+ ],
+ "seconds": 3.88,
+ "prompt_tokens": 2172,
+ "output_tokens": 475
+}

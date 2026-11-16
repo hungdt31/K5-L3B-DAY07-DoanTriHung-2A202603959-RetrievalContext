@@ -1,0 +1,22 @@
+{
+ "page": 228,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "infographic",
+   "label": "Box 4.5",
+   "title": "Global standards as catalysts for attracting foreign direct investment",
+   "bbox": [
+    118,
+    521,
+    907,
+    882
+   ],
+   "content": "Box 4.5 Global standards as catalysts for attracting foreign direct investment\n\nQuality standards (International Organization for Standardization [ISO] 9000) and environmental standards (ISO 14000)\nAdoption of ISO 9000 by domestic firms signals strong quality management and has been associated with increased inflows of foreign direct investment (FDI), especially in less-developed countries.a This finding is supported by newer evidenceb showing that ISO certification attracts more FDI from developed to developing countries. Market pressure, particularly from global buyers, has prompted domestic firms to adopt ISO 9000 and ISO 14000, with governments in Japan and Taiwan, China, actively promoting certification to prevent losses of exports and attract FDI.c\n\nInternational Financial Reporting Standards\nAdoption of International Financial Reporting Standards (IFRS) enhances countries' financial transparency and decreases information asymmetry among potential investors, making countries more appealing to investors (refer to spotlight 4 for details). Studies show adoption of these standards increases foreign ownership of mutual fundsd and boosts\n\n(Box continues next page)"
+  }
+ ],
+ "seconds": 3.83,
+ "prompt_tokens": 2262,
+ "output_tokens": 325
+}

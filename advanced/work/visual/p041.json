@@ -1,0 +1,24 @@
+{
+ "page": 41,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "infographic",
+   "label": "Box O.1",
+   "title": "Governments dominate national standards bodies in developing countries",
+   "bbox": [
+    [
+     117,
+     117,
+     912,
+     882
+    ]
+   ],
+   "content": "Most countries have a national standards body that coordinates standards development and represents the country in international standards development organizations like the International Organization for Standardization (ISO), the International Electrotechnical Commission (IEC), and the International Telecommunication Union (ITU). Many national standards bodies are autonomous governmental organizations created through the legislative process, such as those in Bangladesh and South Africa.a In some countries like the United States, national standards bodies are nongovernmental organizations that the government recognizes as national standards bodies.b A survey by ISO and the World Bank for this Report shows that whereas almost all national standards bodies in developing countries are government institutions, only 56 percent in advanced economies are. In many countries, national standards bodies take on a coordinating function among multiple national standards development organizations. For example, the Bureau of Indian Standards works with sectoral standards development organizations such as the Telecommunications Standards Development Society, India (TSDSI).\n\nIn addition to their different legal setups, national standards bodies have different models for financing that vary greatly between developing countries and advanced economies, with consequences for the roles they play. In high-income countries, national standards bodies generate nearly 40 percent of their revenues from selling standards, reflecting the private sector’s greater demand for standards and greater capacity to pay for them. Conversely, in developing nations, these bodies get only about 10 percent of their revenues from the sale of standards. Notably, in developing countries, national standards bodies offer a wider range of services beyond standards development, such as testing, inspection, and certification, which account for nearly one-third of their revenues on average. Additionally, they are more likely to participate in regulatory functions: 75 percent of national standards bodies in developing countries are involved in setting technical regulations (mandatory standards), compared with just 35 percent in high-income countries.\n\nThese differences seem unremarkable, but they can fundamentally alter the dynamics of standards development. In many developing countries, national standards bodies play a"
+  }
+ ],
+ "seconds": 3.1,
+ "prompt_tokens": 2185,
+ "output_tokens": 490
+}

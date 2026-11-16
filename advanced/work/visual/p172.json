@@ -1,0 +1,22 @@
+{
+ "page": 172,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure 3.8",
+   "title": "The need for government intervention in quality infrastructure changes with the profiles of cost and demand",
+   "bbox": [
+    110,
+    317,
+    834,
+    878
+   ],
+   "content": "Chart type: 2D matrix/scatter plot with four quadrants. Y-axis: 'Cost of providing service (initial investment and recurring costs)' from Low to High. X-axis: 'Demand for service (number of users, frequency of use, and willingness to pay)' from Low to High. Quadrant 1 (Top-Left): 'Scientific metrology' - Stronger need for public involvement. Quadrant 2 (Top-Right): 'Potential need for public-private collaboration', overlapping with diagonal services 'Testing and inspection' and 'Calibration'. Quadrant 3 (Bottom-Left): 'Risk of underprovision by market'. Quadrant 4 (Bottom-Right): 'Private market viable'. Services placed across the grid include: Scientific metrology (high cost, low demand), Accreditation (medium cost, medium demand), Market surveillance (medium-low cost, medium-low demand), Legal metrology (medium-low cost, medium-low demand), Standards development (low cost, medium demand), Management systems certification (low cost, high-medium demand), Testing and inspection (diagonal band spanning medium-high cost to low cost), Calibration (diagonal band spanning high cost to medium cost). Source: Adapted from Miesner 2009. Note: This figure is a simplification. For example, it does not account for the fact that the fixed costs of providing a service would decline with an increase in the number of clients. The effect of volume on per unit costs is an important factor to consider in any specific analysis. a. Regulated. b. Sometimes regulated."
+  }
+ ],
+ "seconds": 2.66,
+ "prompt_tokens": 2174,
+ "output_tokens": 422
+}

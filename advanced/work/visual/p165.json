@@ -1,0 +1,22 @@
+{
+ "page": 165,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure 3.3",
+   "title": "Countries with higher levels of quality infrastructure tend to perform better economically",
+   "bbox": [
+    103,
+    107,
+    878,
+    487
+   ],
+   "content": "Chart type: Scatter plot with two panels (a. Exports, b. GDP per capita) showing positive correlations fitted with red trend lines. Panel a. Exports: Y-axis is 'Average total annual exports of goods and services, 2016-22 (current US$, log scale)' ranging from 17 to 29; X-axis is 'Global Quality Infrastructure Index score, 2023' ranging from 0 to 1.0. Panel b. GDP per capita: Y-axis is 'GDP per capita, 2022 (current US$, log scale)' ranging from 5 to 13; X-axis is 'Global Quality Infrastructure Index score, 2023' ranging from 0 to 1.0. Sources: WDR 2025 team, based on data from GQII 2023 (dashboard), Global Quality Infrastructure Index (GQII) Program, Mesopartner and Analyticar, https://gqii.org/gqii-2023/; World Bank."
+  }
+ ],
+ "seconds": 2.24,
+ "prompt_tokens": 2275,
+ "output_tokens": 321
+}

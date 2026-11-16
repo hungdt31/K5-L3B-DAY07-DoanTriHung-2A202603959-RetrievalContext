@@ -1,0 +1,22 @@
+{
+ "page": 199,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure S3.5",
+   "title": "National standards bodies are more likely to participate in the development of international standards in the technology and innovation sector as country income level increases",
+   "bbox": [
+    103,
+    116,
+    535,
+    886
+   ],
+   "content": "Chart type: Horizontal 100% stacked bar chart. X-axis: Share of national standards participated in, by sector (%), ranging from 0 to 100. Y-axis: Country income groups (HICs, UMICs, LMICs, LICs). Legend/Series: Technology and innovation, Science and environment, Infrastructure and transport, Health and food systems, Governance and safety. Data values per group: HICs: Technology and innovation = 57, Science and environment = 19, Infrastructure and transport = 3, Health and food systems = 10, Governance and safety = 12. UMICs: Technology and innovation = 54, Science and environment = 20, Health and food systems = 13, Governance and safety = 14 (Infrastructure and transport not explicitly labeled on bar). LMICs: Technology and innovation = 50, Science and environment = 16, Health and food systems = 24, Governance and safety = 10. LICs: Technology and innovation = 41, Science and environment = 17, Health and food systems = 34, Governance and safety = 7. Source: WDR 2025 team, based on administrative data as of 2024 provided by the International Organization for Standardization (ISO). Note: Constituent percentages for each country income group may not sum exactly to 100 percent as a result of rounding. HICs = high-income countries; LICs = low-income countries; LMICs = lower-middle-income countries; UMICs = upper-middle-income countries."
+  }
+ ],
+ "seconds": 8.19,
+ "prompt_tokens": 2089,
+ "output_tokens": 449
+}

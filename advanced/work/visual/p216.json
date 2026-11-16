@@ -1,0 +1,22 @@
+{
+ "page": 216,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure 4.6",
+   "title": "Technical nontariff measures now affect most imports",
+   "bbox": [
+    100,
+    101,
+    819,
+    865
+   ],
+   "content": "Line charts showing the share of imports affected by nontariff measures (%) from 1996 to 2024. There is a vertical marker labeled 'China joins the WTO' around 2001.\n\na. By product type:\n- Y-axis: Share of imports affected by nontariff measures (%), ranging from 0 to 100.\n- X-axis: Years from 1996 to 2024.\n- Legend/Series: Agricultural (green line), Nonagricultural (blue line), All (orange line).\n- Trends: All three lines show low shares in the 1990s and early 2000s (around 10-25%), rising sharply around 2008-2009, and continuing to increase to reach between 75% and 90% by 2024. Agricultural is generally the highest throughout the period (reaching roughly 90% by 2024), while Nonagricultural and All closely track each other at slightly lower levels (around 75-80% by 2024).\n\nb. By income group:\n- Y-axis: Share of imports affected by nontariff measures (%), ranging from 0 to 100.\n- X-axis: Years from 1996 to 2024.\n- Legend/Series: Low income (brown line), Lower middle income (light green line), Upper middle income (yellow line), High income (dark blue line).\n- Trends: High income and Upper middle income show sharp increases around 2009-2010. Lower middle income surges around 2017-2018. Low income shows spikes around 1998-2000 and rises towards the end of the period. By 2024, most income groups cluster between 75% and 90%.\n\nSources: WDR 2025 team calculations, based on data from TRAINS [Trade Analysis and Information System] (portal), United Nations Trade and Development, https://trainsonline.unctad.org/home; WITS: World Integrated Trade Solution (database), World Bank, http://wits.worldbank.org/WITS/.\nNote: The figure plots the share of imports regulated by technical nontariff measures: sanitary and phytosanitary measures, technical barriers to trade, and preshipment inspections. The sample includes all countries surveyed for the TRAINS database since 2020 and all nontariff measures enacted since 1996. WTO = World Trade Organization."
+  }
+ ],
+ "seconds": 3.91,
+ "prompt_tokens": 2086,
+ "output_tokens": 664
+}

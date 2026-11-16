@@ -1,0 +1,22 @@
+{
+ "page": 220,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure 4.8",
+   "title": "Private sustainability standards cover a growing share of harvest area",
+   "bbox": [
+    518,
+    517,
+    629,
+    882
+   ],
+   "content": "Line chart. Title: Share of harvest area certified (%). Y-axis ranges from 6 to 16. X-axis shows years: 2016 to 2022. Legend categories: Low and lower middle income, All low and middle income, Upper middle income. Trends: All three series show an overall upward trend from 2016 to 2022. Low and lower middle income starts around 9% in 2016, peaks around 13% in 2019, dips in 2020, and rises to about 15% in 2022. Upper middle income stays relatively flat near 8-9%. All low and middle income stays around 10-11%. Sources: WDR 2025 calculations, based on FAOSTAT (dashboard), Food and Agriculture Organization of the United Nations, https://www.fao.org/faostat/en/#home; State of Sustainable Markets, 2024 (dashboard), International Trade Centre, https://standardsmap.org/en/trends. Note: The figure reports the share of total harvest area for eight key commodities (bananas, cocoa, coffee, cotton, oil palm, soybeans, sugarcane, and tea) certified across 12 private sustainability standards (4C, Better Cotton, Bonsucro, CmiA [Cotton made in Africa], Fairtrade, GLOBALG.A.P., Organic, ProTerra, Rainforest Alliance, RSPO [Roundtable on Sustainable Palm Oil], RTRS [Rountable on Responsible Soy], and UTZ). High-income countries are excluded from the figure because almost none produce the commodities the figure covers. Low- and lower-middle-income countries are combined on account of the small sample size."
+  }
+ ],
+ "seconds": 4.43,
+ "prompt_tokens": 2511,
+ "output_tokens": 470
+}

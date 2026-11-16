@@ -1,0 +1,24 @@
+{
+ "page": 113,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "table",
+   "label": "Table 2.2",
+   "title": "How standards may reduce transaction costs and address market failures",
+   "bbox": [
+    [
+     117,
+     349,
+     878,
+     897
+    ]
+   ],
+   "content": "ROLE OF STANDARDS | PURPOSE | TYPE OF STANDARD USUALLY APPLICABLE (VOLUNTARY OR MANDATORY) | MAIN FUNCTION | OUTCOMES\nDiffusing information | Offer codified good practices | Mostly voluntary | Quality | • Knowledge transfer\n• Quality upgrading\n• Productivity\nAddressing coordination failures | Provide common specifications | Voluntary and mandatory | Compatibility, measurement | • Economies of scale\n• Compatibility\n• Lower transaction costs\n• Variety reduction\nPromoting competition | Provide common specifications | Voluntary and mandatory | Quality, compatibility | • Lower switching costs\n• Transparent information\n• Competition\nReducing information asymmetries | Provide transparent, reliable, or consistent information | Mostly mandatory | Quality, compatibility, measurement | • Lower search and transaction costs\n• Higher trust and consumer protection\nAddressing negative externalities | Define thresholds, processes, or technologies to reduce harm to others | Mostly mandatory | Quality | • Environmental protection\n• Social sustainability\n• Economic fairness\nSource: WDR 2025 team.\nNote: Whereas this table illustrates typical patterns, real-world standards often serve multiple purposes simultaneously, for instance, blending measurement, compatibility, and quality functions."
+  }
+ ],
+ "seconds": 4.35,
+ "prompt_tokens": 2122,
+ "output_tokens": 338
+}

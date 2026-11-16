@@ -1,0 +1,13 @@
+{
+ "method": "Vision transcription of the element compared by eye with the page render of the original PDF (pdftoppm 80-120 dpi); reviewer: Claude Code (AI) during benchmark construction, to be confirmed by the student.",
+ "checked": [
+  {"id": "p113-v1", "label": "Table 2.2", "model": "gemini-3.5-flash-lite", "verdict": "correct", "note": "All rows/columns read correctly; bbox returned nested ([[...]]) and normalised by index.py."},
+  {"id": "p126-v1", "label": "Figure 2.3", "model": "gemini-3.5-flash-lite", "verdict": "correct", "note": "Three phases and their texts exact."},
+  {"id": "p153-v1", "label": "Figure 3.1", "model": "gemini-3.5-flash-lite", "verdict": "partly wrong", "note": "All boxes and arrow labels present, but several arrow directions reversed (e.g. 'Defines units' is Metrology -> Standardization, transcribed the other way; 'Provides technical specifications' is Standardization -> Products)."},
+  {"id": "p157-v1", "label": "Figure B3.1.1", "model": "gemini-3.5-flash-lite", "verdict": "correct", "note": "Both cost categories and all 10 items exact."},
+  {"id": "p181-v1", "label": "Figure 3.13", "model": "gemini-3.5-flash-lite", "verdict": "partly wrong", "note": "Premarket approval (high/high) and voluntary standards (low/low) correct; top-left cell (high noncompliance, low harm) is 'Third-party conformity assessment', transcribed as self-declaration."},
+  {"id": "p185-v1", "label": "Figure 3.14", "model": "gemini-3.5-flash-lite", "verdict": "correct", "note": "All YES/NO branches match the image."},
+  {"id": "p322-v1", "label": "Map 6.2", "model": "gemini-3.5-flash-lite", "verdict": "correct but incomplete", "note": "Legend categories correct; does not list which countries are in each category."}
+ ],
+ "consequence": "Diagram/chart transcriptions are useful for retrieval but not reliable enough for fine-grained visual questions, so the selected agent configuration can call look_at_page to re-read the original page image at question time."
+}

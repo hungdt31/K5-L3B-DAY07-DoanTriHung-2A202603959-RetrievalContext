@@ -1,0 +1,22 @@
+{
+ "page": 157,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "infographic",
+   "label": "Figure B3.1.1",
+   "title": "Key components of costs of conformity assessment from a firm's perspective",
+   "bbox": [
+    174,
+    57,
+    838,
+    823
+   ],
+   "content": "Meeting the standard: Quality upgrading (1):\n- Purchase of standards\n- Consultancy and advisory services\n- Investment in upgrades (for example, IT systems, equipment, documentation, or higher wages)\n- Internal staff time and training, including opportunity costs\n- Corrective actions after conformity assessment\n\nDemonstrating compliance: Conformity assessment (2):\n- Testing (including preparing and shipping samples) or inspection\n- Audit (initial and surveillance audits), including auditor time and travel\n- Licensing fees\n- Membership fees\n- Longer lead times due to conformity assessment process (indirect cost)\n\nSource: WDR 2025 team.\nNote: IT = information technology."
+  }
+ ],
+ "seconds": 8.81,
+ "prompt_tokens": 2183,
+ "output_tokens": 249
+}

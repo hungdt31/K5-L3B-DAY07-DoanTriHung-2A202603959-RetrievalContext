@@ -1,0 +1,22 @@
+{
+ "page": 174,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure 3.9",
+   "title": "Figure 3.9 The share of private sector laboratories for testing and calibration increases as countries develop",
+   "bbox": [
+    116,
+    116,
+    928,
+    882
+   ],
+   "content": "Scatter plot chart. Y-axis: Share of private testing and calibration laboratories (%) ranging from 20 to 100. X-axis: GDP per capita (2023 US$) ranging from 0 to 100,000. Trendline: a red upward-sloping line indicating that the share of private laboratories increases with GDP per capita. Data points with country codes: ETH (approx. 25, 0), EGY (approx. 50, 0), PHL (approx. 58, 0), SRB (approx. 53, 10000), VNM (approx. 66, 10000), KEN (approx. 69, 10000), PAK (approx. 70, 10000), IND (approx. 72, 10000), COL (approx. 72, 15000), TUR (approx. 70, 18000), ARG (approx. 68, 18000), CRI (approx. 68, 20000), CHL (approx. 73, 20000), THA (approx. 74, 15000), BRA (approx. 74, 18000), MEX (approx. 79, 15000), ZAF (approx. 80, 10000), BGD (approx. 80, 0), KOR (approx. 65, 38000), SAU (approx. 68, 38000), JPN (approx. 81, 38000), ITA (approx. 78, 43000), NZL (approx. 81, 48000), GBR (approx. 90, 50000), CAN (approx. 75, 55000), DEU (approx. 81, 57000), AUT (approx. 76, 58000), SWE (approx. 77, 59000), AUS (approx. 81, 63000), NLD (approx. 81, 65000), USA (approx. 84, 85000), CHE (approx. 68, 100000). Sources: WDR 2025 team analysis, based on data from national accreditation bodies. Note: The data show national laboratories accredited to International Organization for Standardization (ISO)/International Electrotechnical Commission (IEC) 17025 (general requirements for the competence of testing and calibration laboratories). Each accredited facility in a country is counted as one laboratory, even if multiple accredited facilities belong to the same firm. For the country labels used in the figure, refer to ISO, https://www.iso.org/obp/ui/#search (select “country codes”)."
+  }
+ ],
+ "seconds": 9.62,
+ "prompt_tokens": 2318,
+ "output_tokens": 778
+}

@@ -1,0 +1,22 @@
+{
+ "page": 238,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "diagram",
+   "label": "Figure 4.11",
+   "title": "Developing countries, in particular, need common standards for technology",
+   "bbox": [
+    108,
+    116,
+    888,
+    388
+   ],
+   "content": "Diagram type: Conceptual trajectory of technology standards adoption in developing countries across three phases: Adapt, Align, and Author along a 'Development trajectory'.\n\nPhases:\n1. Adapt: 'Adapt international standards for the domestic market.'\n2. Align: 'Align domestic market with international standards.'\n3. Author: 'Shape international standards with the global community.'\n\nVertical axis labeled 'Specifications', horizontal axis labeled 'Development trajectory'.\n\nLines/Curves:\n- International standards line (horizontal dashed/solid line).\n- Domestic standards line.\n- Two competing standards Si and Sj diverging towards specifications, with International standards as the central baseline trajectory.\n\nSource: WDR 2025 team.\nNote: Si and Sj refer to two different competing standards."
+  }
+ ],
+ "seconds": 3.72,
+ "prompt_tokens": 2167,
+ "output_tokens": 257
+}

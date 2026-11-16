@@ -1,0 +1,22 @@
+{
+ "page": 53,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure O.8",
+   "title": "Standards governing vehicle emissions and air pollution in China, India, and the European Union followed a tiered approach to stringency",
+   "bbox": [
+    113,
+    116,
+    882,
+    867
+   ],
+   "content": "Chart type: Panel (a) is a line chart showing timeline of vehicle emissions standards from 1992 to 2024 across stages (1 to 7) for China, European Union (EU), and India (Bharat). Panel (b) is a scatter/line chart showing Vehicle emissions standards with PM values (g/km) on the x-axis (0 to 0.4) and Stage on the y-axis (1 to 7). Legend series: China, European Union (EU), India (Bharat), China 6a, EU 6, China (1, 2, 3), India (I, II, III). Sources: China: Emission Standards, China: Heavy-Duty Engines (dashboard), DieselNet, https://dieselnet.com/standards/cn/hd.php; ICCT 2017. European Union: Emission Standards, EU: Heavy-Duty Truck and Bus Engines (dashboard), DieselNet, https://dieselnet.com/standards/eu/hd.php. India (Bharat): Emission Standards, India: Heavy-Duty Truck and Bus Engines (dashboard), DieselNet, https://dieselnet.com/standards/in/hd.php; data as of September 7, 2017, from Vehicular Exhaust (web page), Central Pollution Control Board, Ministry of Environment, Forest and Climate Change, India, https://cpcb.nic.in/vehicular-exhaust/. Note: The emissions standards in the figure are those for heavy-duty vehicles (those with compression ignition engines) for steady-state testing. EU = European Union; g/km = grams per kilometer; PM = particulate matter."
+  }
+ ],
+ "seconds": 2.72,
+ "prompt_tokens": 2324,
+ "output_tokens": 457
+}

@@ -12,3 +12,9 @@ starter/results/
 
 # Day 7 query-embedding cache (re-creatable, large)
 results/cache/
+
+# Advanced challenge: re-creatable renders/crops and the source PDF (download via manifest)
+advanced/work/pages/
+advanced/work/crops/
+advanced/source/*.pdf
+advanced/work/models/

@@ -1,0 +1,22 @@
+{
+ "page": 148,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "table",
+   "label": "Table S2.3",
+   "title": "Composition, size, and productivity of ISO technical committees, by sector (continued)",
+   "bbox": [
+    122,
+    42,
+    805,
+    806
+   ],
+   "content": "ISO SECTORS | AVERAGE COMPLEXITY INDEX SCORE OF PRODUCTS COVERED BY TC’S STANDARDS | AVERAGE NUMBER OF COUNTRIES IN TC | SHARE OF LOW-INCOME COUNTRIES IN TC (%) | SHARE OF HIGH-INCOME COUNTRIES IN TC (%) | AVERAGE NUMBER OF STANDARDS PER TC | AVERAGE TIME TO DEVELOP AND PUBLISH STANDARDS (YEARS) | AVERAGE NUMBER OF MEMBERS IN TC | SHARE OF TC MEMBERS FROM INDUSTRY (%) | SHARE OF TC MEMBERS FROM GOVERNMENT (%) | SHARE OF TC MEMBERS FROM ACADEMIA (%)\nChemicals (10) | 0.4 | 3.6 | 3.1 | 68.5 | 30.0 | 2.6 | 159 | 72.0 | 4.6 | 17.6\nOres and metals (12) | –0.2 | 4.7 | 3.8 | 67.3 | 37.0 | 2.5 | 267 | 71.4 | 2.7 | 20.2\nNonmetallic materials (10) | –1.1 | 5.7 | 9.3 | 51.8 | 98.9 | 2.6 | 710 | 62.6 | 9.1 | 21.0\nTechnology and innovation | | | | | | | | | | \nSpecial technologies (19) | 0.2 | 4.6 | 2.9 | 64.0 | 30.9 | 2.7 | 524 | 65.0 | 8.2 | 21.5\nInformation technology, graphics, and photography (13) | 0.8 | 9.5 | 1.4 | 85.8 | 149.2 | 2.3 | 3,194 | 69.3 | 9.0 | 17.2\nMechanical engineering (38) | 0.9 | 3.7 | 2.5 | 67.9 | 29.3 | 2.6 | 371 | 80.4 | 2.0 | 8.8\nBusiness management and innovation (12) | n.a. | 10.2 | 3.1 | 73.6 | 8.1 | 2.7 | 458 | 67.2 | 7.5 | 11.6\nGovernance and safety | | | | | | | | | | \nSecurity, safety, and risk (5) | n.a. | 16.8 | 7.5 | 63.4 | 12.2 | 3.2 | 522 | 65.9 | 7.7 | 10.0\nServices (10) | n.a. | 5.7 | 8.0 | 67.5 | 13.6 | 2.6 | 333 | 62.5 | 11.9 | 15.8\nHealth and food systems | | | | | | | | | | \nFood and agriculture (7) | –0.9 | 11.5 | 13.1 | 54.7 | 50.7 | 2.0 | 708 | 60.2 | 15.6 | 16.2\nHealth, medicine, and laboratory equipment (24) | 1.1 | 4.9 | 3.5 | 69.0 | 40.5 | 2.6 | 991 | 62.5 | 8.0 | 20.9\nSource: WDR 2025 team, based on administrative data as of 2024 provided by the International Organization for Standardization (ISO).\nNote: The table includes data only for standards whose development began in 2015 or later. The number in parentheses next to each sector name indicates the number of ISO technical committees (TCs) in that sector. The complexity index score measures the average complexity of products for which a particular TC develops standards. Because scores on the index are normalized, products can have negative scores. In addition, sectors that primarily involve providing services and have no physically traded products have no index scores (n.a. = not applicable). Refer to Hidalgo and Hausmann (2009); Products (PCI [Product Complexity Index]) Rankings (dashboard), Observatory of Economic Complexity, https://oec.world/en/rankings/pci/hs4/hs92?tab=ranking."
+  }
+ ],
+ "seconds": 10.39,
+ "prompt_tokens": 2653,
+ "output_tokens": 1151
+}

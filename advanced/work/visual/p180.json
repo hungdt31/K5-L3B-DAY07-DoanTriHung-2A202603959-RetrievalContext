@@ -1,0 +1,22 @@
+{
+ "page": 180,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "table",
+   "label": "Box 3.4",
+   "title": "Quality infrastructure systems at different levels of economic development in the Republic of Korea, Brazil, and Ethiopia (continued)",
+   "bbox": [
+    92,
+    115,
+    521,
+    884
+   ],
+   "content": "institutions, including a project funded by the World Bank. Over the last 10–15 years, the technical capacity of these institutions has increased significantly through, among other things, upgraded equipment, the development of human resources, and stakeholder engagement. Ethiopia’s experience shows that during earlier stages of development of quality infrastructure, government may play a greater role in providing conformity assessment services. The state-owned Ethiopian Conformity Assessment Enterprise (ECAE) offers services at subsidized rates, which supports firms’ compliance but also limits the entry of private providers of quality assurance services, which have not yet developed in the country.\n\nSource: Harmes-Liedtke et al. 2025.\nNote: Harmes-Liedtke et al. (2025), a background paper prepared for World Development Report 2025, includes other country case studies.\na. Refer to Korea’s ODA (website), Ministry of Foreign Affairs, Republic of Korea (accessed May 9, 2025), https://www.mofa.go.kr/eng/wpge/m_5447/contents.do; Seo et al. (2013).\nb. Yoo (2019).\nc. Choi (2013).\nd. Harmes-Liedtke (2021a)."
+  }
+ ],
+ "seconds": 2.31,
+ "prompt_tokens": 2312,
+ "output_tokens": 388
+}

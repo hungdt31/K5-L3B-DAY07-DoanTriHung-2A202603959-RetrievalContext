@@ -1,0 +1,22 @@
+{
+ "page": 50,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure O.7",
+   "title": "Governments have no standard criteria for recruiting talent",
+   "bbox": [
+    100,
+    100,
+    894,
+    494
+   ],
+   "content": "Chart type: Horizontal range/dot plot (showing minimum, maximum, and national average shares of public servants selected through a written examination).\nX-axis: Percent of public servants (0 to 100).\nCountries (Y-axis) and approximate values (Min, National Average, Max):\n- Brazil: Min ≈ 63, Average (square) ≈ 78, Max ≈ 92\n- Croatia: Min ≈ 7, Average (square) ≈ 58, Max ≈ 100\n- Armenia: Min ≈ 5, Average (square) ≈ 51, Max ≈ 100\n- Uruguay: Min ≈ 21, Average (square) ≈ 51, Max ≈ 72\n- Ethiopia: Min ≈ 0, Average (square) ≈ 51, Max ≈ 93\n- Albania: Min ≈ 21, Average (square) ≈ 50, Max ≈ 73\n- Kosovo: Min ≈ 24, Average (square) ≈ 48, Max ≈ 69\n- Lithuania: Min ≈ 10, Average (square) ≈ 31, Max ≈ 53\n- Chile: Min ≈ 3, Average (square) ≈ 29, Max ≈ 63\n- Estonia: Min ≈ 1, Average (square) ≈ 20, Max ≈ 51\n- Ghana: Min ≈ 0, Average (square) ≈ 10, Max ≈ 36\nSource: WDR 2025 team calculations, based on data from Global Survey of Public Servants, Data Downloads, Bureaucracy Lab, Development Impact Group and Governance Global Practice, World Bank, https://www.globalsurveyofpublicservants.org/data-downloads.\nNote: The figure reports the latest data available by country. Each small hollow circle in the figure represents an organization-level share of respondents in a particular country who were selected through a written examination, whereas the range of each horizontal line indicates the minimum and maximum shares (large bullets) observed in organizations in that country. The blocks represent national average shares at the organizational level."
+  }
+ ],
+ "seconds": 11.18,
+ "prompt_tokens": 2108,
+ "output_tokens": 560
+}

@@ -1,0 +1,22 @@
+{
+ "page": 138,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "table",
+   "label": "Table S2.1",
+   "title": "Examples of international standards development organizations",
+   "bbox": [
+    135,
+    117,
+    485,
+    882
+   ],
+   "content": "ORGANIZATION | YEAR ESTABLISHED | TOTAL NUMBER OF STANDARDS DEVELOPED | NUMBER OF STANDARDS DEVELOPED IN 2024 | NUMBER OF STANDARDS REVISED IN 2024 | TOTAL NUMBER OF STANDARDS DEVELOPED AS OF 2000 | TOTAL NUMBER OF STANDARDS DEVELOPED AS OF 1960\nISO | 1947 | 20,953 | 1,126 | 671 | 11,461 | 132\nCodex | 1963 | More than 14,000a | 900b | Not availableb | 7,000c | 16d\nASTM | 1898 | 12,960e | 148 | 1,706 | 12,636 (as of 2015) | Not availablef\nICAO | 1947 | 9,018 | 997g | 408g | Thousandsh | Hundredsh\nIETF | 1986 | 7,661 | 120 | 47 | 1,748 | Not applicablei\nIEC | 1906 | 7,617 | 455 | 320 | 5,967 | 146\nITUj | 1865 | 6,834 | 240 | 87 | 2,612 | 405\nUNECEk | 1947 | 375 | 0 | 0 | 29l | 0\nSource: WDR 2025 team, based on data provided by each organization.\nNote: The organizations are arranged in descending order according to the total number of standards they have approved. The statistics include only standards, not amendments to standards or other types of guidance that the organizations may have issued, such as international workshop agreements, technical regulations, technical specifications, publications, and guidance notes (unless otherwise specified in the notes that follow). ASTM = American Society for Testing and Materials (originally), now ASTM International; Codex = Codex Alimentarius; ICAO = International Civil Aviation Organization; IEC = International Electrotechnical Commission; IETF = Internet Engineering Task Force; ISO = International Organization for Standardization; ITU = International Telecommunication Union; UNECE = United Nations Economic Commission for Europe.\na. Quantitative standards only, including 6,453 Codex Maximum Residue Limits and 63 Codex Extraneous Maximum Residue Limits for pesticides, 2,748 Codex Maximum Residue Limits for veterinary drugs, 4,939 provisions regarding food additives, and more than 200 maximum levels for contaminants.\nb. Includes new and revised Codex standards (including quantitative standards), guidelines, and codes of practice. Data for quantitative standards only are not available.\nc. Quantitative standards only.\nd. Texts of standards only. Data are as of 1969.\ne. Active standards only. ASTM International has more than 68,300 historical standards.\nf. ASTM International did not provide data.\ng. New standards, recommended practices, and definitions. Data that pertain only to new standards are not available.\nh. Exact data are not available.\ni. IETF was not established until 1986.\nj. Standards for the Telecommunication Standardization Sector (ITU-T Recommendations) and Radiocommunication Sector (ITU-R Recommendations).\nk. Standards for transport only, because data for these standards are available for 1960, 2000, and 2024.\nl. Four standards on transport of dangerous goods and 25 standards for inland water transport. Data on standards developed for other types of transport as of the year 2000 are not available."
+  }
+ ],
+ "seconds": 9.41,
+ "prompt_tokens": 2497,
+ "output_tokens": 933
+}

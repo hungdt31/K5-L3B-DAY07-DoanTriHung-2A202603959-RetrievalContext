@@ -1,0 +1,22 @@
+{
+ "page": 207,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "table",
+   "label": "Table 4.1",
+   "title": "Summary of evidence on the impacts on firms of adopting standards",
+   "bbox": [
+    116,
+    127,
+    882,
+    429
+   ],
+   "content": "OUTCOME | NEGATIVE IMPACT (NUMBER OF STUDIES) | NON-STATISTICALLY-SIGNIFICANT IMPACT (NUMBER OF STUDIES) | POSITIVE IMPACT (NUMBER OF STUDIES) | SHARE OF STUDIES IN DEVELOPING COUNTRIES (%) | SHARE OF STUDIES IN PEER-REVIEWED PUBLICATIONS (%) | SHARE OF STUDIES USING AN ECONOMETRIC FRAMEWORK (%)\nSales growth | 0 | 0 | 12 | 42 | 100 | 67\nProfit growth | 2 | 1 | 13 | 56 | 100 | 69\nEmployment growth | 0 | 0 | 2 | 50 | 100 | 100\nWages | 0 | 0 | 3 | 67 | 67 | 100\nProductivity | 1 | 1 | 7 | 67 | 78 | 89\nExports | 0 | 2 | 4 | 67 | 100 | 67\nSource: World Bank 2025a.\nNote: The table summarizes results of 28 studies; 26 of these studies were peer reviewed, and the remaining 2 are working papers at international institutions. “Number of studies” represents the number of evaluation studies for an individual standard. Some studies evaluate more than one standard and, therefore, appear more than once in the table."
+  }
+ ],
+ "seconds": 9.15,
+ "prompt_tokens": 2419,
+ "output_tokens": 403
+}

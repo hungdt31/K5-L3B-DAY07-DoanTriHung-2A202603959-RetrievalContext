@@ -1,0 +1,22 @@
+{
+ "page": 146,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "infographic",
+   "label": "Box S2.1",
+   "title": "Box S2.1 What is a national standardization strategy?",
+   "bbox": [
+    117,
+    117,
+    922,
+    883
+   ],
+   "content": "A national standardization strategy is a country’s policy road map to ensure that relevant national and international standards support the country’s strategic priorities. It is coordinated by the country’s national standards body, which ensures that the strategy identifies, among standards under development, the most relevant ones for the national context to ensure an effective allocation of resources. One of the most critical aspects of a national standardization strategy is that it has as its foundation the country’s economic, social, and environmental priorities—aligning it with the overall national strategy—and emphasizes the effective use of resources for standards development. It directly addresses both the mid- and long-term vision for the country’s national standards body and can serve as a tool for strengthening the national quality infrastructure.\n\nSource: ISO 2020."
+  }
+ ],
+ "seconds": 5.48,
+ "prompt_tokens": 2307,
+ "output_tokens": 252
+}

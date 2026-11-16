@@ -1,0 +1,24 @@
+{
+ "page": 38,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure O.2",
+   "title": "Countries should match their ambitions with their abilities",
+   "bbox": [
+    [
+     114,
+     116,
+     483,
+     831
+    ]
+   ],
+   "content": "Chart type: 2x2 matrix/scatter plot representing Ambition of standard (y-axis: Low to High) vs. Compliance capacity (x-axis: Low to High). A dashed diagonal line represents the 'Balanced path of ambition and capacity'. A horizontal dotted line represents 'Minimum standard'. Quadrant annotations: top-left area indicates 'Adapt and build compliance capacity' with arrows pointing towards the balanced path; bottom-left area indicates 'Raise standard and build compliance capacity' with an arrow pointing up-right; bottom-right and right area indicates 'Increase ambition' with an arrow pointing upwards. Source: WDR 2025 team."
+  }
+ ],
+ "seconds": 2.15,
+ "prompt_tokens": 2085,
+ "output_tokens": 223
+}

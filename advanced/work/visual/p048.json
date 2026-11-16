@@ -1,0 +1,22 @@
+{
+ "page": 48,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure O.6",
+   "title": "Most of the world lives in places for which reliable data on pollution exposure are lacking",
+   "bbox": [
+    518,
+    103,
+    889,
+    873
+   ],
+   "content": "Chart type: Bar chart with dual axes. Left axis: Potential gain in life expectancy compared with WHO guideline, 2022 (years), ranging from 0 to 1.0. Right axis: Coverage of data on open air quality provided by governments, 2022 (%), ranging from 0 to 100. Categories (Regions): North America and Europe, Latin America and the Caribbean, Africa, Asia and Pacific. Series 1: Potential gain in life expectancy compared with WHO guideline, 2022 (years, left axis). Series 2: Coverage of data on open air quality provided by governments, 2022 (%, right axis). Data values printed on chart: North America and Europe: 0.39 years, 69.2%; Latin America and the Caribbean: 0.50 years, 19.0%; Africa: 0.96 years, 3.7%; Asia and Pacific: 0.98 years, 6.8%. Source: Hasenkopf et al. 2023. Note: The figure creates \"potential gain in life expectancy compared with WHO guideline\" as a measure of air pollution to account more effectively for differences in population exposure across locations. Specifically, it measures the potential gain in life expectancy, in years, if levels of particulate matter with a diameter of 2.5 micrometers or less were reduced to the WHO guideline of 5 micrograms per cubic meter. For example, high levels of particulate matter in uninhabited parts of the Sahara may have limited impacts on outcomes relating to human health and economies because there is no population to experience the negative effects, whereas they can have devastating impacts on highly populated areas. Refer to AQLI: Air Quality Life Index, EPIC Clean Air Program, Energy Policy Institute, University of Chicago, https://aqli.epic.uchicago.edu/. WHO = World Health Organization."
+  }
+ ],
+ "seconds": 8.87,
+ "prompt_tokens": 2622,
+ "output_tokens": 498
+}

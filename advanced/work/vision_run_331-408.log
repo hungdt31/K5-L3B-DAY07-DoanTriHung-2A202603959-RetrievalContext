@@ -1,0 +1,7 @@
+2026-11-16 12:48:08,050 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:48:28,291 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+2026-11-16 12:48:28,337 INFO adv.extract: p331: 0 elements 20.32
+2026-11-16 12:48:29,191 INFO google_genai.models: AFC is enabled with max remote calls: 10.
+2026-11-16 12:48:44,327 INFO httpx2: HTTP Request: POST https://generativelanguage.googleapis.com/v1/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+2026-11-16 12:48:44,333 INFO adv.extract: p332: 0 elements 15.14
+2026-11-16 12:48:45,547 INFO google_genai.models: AFC is enabled with max remote calls: 10.

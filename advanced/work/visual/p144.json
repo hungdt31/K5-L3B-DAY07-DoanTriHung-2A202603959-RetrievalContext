@@ -1,0 +1,22 @@
+{
+ "page": 144,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "table",
+   "label": "Table S2.2",
+   "title": "Table S2.2 Participation by national standards bodies in development of international standards",
+   "bbox": [
+    311,
+    116,
+    733,
+    883
+   ],
+   "content": "MEASURE | LOW-INCOME COUNTRIES | LOWER-MIDDLE-INCOME COUNTRIES | UPPER-MIDDLE-INCOME COUNTRIES | HIGH-INCOME COUNTRIES\nNumber of NSBs that responded to the survey | 13 of 24 members | 28 of 42 members | 34 of 47 members | 41 of 60 members\nShare of NSB participation in ISO/IEC technical committees, 2024 (%) | 62 | 86 | 94 | 90\nNumber of ISO/IEC technical committees that NSBs participate in, 2024 | 20 (3) | 41 (5) | 125 (48) | 228 (70)\nNumber of delegates sent by NSBs to ISO committee plenary meetings, 2024 | 9 (1) | 14 (3) | 65 (5) | 525 (58)\nShare of NSBs that cover meeting expenses for NSBs that are not ISO members (%) | 38 | 24 | 18 | 33\nSource: WDR 2025 team, based on World Bank and ISO 2025.\nNote: Data on the number of ISO/International Electrotechnical Commission (IEC) technical committees and the number of delegates include the mean and the median (50th percentile), the latter of which is reported in parentheses. (Note that technical committees for standards involving electronics are joint ISO/IEC committees; those for standards involving other sectors are committees of ISO.) The survey sample includes 116 national standards bodies (NSBs): 13 in low-income countries, 28 in lower-middle-income countries, 34 in upper-middle-income countries, and 41 in high-income countries. Survey data were collected between March and June 2025. The share of national standards bodies presented in the table is based on the number of such bodies that responded to the survey."
+  }
+ ],
+ "seconds": 17.84,
+ "prompt_tokens": 2315,
+ "output_tokens": 541
+}

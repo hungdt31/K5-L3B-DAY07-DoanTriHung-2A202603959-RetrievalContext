@@ -1,0 +1,22 @@
+{
+ "page": 70,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure 1.1",
+   "title": "It took more than a century for the metric system to spread around the world",
+   "bbox": [
+    100,
+    100,
+    450,
+    882
+   ],
+   "content": "Line chart showing the cumulative number of countries adopting the metric system from 1795 to 2015.\nY-axis: Cumulative number of countries adopting metric system, ranging from 0 to 200 in increments of 20.\nX-axis: Years from 1795 to 2015 (1795, 1805, 1815, 1825, 1835, 1845, 1855, 1865, 1875, 1885, 1895, 1905, 1915, 1925, 1935, 1945, 1955, 1965, 1975, 1985, 1995, 2005, 2015).\nTrend: The curve starts near 0 in 1795, remains very low until the mid-19th century, then steadily increases through the late 19th and early 20th centuries, experiences a sharp jump around 1960 (reaching approximately 110-120), and flattens out near 180 countries by 2015.\nSource: Vera 2011, 494–97.\nNote: The most recent adopter of the metric system, Samoa, joined in 2015."
+  }
+ ],
+ "seconds": 3.74,
+ "prompt_tokens": 2214,
+ "output_tokens": 432
+}

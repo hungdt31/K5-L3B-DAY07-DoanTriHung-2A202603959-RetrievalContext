@@ -1,0 +1,22 @@
+{
+ "page": 111,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "table",
+   "label": "Table 2.1",
+   "title": "Typology of standards",
+   "bbox": [
+    516,
+    128,
+    686,
+    882
+   ],
+   "content": "DIMENSIONS | OPTIONS\nLegal status | • Voluntary\nLegal status | • Mandatory\nStakeholders involved in standards development | • Government\nStakeholders involved in standards development | • Private sector\nStakeholders involved in standards development | • Civil society, academia, and professional associations\nStakeholders involved in standards development | • International organizations\nStakeholders involved in standards development | • Mixed\nExclusiveness | • Open\nExclusiveness | • Proprietary\nGeographic level | • International\nGeographic level | • Regional\nGeographic level | • National\nGeographic level | • Subnational\nGeographic level | • Organization\nTarget | • People\nTarget | • Processes\nTarget | • Organizations and systems\nTarget | • Products and services\nCore function | • Measurement\nCore function | • Compatibility\nCore function | • Quality (for example, performance, safety)\nSources: WDR 2025 team, based on de Vries 1998; OECD and ITC 2024.\nNote: The list of options included in the table is not exhaustive."
+  }
+ ],
+ "seconds": 7.16,
+ "prompt_tokens": 2264,
+ "output_tokens": 323
+}

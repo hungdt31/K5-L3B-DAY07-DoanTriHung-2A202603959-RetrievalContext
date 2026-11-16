@@ -1,0 +1,22 @@
+{
+ "page": 1,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "infographic",
+   "label": "",
+   "title": "",
+   "bbox": [
+    217,
+    228,
+    863,
+    792
+   ],
+   "content": "An infographic showing blueprints and illustrations of three historical and modern traffic light designs against a blue grid background.\n\nLeft structure (circa 1920): labeled 'Police officer glass cab' at the top, showing three indicator lights (red, yellow, green) at the top, a police officer figure visible inside a glass enclosure, and '23 feet' height measurement indicator on the left. Bottom label: 'CIRCA: 1920'.\n\nMiddle structure (Three-light structure, adopted: 1968–Present): A standard three-lens traffic light with a red light on top, yellow in the middle, and green on the bottom.\n\nRight structure (circa 1927): A pole-mounted street light fixture with text labels pointing to parts: 'Display' at the top with letters 'G' and '0' inside windows, 'Go' and 'Stop' labels pointing to lower colored lens housings. Bottom label: 'CIRCA: 1927'."
+  }
+ ],
+ "seconds": 9.2,
+ "prompt_tokens": 1641,
+ "output_tokens": 292
+}

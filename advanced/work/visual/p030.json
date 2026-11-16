@@ -1,0 +1,22 @@
+{
+ "page": 30,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "table",
+   "label": "",
+   "title": "Abbreviation Definition",
+   "bbox": [
+    151,
+    95,
+    786,
+    911
+   ],
+   "content": "Abbreviation | Definition\nMITI | Ministry of International Trade and Industry [Japan]\nMRTD | machine-readable travel document\nMSC | Marine Stewardship Council\nNATO | North Atlantic Treaty Organization\nNFPA | National Fire Protection Association\nNIST | National Institute of Standards and Technology [United States]\nNML | national medicines list\nNTEA | National Telephone Exchange Association\nOECD | Organisation for Economic Co-operation and Development\nOIML | Organisation Internationale de Métrologie Légale [International Organization of Legal Metrology]\noneM2M | one Machine-to-Machine Partnership Project\nOSI | Open Systems Interconnection\nPFAS | per- and polyfluoroalkyl substances\nPIRLS | Progress in International Reading Literacy Study\nPISA | Programme for International Student Assessment\nPISC | Pacific Islands Standards Committee\nPM2.5 | particulate matter with a diameter of 2.5 micrometers or less\nPM10 | particulate matter with a diameter of 10 micrometers or less\nPTB | Physikalisch-Technische Bundesanstalt [German Metrology Institute]\nQI4SD | Quality Infrastructure for Sustainable Development [index]\nQSAE | Quality and Standards Authority of Ethiopia\nREB | Rwanda Basic Education Board\nRSPO | Roundtable on Sustainable Palm Oil\nRTRS | Rountable on Responsible Soy\nSAC | Standardization Administration of China\nSACMEQ | Southern and Eastern Africa Consortium for Monitoring Educational Quality\nSADC | Southern African Development Community\nSADCAS | Southern African Development Community Accreditation Service\nSAE | Society of Automotive Engineers\nSAMR | State Administration for Market Regulation\nSIG | Special Interest Group [Bluetooth]\nSIMAP | Surgical Instrument Manufacturers Association of Pakistan\nSMEs | small and medium enterprises\nSPAECE | Sistema Permanente de Avaliação da Educação Básica do Ceará [Permanent Evaluation System of Ceará Basic Education]\nSPEI | Sistema de Pagos Electrónicos Interbancarios [Mexico]\nTAA | Tunisian Automotive Association\nTaRL | Teaching at the Right Level [India]\nTIMSS | Trends in International Mathematics and Science Study"
+  }
+ ],
+ "seconds": 2.73,
+ "prompt_tokens": 2086,
+ "output_tokens": 531
+}

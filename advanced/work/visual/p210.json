@@ -1,0 +1,22 @@
+{
+ "page": 210,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure 4.3",
+   "title": "The larger a firm's size and the higher the income level of the country where it is located, the more likely it is to adopt standards",
+   "bbox": [
+    103,
+    113,
+    550,
+    476
+   ],
+   "content": "Line chart showing the probability a firm will adopt standards on the y-axis (ranging from 0 to 0.7) against the size of the firm (number of employees) on the x-axis with categories: Small (5-19), Medium (20-99), and Large (>=100). \nSeries/Legend:\n- High income\n- Upper middle income\n- Lower middle income\n- Low income\n\nApproximate values by firm size:\n- Small (5-19):\n  - High income: ≈ 0.20\n  - Upper middle income: ≈ 0.13\n  - Lower middle income: ≈ 0.08\n  - Low income: ≈ 0.07\n- Medium (20-99):\n  - High income: ≈ 0.42\n  - Upper middle income: ≈ 0.30\n  - Lower middle income: ≈ 0.20\n  - Low income: ≈ 0.19\n- Large (>=100):\n  - High income: ≈ 0.62\n  - Upper middle income: ≈ 0.50\n  - Lower middle income: ≈ 0.43\n  - Low income: ≈ 0.34\n\nTrend: The probability of adopting standards increases with firm size and country income level. High income and large firms have the highest adoption probability, while low income and small firms have the lowest."
+  }
+ ],
+ "seconds": 2.36,
+ "prompt_tokens": 2326,
+ "output_tokens": 448
+}

@@ -1,0 +1,22 @@
+{
+ "page": 55,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "diagram",
+   "label": "Figure O.9",
+   "title": "Standards can be used in regulation in a variety of ways",
+   "bbox": [
+    103,
+    116,
+    357,
+    888
+   ],
+   "content": "Standard -> Law:\n- ISO XXXX: 2018 (Text of standard) -> 1. Delegate: XYZ needs to develop standards.\n- ISO XXXX: 2018 (Text of standard) -> 2. Optional use (with or without legal benefit): Products must be safe., Sulfate levels must not exceed 50 mg/kg., Compliance can be demonstrated by using ISO XXX: 2018 or other means.\n- ISO XXXX: 2018 (Text of standard) -> 3. Reference: Shall conform to ISO XXXX: 2018., Shall conform to the latest edition of ISO XXXX.\n- ISO XXXX: 2018 (Text of standard) -> 4. Integrate: Replicate text of standard (in parts or whole).\n\nDecreasing flexibility arrow on the right side pointing downwards.\n\nSource: WDR 2025 team.\nNote: ISO = International Organization for Standardization; mg/kg = milligrams per kilogram."
+  }
+ ],
+ "seconds": 7.63,
+ "prompt_tokens": 2327,
+ "output_tokens": 307
+}

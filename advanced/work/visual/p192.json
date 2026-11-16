@@ -1,0 +1,22 @@
+{
+ "page": 192,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "table",
+   "label": "Table S3.1",
+   "title": "Institutional characteristics of national standards bodies",
+   "bbox": [
+    114,
+    140,
+    506,
+    883
+   ],
+   "content": "CHARACTERISTIC | LOW-INCOME COUNTRIES | LOWER-MIDDLE-INCOME COUNTRIES | UPPER-MIDDLE-INCOME COUNTRIES | HIGH-INCOME COUNTRIES\nNumber of NSBs that participated in the survey | 13 of 24 members | 28 of 42 members | 34 of 47 members | 41 of 60 members\nPercentage of NSBs that are public | 100 | 89 | 88 | 56\nNumber of full-time employees | 331 (140) | 300 (96) | 299 (87) | 161 (80)\nPercentage of employees working on standards development | 18 (17) | 25 (16) | 30 (24) | 36 (29)\nPercentage in which NSB controls revenues received from services | 77 | 75 | 68 | 73\nAnnual budget in 2024 (US$, millions) | 7.5 (2.09) | 13.6 (2.03) | 6.6 (2.40) | 24.4 (13.20)\nSource: WDR 2025 team, based on World Bank and ISO 2025.\nNote: Data on the number of full-time employees, the percentage of employees working on standards development, and the annual budget in 2024 include the mean and the median (50th percentile), the latter of which is reported in parentheses. The survey sample includes 116 national standards bodies (NSBs)."
+  }
+ ],
+ "seconds": 4.04,
+ "prompt_tokens": 2376,
+ "output_tokens": 462
+}

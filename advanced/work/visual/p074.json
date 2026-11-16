@@ -1,0 +1,22 @@
+{
+ "page": 74,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "table",
+   "label": "Table 1.1",
+   "title": "Risks from steam boilers varied widely across countries in the late 1800s because of very different approaches to safety",
+   "bbox": [
+    518,
+    205,
+    887,
+    886
+   ],
+   "content": "Per 10,000 steam boilers, 1882–92\nCOUNTRY | NUMBER OF EXPLOSIONS | NUMBER OF PEOPLE KILLED\nUnited Statesa | 20 | 29\nUnited Kingdom | 4.9 | 2.4\nFrance | 4.8 | 4.7\nGermany | 2.2 | 1.4\nSources: Crum 1910, 17–18; Hunter 1985; MTPTC 1988; Thurston 1907, 717.\na. The widespread use of steam boilers in remote sawmills, employing low-quality machinery with minimal oversight regarding safety, contributed to the greater frequency of explosions of steam boilers in the United States."
+  }
+ ],
+ "seconds": 2.07,
+ "prompt_tokens": 2591,
+ "output_tokens": 281
+}

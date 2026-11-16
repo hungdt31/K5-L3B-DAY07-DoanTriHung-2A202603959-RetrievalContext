@@ -1,0 +1,22 @@
+{
+ "page": 223,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure 4.9",
+   "title": "Technical nontariff measures generally have negative impacts on exports from developing countries",
+   "bbox": [
+    104,
+    104,
+    882,
+    878
+   ],
+   "content": "Chart type: Coefficient plot (dot/square/diamond plot across three panels).\nX-axis: Coefficient, ranging from -0.25 to 0.25.\nLegend:\n- Binary measure of nontariff measures, negative impact (red square)\n- Other measure of nontariff measures, negative impact (red diamond)\n- Ad valorem equivalent of nontariff measures, negative impact (red circle)\n- Binary indicator of nontariff measures, positive impact (green square)\n- Other indicator of nontariff measures, positive impact (green diamond)\n- Ad valorem equivalent of nontariff measures, positive impact (green circle)\n\nPanel a. Sanitary and phytosanitary measures\n- Developing: Red squares around -0.16 and -0.05, red diamond at 0, green diamond around 0.11.\n- Developed: Red squares around -0.19 and -0.16, green squares around 0.21 and 0.25, green diamond around 0.28.\n- All countries: Green square around 0.21.\n\nPanel b. Technical barriers to trade\n- Developing: Red squares around -0.21, -0.09, and -0.04; green square around 0.24.\n- Developed: Red square around -0.26; green squares around 0.02, 0.05, and 0.08; green square around 0.31.\n- All countries: Green square around 0.10.\n\nPanel c. Both sanitary and phytosanitary measures and technical barriers to trade\n- Developing: Red circles around -0.23, -0.13, and -0.12; green square around 0.16.\n- Developed: Red circle around -0.11; green circles around 0.09; green square around 0.14.\n- All countries: Red circles around -0.22 and -0.07; green square around 0.15.\n\nSources: WDR 2025 team analysis, based on Disdier et al. 2008; Fernandes et al. 2019; Fontagné and Orefice 2018; Fontagné et al. 2015; Hoekman and Nicita 2011; Iodice and Reverdy 2025; Murina and Nicita 2017; Zavala et al. 2023.\nNote: The figure shows point estimates of coefficients from regressions in selected studies. The dependent variable is log exports by origin country. An ad valorem equivalent is a conversion of a nontariff trade barrier into an equivalent percentage tariff."
+  }
+ ],
+ "seconds": 14.23,
+ "prompt_tokens": 1976,
+ "output_tokens": 710
+}

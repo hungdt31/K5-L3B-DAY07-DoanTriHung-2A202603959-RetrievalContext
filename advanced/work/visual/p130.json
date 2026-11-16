@@ -1,0 +1,22 @@
+{
+ "page": 130,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure 2.5",
+   "title": "Matching the ambition of standards with compliance capacity",
+   "bbox": [
+    114,
+    521,
+    898,
+    892
+   ],
+   "content": "Chart type: 2D conceptual chart / matrix with two axes (Ambition of standard on the y-axis from Low to High, Compliance capacity on the x-axis from Low to High). A red diagonal dashed line represents the 'Balanced path of ambition and capacity'. A horizontal dotted line indicates 'Minimum standard'. Panel elements and arrows: 1. Top-left quadrant (High ambition, Low capacity): An arrow labeled 'Adapt and build compliance capacity' pointing right/down towards the balanced path. 2. Bottom-left quadrant (Low/Minimum ambition, Low capacity): A red arrow pointing up-right labeled 'Raise standard and build compliance capacity'. 3. Bottom-right quadrant (Low ambition, High capacity): A vertical blue arrow pointing up labeled 'Increase ambition'."
+  }
+ ],
+ "seconds": 7.99,
+ "prompt_tokens": 2099,
+ "output_tokens": 250
+}

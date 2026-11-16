@@ -1,0 +1,22 @@
+{
+ "page": 183,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "infographic",
+   "label": "Box 3.5",
+   "title": "Leveraging digital tools for quality infrastructure",
+   "bbox": [
+    118,
+    118,
+    450,
+    882
+   ],
+   "content": "A variety of digital tools can greatly improve the effectiveness, reach, and efficiency of quality infrastructure. For example, remote audits can reduce assessment costs, and machine-readable standards can be integrated into companies’ operations more smoothly. Digital systems for traceability like the European Union’s Digital Product Passport can assist in verifying compliance and managing risks in supply chains. Similarly, digital certificates for calibration and automated data logging enhance the reliability and efficiency of metrology and testing services. Market surveillance can also benefit from employing digital tools, for instance, using online reviews and social media content to better target unsafe products. For low- and middle-income countries, digital tools can help overcome limitations in capacity and those imposed by geography by, for example, enabling virtual training for laboratory staff or remote conformity assessment in areas that are difficult to reach. Although digital tools in quality infrastructure require investments in digital infrastructure, they can make processes more agile and cost-effective (refer to spotlight 5).\n\nSource: WDR 2025 team."
+  }
+ ],
+ "seconds": 3.44,
+ "prompt_tokens": 2144,
+ "output_tokens": 296
+}

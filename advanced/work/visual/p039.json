@@ -1,0 +1,24 @@
+{
+ "page": 39,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "diagram",
+   "label": "Figure O.3",
+   "title": "Quality infrastructure ensures compliance with standards",
+   "bbox": [
+    [
+     117,
+     650,
+     891,
+     118
+    ]
+   ],
+   "content": "Box 'Quality infrastructure' enclosing: Metrology -> Standards: arrow; Metrology -> Conformity assessment: arrow; Conformity assessment -> Standards: arrow; Standards -> Conformity assessment: arrow; Accreditation -> Conformity assessment: arrow; Conformity assessment -> Accreditation: arrow. Outside box: Metrology / Standards / Conformity assessment / Accreditation -> Compliance (with voluntary or mandatory standards): arrow; Compliance -> Enforcement (of mandatory standards): arrow."
+  }
+ ],
+ "seconds": 1.96,
+ "prompt_tokens": 2161,
+ "output_tokens": 176
+}

@@ -1,0 +1,22 @@
+{
+ "page": 175,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure 3.10",
+   "title": "Figure 3.10 The share of private institutions that provide services in the area of quality infrastructure increases as countries develop",
+   "bbox": [
+    101,
+    115,
+    485,
+    482
+   ],
+   "content": "Line chart. Y-axis: 'Probability that private sector entity provides service (%)', ranging from -20 to 60 with intervals of 20. X-axis: 'GDP per capita (US$)', on a log scale from 100 to 100,000. Legend series: Standards development (dark blue, shows an upward trend starting around -15% at GDP 100 to roughly 55% at GDP 100,000); Metrology (light blue, shows a flatter upward trend starting around -10% at GDP 100 to roughly 20% at GDP 100,000); Accreditation (yellow, starting around 5% at GDP 100, rising to roughly 25% at GDP 100,000); Testing, inspection, and certification (green, starting around -10% at GDP 100, rising to roughly 35% at GDP 100,000). Source: WDR 2025 team, based on World Bank and ISO 2025. Note: The figure underestimates the extent to which the private sector provides services in the areas of testing, inspection, and certification because it relies on data from a survey of national standards bodies. The private sector typically accounts for more than 60 percent of accredited testing and calibration laboratories in countries with higher income levels. The survey sample includes 116 national standards bodies: 13 in low-income countries, 28 in lower-middle-income countries, 34 in upper-middle-income countries, and 41 in high-income countries. If the national standards body in a country is classified as private and offers a particular service, it is included in the percentage of private sector entities providing the service."
+  }
+ ],
+ "seconds": 2.92,
+ "prompt_tokens": 2388,
+ "output_tokens": 498
+}

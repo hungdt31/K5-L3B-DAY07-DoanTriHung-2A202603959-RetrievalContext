@@ -1,0 +1,24 @@
+{
+ "page": 184,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "infographic",
+   "label": "Box 3.6",
+   "title": "Sharing resources related to quality infrastructure among countries in the Caribbean and Southern Africa",
+   "bbox": [
+    [
+     94,
+     116,
+     740,
+     882
+    ]
+   ],
+   "content": "Box 3.6 Sharing resources related to quality infrastructure among countries in the Caribbean and Southern Africa\n\nTesting energy efficiency in the Caribbean\nMany small island countries in the Caribbean lack the scale needed to establish cost-effective infrastructure to test the energy efficiency of appliances and equipment. Two institutions providing such infrastructure help address the region's specific challenges: the Energy Efficient Lighting Laboratory of the Trinidad and Tobago Bureau of Standards (TTBS) and the Cooling Laboratory of the Bureau of Standards Jamaica (BSJ). Each of these laboratories provides accredited testing services for different types of electric appliances to members of the Caribbean Community and beyond. A key factor in their success is that the region's program for energy efficiency labeling is coordinated at the regional level by a well-established institution, the Caribbean Community (CARICOM) Regional Organisation for Standards and Quality (CROSQ). This organization offers ongoing support to member states in developing energy efficiency standards, raising awareness of standards, and sharing results of testing through a centralized database.\n\nSouthern Africa: Regional accreditation body\nWhen trade agreements among the member countries of the Southern African Development Community (SADC) took effect, only 2 out of 16 member countries had national accreditation bodies on account of the high fixed costs of setting up such institutions. This created a challenge in ensuring competent and mutually recognized conformity assessment across the region. Through the pooling of resources from the remaining 14 member states, the Southern African Development Community Accreditation Service (SADCAS) was established as the world's first regional, multi-economy accreditation body for verifying the competencies of conformity assessment bodies in participating countries. A key factor in this service's success has been sharing qualified assessors and technical experts. Using only 21 full-time staff but having access to nearly 100 experts in the region, SADCAS is capable of meeting the accreditation needs of the entire SADC region with support from its National Accreditation Focal Points located in member states.\n\nSource: Physikalisch-Technische Bundesanstalt (PAB), as an input to World Development Report 2025."
+  }
+ ],
+ "seconds": 9.89,
+ "prompt_tokens": 2085,
+ "output_tokens": 525
+}

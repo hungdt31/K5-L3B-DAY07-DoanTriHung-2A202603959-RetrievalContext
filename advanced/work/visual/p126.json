@@ -1,0 +1,22 @@
+{
+ "page": 126,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "diagram",
+   "label": "Figure 2.3",
+   "title": "From adapting standards to aligning and then authoring them",
+   "bbox": [
+    103,
+    102,
+    891,
+    379
+   ],
+   "content": "Three horizontal phases along a Development trajectory: Adapt -> Align -> Author. Adapt: 'Adapt international standards for the domestic market.' Align: 'Align the domestic market with international standards.' Author: 'Shape international standards with the global community.' A curve representing 'Drive global knowledge' leads from domestic standards up through the phases towards 'Path to higher standards'. Source: WDR 2025 team."
+  }
+ ],
+ "seconds": 9.33,
+ "prompt_tokens": 2246,
+ "output_tokens": 167
+}

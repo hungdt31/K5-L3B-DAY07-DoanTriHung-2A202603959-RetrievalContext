@@ -1,0 +1,22 @@
+{
+ "page": 145,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure S2.3",
+   "title": "The share of national standards bodies represented on ISO and IEC committees and subcommittees declines with income",
+   "bbox": [
+    400,
+    110,
+    843,
+    889
+   ],
+   "content": "Chart type: Horizontal 100% stacked bar chart. X-axis: Share of NSBs as delegates (%), ranging from 0 to 100 with intervals of 10. Y-axis categories (country income groups): HICs, UMICs, LMICs, LICs. Legend/Series: NSB representatives, Private sector representatives, Members of academia, Government representatives, Other. Data values by category (approximate sums to 100): HICs: NSB representatives 13, Private sector representatives 57, Members of academia 15, Government representatives 6, Other 9. UMICs: NSB representatives 42, Private sector representatives 23, Members of academia 14, Government representatives 10, Other 10. LMICs: NSB representatives 54, Private sector representatives 16, Members of academia 9, Government representatives 9, Other 12. LICs: NSB representatives 49, Private sector representatives 20, Members of academia 10, Government representatives 12, Other 9. Source: WDR 2025 team, based on World Bank and ISO 2025. Note: The survey sample includes 116 national standards bodies: 13 in low-income countries, 28 in lower-middle-income countries, 34 in upper-middle-income countries, and 41 in high-income countries. “Other” includes representatives from nongovernmental organizations, standards applications organizations, and labor organizations. Constituent scores within bars may not sum exactly to 100 as a result of rounding. HICs = high-income countries; IEC = International Electrotechnical Commission; LICs = low-income countries; LMICs = lower-middle-income countries; NSB = national standards body; UMICs = upper-middle-income countries."
+  }
+ ],
+ "seconds": 15.16,
+ "prompt_tokens": 2195,
+ "output_tokens": 502
+}

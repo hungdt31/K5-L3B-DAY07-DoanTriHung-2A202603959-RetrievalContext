@@ -1,0 +1,24 @@
+{
+ "page": 167,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "infographic",
+   "label": "Box 3.3",
+   "title": "Assessing the maturity of a country’s quality infrastructure: The Rapid Diagnostic Tool",
+   "bbox": [
+    [
+     117,
+     560,
+     866,
+     882
+    ]
+   ],
+   "content": "Box 3.3 Assessing the maturity of a country’s quality infrastructure: The Rapid Diagnostic Tool\n\nThe World Bank offers a range of publications to guide policy makers in developing effective quality infrastructure systems.a An additional resource is the Rapid Diagnostic Tool, developed by the World Bank in partnership with Germany’s Physikalisch-Technische Bundesanstalt (PTB, its national metrology institute) in 2019. The first comprehensive tool to help users evaluate a country’s quality infrastructure system, it is based on a standardized questionnaire that assesses each area of a country’s quality infrastructure system across four pillars: legal and institutional framework, administration and infrastructure, service delivery and technical competency, and external relations and recognition. Responses generate scores that can be used to benchmark a country against international best practices, including visualizing its performance within each area through a radar diagram. Figure B3.3.1 shows an example of such a diagram.\n\n(Box continues next page)"
+  }
+ ],
+ "seconds": 6.49,
+ "prompt_tokens": 2251,
+ "output_tokens": 298
+}

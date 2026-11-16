@@ -1,0 +1,22 @@
+{
+ "page": 181,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure 3.13",
+   "title": "Figure 3.13 Risk-based approaches to compliance",
+   "bbox": [
+    115,
+    462,
+    905,
+    879
+   ],
+   "content": "Chart type: 2x2 matrix / risk-based approach chart. X-axis: Risk of harm (Low to High). Y-axis: Risk of noncompliance (Low to High). A diagonal arrow points from bottom-left to top-right, labeled 'Increasing costs of compliance and enforcement'. Quadrants and their corresponding approaches: 1. Low risk of noncompliance, Low risk of harm: Voluntary standards and market forces (blue background). 2. Low risk of noncompliance, High risk of harm: Third-party conformity assessment. 3. High risk of noncompliance, Low risk of harm: Self-declaration of conformity along with market surveillance. 4. High risk of noncompliance, High risk of harm: Premarket approval. Source: WDR 2025 team, adapted from data from ISO [International Organization for Standardization]/CASCO: Committee on Conformity Assessment (dashboard), https://www.iso.org/committee/54998.html. Note: “Third-party conformity assessment” appears twice in the figure, as it may be needed either because of high risk of noncompliance or high risk of harm."
+  }
+ ],
+ "seconds": 2.16,
+ "prompt_tokens": 2163,
+ "output_tokens": 335
+}

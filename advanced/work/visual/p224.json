@@ -1,0 +1,22 @@
+{
+ "page": 224,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure 4.10",
+   "title": "Low- and lower-middle-income countries experience high refusal rates in exports of food and feed to EU and US markets",
+   "bbox": [
+    103,
+    104,
+    877,
+    891
+   ],
+   "content": "Line chart consisting of two panels (a. Imports into the EU market, b. Imports into the US market). Legend series: Low income, Lower middle income, Upper middle income, High income. Panel a: y-axis 'Relative rejection rate' from 0 to 2.0; x-axis years 2010 to 2022. Low income starts around 0.6 in 2010, peaks around 1.5 in 2019, drops to ~1.0 in 2020, and rises to ~1.4 in 2022. Lower middle income starts around 1.2 in 2010, peaks at ~1.4 in 2011, and fluctuates around 0.6–1.2 through 2022. Upper middle income stays relatively flat around 0.6–0.7. High income stays flat near 0.3. Panel b: y-axis 'Relative rejection rate' from 0 to 7; x-axis years 2010 to 2022. Low income starts around 2.8 in 2010, drops to ~0.5 in 2012, and peaks dramatically to ~6.3 in 2021 before dropping to ~2.2 in 2022. Lower middle income stays roughly between 2.5 and 4.1. Upper middle income stays flat around 1.0–1.2. High income stays flat near 0.5. Source: WDR 2025 team calculations, based on data of SCA: Standards Compliance Analytics (portal), United Nations Industrial Development Organization, https://hub.unido.org/sca/#/. Note: An exporting country’s relative rejection rate (in a specific import market for a particular year) is calculated as the ratio of its share of total rejections in that import market to its share of total imports in that market for that year. The figure covers imports of animal, agricultural, and food products. EU = European Union."
+  }
+ ],
+ "seconds": 2.9,
+ "prompt_tokens": 1981,
+ "output_tokens": 553
+}

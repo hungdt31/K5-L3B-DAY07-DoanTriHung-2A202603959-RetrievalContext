@@ -1,0 +1,22 @@
+{
+ "page": 125,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "diagram",
+   "label": "Figure 2.2",
+   "title": "Important choices for designing standards, and the resulting trade-offs",
+   "bbox": [
+    113,
+    65,
+    904,
+    907
+   ],
+   "content": "Key design choices for standards: \n- Stringency: strict or lax\n- Compliance: voluntary or mandatory\n- Applicability: context specific or universal\n- Flexibility: technology specific or outcome based\n- Timing: early versus late\n- Exclusiveness: open versus closed\n\nResulting trade-offs:\n- Quality vs. Costs of compliance and enforcement\n- Scale effects vs. Diversity\n- Innovation vs. Technology lock-in\n- Expertise vs. Capture\n- Stakeholder involvement vs. Speed\n- Short-term costs vs. Long-term benefits\n\nSource: WDR 2025 team."
+  }
+ ],
+ "seconds": 8.69,
+ "prompt_tokens": 2322,
+ "output_tokens": 238
+}

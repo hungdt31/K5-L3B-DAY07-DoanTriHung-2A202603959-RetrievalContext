@@ -1,0 +1,9 @@
+{
+ "page": 9,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [],
+ "seconds": 1.67,
+ "prompt_tokens": 2012,
+ "output_tokens": 9
+}

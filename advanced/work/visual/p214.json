@@ -1,0 +1,22 @@
+{
+ "page": 214,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure 4.5",
+   "title": "Countries should set standards along their development trajectories in relation to international trade",
+   "bbox": [
+    115,
+    143,
+    877,
+    448
+   ],
+   "content": "Line chart showing Quality/performance on the y-axis against Development trajectory on the x-axis, with three main stages: Adapt (A), Align (B), and Author.\n\n- Y-axis levels from bottom to top:\n  - Domestic standards\n  - International standards\n  - Technical regulations in export destination\n  - Buyers' private standards\n\n- Stages:\n  - Adapt (A): Adapt international standards for the domestic market. Shows a compliance costs arrow pointing upwards from domestic standards to technical regulations/buyers' private standards. The curve starts at Domestic standards and rises toward international standards.\n  - Align (B): Align domestic market with international standards. Shows compliance costs. The curve levels off along international standards.\n  - Author: Shape international standards with the global community. Shows an arrow labeled 'Drive global knowledge' rising sharply toward higher quality/performance.\n\nSource: WDR 2025 team."
+  }
+ ],
+ "seconds": 18.06,
+ "prompt_tokens": 2192,
+ "output_tokens": 296
+}

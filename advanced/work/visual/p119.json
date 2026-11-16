@@ -1,0 +1,22 @@
+{
+ "page": 119,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "infographic",
+   "label": "Figure 2.1",
+   "title": "There is a spectrum of ways to use standards as tools for public policy",
+   "bbox": [
+    103,
+    117,
+    357,
+    885
+   ],
+   "content": "An infographic showing a spectrum of five ways to use standards as tools for public policy, spanning from left (lowest government intervention) to right (highest government intervention), indicated by an arrow at the bottom labeled 'Increasing level of government intervention'. The five categories from left to right are:\n1. Market-driven standards: No government intervention: market players develop standards out of self-interest.\n2. Voluntary standards with government support: Government acts as convenor or cosponsor of voluntary standards.\n3. Voluntary standards that fill legal gaps: Government leaves technical details to voluntary standards (coregulation).\n4. Mandatory standards that support other policies: Standards specify definitions, measurements, and compliance requirements.\n5. Mandatory standards as a command-and-control tool: Government sets mandatory standards to address market failures.\nSource: WDR 2025 team."
+  }
+ ],
+ "seconds": 10.18,
+ "prompt_tokens": 2250,
+ "output_tokens": 266
+}

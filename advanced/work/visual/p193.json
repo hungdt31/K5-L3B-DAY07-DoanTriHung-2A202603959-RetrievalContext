@@ -1,0 +1,22 @@
+{
+ "page": 193,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure S3.1",
+   "title": "Establishment of national standards bodies began earlier in high-income countries than in low- and middle-income countries",
+   "bbox": [
+    103,
+    113,
+    518,
+    485
+   ],
+   "content": "Chart type: Line chart. Panel title: Cumulative number of countries. Y-axis: Cumulative number of countries from 0 to 45 (increments of 5). X-axis: Year national standards body was established from 1875 to 2025 (increments of 25). Legend/Series names: High income, Upper middle income, Lower middle income, Low income. Trends and approx. values by 2025: High income reaches highest cumulative count (approx. 41), followed by Upper middle income (approx. 34), Lower middle income (approx. 28), and Low income (approx. 13). Source: WDR 2025 team, based on World Bank and ISO 2025. Note: The survey sample includes 116 national standards bodies: 13 in low-income countries, 28 in lower-middle-income countries, 34 in upper-middle-income countries, and 41 in high-income countries."
+  }
+ ],
+ "seconds": 4.04,
+ "prompt_tokens": 2313,
+ "output_tokens": 325
+}

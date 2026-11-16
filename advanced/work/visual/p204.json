@@ -1,0 +1,24 @@
+{
+ "page": 204,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "table",
+   "label": "Box 4.1",
+   "title": "Tourism standards: From mandatory ratings to market-driven sustainability",
+   "bbox": [
+    [
+     117,
+     497,
+     882,
+     922
+    ]
+   ],
+   "content": "Tourism standards have evolved over the past 50 years, shifting from mandatory standards for hotels to market-driven standards regarding sustainability and setting an example for other services sectors. The United Nations World Tourism Organization and the International Organization for Standardization (ISO) began developing formal standards in the area of tourism services in the late twentieth century, primarily to enhance traveler safety. The first standardized systems for rating hotels emerged in the United States in the 1950s to boost consumer confidence and increase the quality of hotel services. By the 1970s, many countries had introduced minimum mandatory standards covering room size, facilities, and service levels, often enforced by national tourism boards. These helped formalize the sector and attract both domestic and international visitors.\n\nAs environmental awareness and the concept of responsible travel gained traction, voluntary standards regarding sustainability proliferated. By 2010, more than 150 certifications, such as Green Globe, Biosphere, EarthCheck, Green Key, and Travelife, were available, addressing issues ranging from hotels' use of energy to the quality of destination-level management. The explosion of eco-labels signifying certification under these programs led to fragmentation (that is, the simultaneous existence of multiple standards for certification) and consumer\n\n(Box continues next page)"
+  }
+ ],
+ "seconds": 2.58,
+ "prompt_tokens": 2269,
+ "output_tokens": 358
+}

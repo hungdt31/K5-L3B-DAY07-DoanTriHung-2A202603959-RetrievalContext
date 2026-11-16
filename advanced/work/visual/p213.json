@@ -1,0 +1,22 @@
+{
+ "page": 213,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure 4.4",
+   "title": "Figure 4.4 Export quality has evolved much more and much faster in some regions and countries than in others",
+   "bbox": [
+    104,
+    104,
+    884,
+    753
+   ],
+   "content": "Line charts showing the evolution of export quality from 1960 to 2014 across 9 panels. Y-axis: Score on index of export quality (ranging from 0.6 to 1.0). X-axis: Years from 1960 to 2020. Panels: a. Advanced economies (stable and high, around 0.95); b. ASEAN-5 (rising from ~0.7 to ~0.85); c. China (rising from ~0.7 to ~0.9); d. Emerging market and developing economies (flat, around 0.75); e. Korea, Rep. (rising significantly from ~0.8 to ~0.95); f. Latin America and the Caribbean (slow increase from ~0.7 to ~0.75); g. Middle East and North Africa (fluctuating, around 0.7-0.8); h. South Asia (rising from ~0.7 to ~0.8); i. Sub-Saharan Africa (declining/fluctuating around 0.7 down to ~0.65). Source: WDR 2025 team, based on data from Henn et al. 2013. Note: The figure traces the evolution of export quality from 1960 to 2014, using the International Monetary Fund’s index of export quality..."
+  }
+ ],
+ "seconds": 2.54,
+ "prompt_tokens": 2522,
+ "output_tokens": 409
+}

@@ -1,0 +1,22 @@
+{
+ "page": 28,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "table",
+   "label": "",
+   "title": "Abbreviation and Definition list",
+   "bbox": [
+    155,
+    98,
+    902,
+    904
+   ],
+   "content": "Abbreviation | Definition\nCONFEMEN | Conférence des Ministres de l’Éducation des États et Gouvernements de la Francophonie [Conference of Ministries of Education of French-Speaking States and Governments]\nCOPANT | Comisión Panamericana de Normas Técnicas [Pan American Standards Commission]\nCROSQ | Caribbean Community Regional Organisation for Standards and Quality\nCSC | Civil Service Commission [Philippines]\nCSS | Cascading Style Sheets\nDALY | disability-adjusted life year\nDEVCO | Committee on Developing Country Matters [International Organization for Standardization]\nDIN | Deutsches Institut für Normung [German Institute for Standardization]\nEASA | European Union Aviation Safety Agency\nEC | European Commission\nECAE | Ethiopian Conformity Assessment Enterprise\nECHA | European Chemicals Agency\nEML | Model List of Essential Medicines [World Health Organization]\neMRTD | electronic machine-readable travel document\nEPA | Environmental Protection Agency [United States]\nETSI | European Telecommunications Standards Institute\nEU | European Union\nEUDR | EU Regulation on Deforestation-free Products [EU Deforestation Regulation]\nFAO | Food and Agriculture Organization of the United Nations\nFATF | Financial Action Task Force\nFCC | Federal Communications Commission\nFDA | Food and Drug Administration [United States]\nFDI | foreign direct investment\nG20 | Group of Twenty\nGATT | General Agreement on Tariffs and Trade\nGavi | the Vaccine Alliance\nGM | General Motors\nGQII | Global Quality Infrastructure Index\nGSO | GCC Standardization Organization\nGSP | Global Skill Partnership\nGSTC | Global Sustainable Tourism Council\nIAB | Internet Architecture Board\nIAF | International Accreditation Forum\nIASB | International Accounting Standards Board\nIATA | International Air Transport Association\nIATF | International Automotive Task Force"
+  }
+ ],
+ "seconds": 2.43,
+ "prompt_tokens": 2018,
+ "output_tokens": 469
+}

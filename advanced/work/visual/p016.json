@@ -1,0 +1,22 @@
+{
+ "page": 16,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "table",
+   "label": "Tables",
+   "title": "Tables",
+   "bbox": [
+    152,
+    97,
+    853,
+    584
+   ],
+   "content": "Page | Label | Title\n20 | O.1 | Main policy recommendations regarding standards for development\n42 | 1.1 | Risks from steam boilers varied widely across countries in the late 1800s because of very different approaches to safety\n79 | 2.1 | Typology of standards\n81 | 2.2 | How standards may reduce transaction costs and address market failures\n106 | S2.1 | Examples of international standards development organizations\n112 | S2.2 | Participation by national standards bodies in development of international standards\n115 | S2.3 | Composition, size, and productivity of ISO technical committees, by sector\n122 | 3.1 | Illustrative examples of functions of quality infrastructure relating to voluntary and mandatory standards\n160 | S3.1 | Institutional characteristics of national standards bodies\n162 | S3.2 | Process of developing standards by national standards bodies\n175 | 4.1 | Summary of evidence on the impacts on firms of adopting standards\n176 | 4.2 | Examples of certification costs for firms in selected markets for meeting the ISO 14001 quality standard\n294 | B6.5.1 | Energy-efficient appliances typically offer long-term savings but have higher up-front costs\n346 | 8.1 | Main policy recommendations regarding standards for development"
+  }
+ ],
+ "seconds": 10.4,
+ "prompt_tokens": 1951,
+ "output_tokens": 388
+}

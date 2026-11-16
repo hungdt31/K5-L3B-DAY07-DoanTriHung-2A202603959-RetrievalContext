@@ -1,0 +1,24 @@
+{
+ "page": 160,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "diagram",
+   "label": "Figure 3.2",
+   "title": "Quality infrastructure has impacts on firms, markets, governments, and society",
+   "bbox": [
+    [
+     329,
+     114,
+     866,
+     885
+    ]
+   ],
+   "content": "Central circle: Impacts of quality infrastructure. Connected to four surrounding boxes representing Society, Markets, Governments, and Firms with bidirectional curved arrows.\n\nSociety box:\n- Informed choice\n- Consumer protection\n- Safety and health\n- Environmental protection\n- Trust in markets\n- Promoting a quality culture\n\nMarkets box:\n- Transaction costs\n- Economies of scale\n- Size of market\n- Comparability of products\n- Competition\n\nGovernments box:\n- Cost of enforcement\n- State capacity\n- Government efficiency\n- Strengthen the economy\n\nFirms box:\n- Access to markets\n- Knowledge transfer\n- Firm productivity\n- Quality control\n- R&D and innovation\n- Cost of compliance\n\nSource: WDR 2025 team.\nNote: R&D = research and development."
+  }
+ ],
+ "seconds": 9.58,
+ "prompt_tokens": 2001,
+ "output_tokens": 292
+}

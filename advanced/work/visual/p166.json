@@ -1,0 +1,24 @@
+{
+ "page": 166,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "diagram",
+   "label": "Figure 3.4",
+   "title": "As countries develop, they build the basics of compliance capacity, broaden the coverage of their standards, and increasingly follow a balanced approach involving the private sector",
+   "bbox": [
+    [
+     112,
+     114,
+     431,
+     881
+    ]
+   ],
+   "content": "Scope of coverage of standards (y-axis arrow pointing up) vs Development trajectory (x-axis arrow pointing right).\n\nPhase 1: Basics\n- Description: Build basic quality infrastructure and focus governmental quality assurance on high-stakes areas.\n- Public sector box contains: Standards, Testing and certification, Metrology, Accreditation.\n- Private sector box contains: Private sector indicator.\n\nPhase 2: Broaden\n- Description: Increase coverage of standards, expand quality infrastructure, and leverage private quality assurance.\n- Public sector box contains: Standards, Testing and certification, Metrology, Accreditation.\n- Private sector box contains: Private testing and certification.\n\nPhase 3: Balance\n- Description: Fully transition to a public-private partnership model for compliance.\n- Public sector box contains: Standards, Testing and certification, Metrology, Accreditation, Market surveillance.\n- Private sector box contains: Private testing and certification.\n\nSource: WDR 2025 team."
+  }
+ ],
+ "seconds": 10.52,
+ "prompt_tokens": 2263,
+ "output_tokens": 323
+}

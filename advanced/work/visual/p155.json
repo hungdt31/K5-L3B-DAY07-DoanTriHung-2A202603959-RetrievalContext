@@ -1,0 +1,22 @@
+{
+ "page": 155,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "table",
+   "label": "Table 3.1",
+   "title": "Illustrative examples of functions of quality infrastructure relating to voluntary and mandatory standards (continued)",
+   "bbox": [
+    116,
+    146,
+    631,
+    878
+   ],
+   "content": "QUALITY INFRASTRUCTURE FUNCTIONS | VOLUNTARY | MANDATORY\nConformity assessment (continued) | • Companies perform quality control using in-house laboratories.\n• Consumer groups conduct independent safety tests. | • Inspectors investigate schools and hospitals.\n• Private companies inspect imports for customs authorities.\nAccreditation | • National accreditation bodies verify competence of private certification bodies.\n• Brands approve their suppliers’ laboratories.\n• Technology firms recognize training centers that offer courses on the firms’ software. | • Regulators require private testing laboratories to be accredited in regulated areas.\n• Education ministries accredit universities.\nMetrology | • Metrology institutes provide medical laboratories with reference materials for accurate tests.\n• Metrology laboratories calibrate measuring instruments of secondary calibration laboratories and industry. | • Regulators require prepackaged food to contain the exact amounts their labels claim (legal metrology).\nMarket surveillance | Typically not performed in voluntary areas. | • Consumer protection agencies verify that products on the market are safe and legal.\nSource: WDR 2025 team."
+  }
+ ],
+ "seconds": 7.57,
+ "prompt_tokens": 2029,
+ "output_tokens": 316
+}

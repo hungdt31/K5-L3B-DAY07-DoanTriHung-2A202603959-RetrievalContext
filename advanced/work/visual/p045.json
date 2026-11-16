@@ -1,0 +1,22 @@
+{
+ "page": 45,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure O.5",
+   "title": "Technical nontariff measures are now the main impediment to trade globally",
+   "bbox": [
+    103,
+    103,
+    715,
+    867
+   ],
+   "content": "Line chart divided into two panels (a and b) showing the share of imports affected by nontariff measures (%) from 1996 to 2024.\n\nPanel a. By product type\n- Y-axis: Share of imports affected by nontariff measures (%) from 0 to 100.\n- X-axis: Years from 1996 to 2024.\n- Legend / Series: Agricultural (dark green), Nonagricultural (blue), All (orange).\n- Annotation: 'China joins the WTO' at the vertical line in 2001.\n- Trends:\n  - Agricultural: Starts around 0% in 1996, rises steeply to ≈25% by 1998, remains steady around 30%-35% until 2008, then jumps sharply to ≈85% in 2009 and reaches ≈95% by 2016-2020.\n  - Nonagricultural: Starts near 0%, remains low until 2008, jumps to ≈75% in 2009, and gradually rises to ≈85% by 2024.\n  - All: Follows a trajectory very close to nonagricultural, starting near 0%, rising slowly to ≈20% by 2001, jumping to ≈75% in 2009, and reaching ≈85% by 2024.\n\nPanel b. By income group\n- Y-axis: Share of imports affected by nontariff measures (%) from 0 to 100.\n- X-axis: Years from 1996 to 2024.\n- Legend / Series: Low income (brown), Lower middle income (green), Upper middle income (yellow), High income (dark blue).\n- Annotation: 'China joins the WTO' at the vertical line in 2001.\n- Trends:\n  - Low income: Starts at 0%, jumps to ≈50% in 1998, fluctuates down and up, reaching ≈70%-85% by 2024.\n  - Lower middle income: Starts at 0%, slowly rises to ≈20% by 2001, dips, stays low until 2009, then climbs steeply to ≈85% by 2018.\n  - Upper middle income: Starts at 0%, rises steadily from ≈10% in 1998 to ≈80% by 2024.\n  - High income: Starts at 0%, rises to ≈20% by 2001, stays flat until 2008, jumps to ≈80% in 2009, and slowly increases to ≈85% by 2024.\n\nSources: WDR 2025 team calculations, based on data from TRAINS [Trade Analysis and Information System] (portal), United Nations Trade and Development, https://trainsonline.unctad.org/home; WITS: World Integrated Trade Solution (database), World Bank, http://wits.worldbank.org/WITS/.\nNote: The figure plots the share of imports regulated by technical nontariff measures: sanitary and phytosanitary measures, technical barriers to trade, and preshipment inspections. The sample includes all countries surveyed for the TRAINS database since 2020 and all nontariff measures enacted since 1996. WTO = World Trade Organization."
+  }
+ ],
+ "seconds": 13.19,
+ "prompt_tokens": 2066,
+ "output_tokens": 872
+}

@@ -1,0 +1,22 @@
+{
+ "page": 91,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure 1.2",
+   "title": "Standardization, in the form of improved oil tanker design and protocols, and regulation have sharply decreased the size and number of oil spills since 1970",
+   "bbox": [
+    515,
+    104,
+    888,
+    629
+   ],
+   "content": "Chart type: Combination bar and line chart. Title: Global spills from oil tankers, by decade. Left axis: Average annual number of oil spills, ranging from 0 to 80. Right axis: Average annual quantity of oil spilled (tonnes), ranging from 0 to 800,000. X-axis: Decades (1970s, 1980s, 1990s, 2000s, 2010s, 2020s). Legend categories: >700 tonnes (dark blue bars), 7-700 tonnes (light blue bars), Oil spilled (right axis) (red line with markers). Approximate values per category: 1970s: ~70 spills total (~55 light blue, ~15 dark blue), ~350,000 tonnes spilled; 1980s: ~42 spills total, ~140,000 tonnes spilled; 1990s: ~30 spills total, ~140,000 tonnes spilled; 2000s: ~17 spills total, ~30,000 tonnes spilled; 2010s: ~7 spills total, ~10,000 tonnes spilled; 2020s: ~8 spills total, ~10,000 tonnes spilled. Trends/rankings: Highest number of spills and quantity spilled occurred in the 1970s, showing a sharp decrease over subsequent decades. Source: Oil Tanker Spill Statistics 2024 (web page), International Tanker Owners Pollution Federation, https://www.itopf.org/knowledge-resources/data-statistics/oil-tanker-spill-statistics-2024/. Note: The bars show the average number of spills annually in each decade (left axis) broken down by spill size category. The plotted red line shows the average annual quantity spilled (right axis)."
+  }
+ ],
+ "seconds": 7.94,
+ "prompt_tokens": 2501,
+ "output_tokens": 538
+}

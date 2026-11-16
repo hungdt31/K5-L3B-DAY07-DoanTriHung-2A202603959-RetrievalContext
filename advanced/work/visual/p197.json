@@ -1,0 +1,22 @@
+{
+ "page": 197,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "infographic",
+   "label": "Box S3.1",
+   "title": "Enhancing collaboration between standardizers and policy makers",
+   "bbox": [
+    118,
+    116,
+    868,
+    658
+   ],
+   "content": "International standards are efficient and cost-effective tools for meeting public policy objectives because they embody a consensus of multiple stakeholders and countries. Their adoption supports policy making; enhances transparency, predictability, and accountability of the regulatory process; and stimulates sustainable economic growth.\n\nThe World Trade Organization (WTO) Technical Barriers to Trade Agreement mandates that countries use international standards when developing technical regulations. Additionally, the Organisation for Economic Co-operation and Development’s guidelines on regulatory practices promote adopting international standards. The International Organization for Standardization (ISO) offers guidance and training to national standards bodies on how they can more effectively support their national regulatory processes while meeting their international trade obligations and adhering to global best practices.\n\nIn 2023, ISO released \"Standards and Public Policy: A Toolkit for National Standards Bodies.\"a\nThis document offers a framework for understanding how international standards can assist policy makers and regulators in developing, adopting, and implementing policies, especially technical regulations, in accordance with the Technical Barriers to Trade Agreement.\n\nA capacity-building program is under way to increase collaboration among national standards bodies, policy makers, and regulators, sector by sector. It includes thematic policy briefs, workshops, research initiatives, case studies, peer-to-peer sharing of knowledge, and capacity-building training. The goal is to create a global community that uses international standards to achieve public policy objectives, foster trade, and promote international regulatory cooperation.\n\nSource: WDR 2025 team.\na. ISO (2023)."
+  }
+ ],
+ "seconds": 2.94,
+ "prompt_tokens": 2198,
+ "output_tokens": 396
+}

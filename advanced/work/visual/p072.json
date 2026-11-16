@@ -1,0 +1,24 @@
+{
+ "page": 72,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "infographic",
+   "label": "Box 1.1",
+   "title": "Box 1.1 How India used standards for state and nation building (continued)",
+   "bbox": [
+    [
+     94,
+     117,
+     392,
+     883
+    ]
+   ],
+   "content": "Box 1.1 How India used standards for state and nation building (continued)\n\nIndia became the first Commonwealth country to switch to the metric system in 1956. However, despite this early start, the focus on standards declined during India’s protectionist decades. Without market competition or export pressures, manufacturers had little incentive to meet higher standards. Moreover, the dominance of the public sector further reduced pressures to improve quality, which was not a priority in India’s Five-Year Plans. Only after the country’s 1991 liberalization, which ushered in a more open trade regime and increasing foreign direct investment, did standards slowly regain prominence in India’s development strategy. Periodic conclaves on national standards began to be organized in 2014, leading to the formulation of the Indian National Strategy for Standardization in 2018.a\n\nSource: Kapur and Subramanian 2025.\na. Kaul (2025)."
+  }
+ ],
+ "seconds": 3.56,
+ "prompt_tokens": 2324,
+ "output_tokens": 304
+}

@@ -1,0 +1,22 @@
+{
+ "page": 82,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "infographic",
+   "label": "Box 1.2",
+   "title": "Box 1.2 The transaction costs of incompatible railway gauges",
+   "bbox": [
+    115,
+    115,
+    913,
+    885
+   ],
+   "content": "Box 1.2 The transaction costs of incompatible railway gauges\n\nThe railway “gold rush” of the nineteenth century produced a global patchwork of more than two dozen rail gauges shaped by local needs and engineering preferences. By the 1860s, the United States alone had nine distinct regions with different rail gauges; eastern Canada added a tenth. The expansion of interregional trade made the economic costs of these incompatibilities untenable. Perishable goods, in particular, suffered from delays at gauge breaks.a By the 1880s, competitive pressures and network consolidation pushed US railroads toward convergence around the standard gauge of four feet, eight-and-a-half inches, already prevalent in the industrial Northeast and Midwest. In a concerted effort in 1886, southern railroads converted 13,000 miles of track to standard gauge in just two days, dramatically ratcheting up the shift. This physically integrated the South into the national rail system. However, although the change spurred a shift in freight volume from steamships to\n\n(Box continues next page)"
+  }
+ ],
+ "seconds": 2.66,
+ "prompt_tokens": 2427,
+ "output_tokens": 321
+}

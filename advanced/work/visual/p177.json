@@ -1,0 +1,24 @@
+{
+ "page": 177,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure 3.11",
+   "title": "The scope of certification is greater among national accreditation bodies in higher-income economies",
+   "bbox": [
+    [
+     116,
+     116,
+     479,
+     882
+    ]
+   ],
+   "content": "Chart type: Scatter plot. Panel title: Number of standards for which a national accreditation body is internationally recognized. X-axis: GDP per capita (log scale), ranging from 7 to 12. Y-axis: Number of standards, ranging from 0 to 30. Series/Data points represent various countries labeled by ISO country codes. Notable data points (approximate GDP per capita, standards): ITA ≈ 10.5, 26; GBR ≈ 11, 23; DEU ≈ 11, 21; USA ≈ 11.5, 16; PAK ≈ 7.2, 4; LUX ≈ 11.7, 5; QAT ≈ 11.5, 4. A red trendline shows a positive correlation indicating that the scope of certification increases with higher GDP per capita. Source: WDR 2025 team, based on data from the International Accreditation Forum. Note: The figure shows the scope of certification services to which national accreditation bodies are signatory under the Multilateral Recognition Arrangement of the International Accreditation Forum (IAF). If a national accreditation body that is a member of this arrangement accredits a certification body under a given scope, that accreditation can be recognized by other countries internationally. For example, a national accreditation body’s scope might include that its accreditation of conformity assessment bodies in the area of systems for managing food safety (International Organization for Standardization [ISO] 22000) is internationally recognized. The sample includes 71 economies. For the economy labels used in the figure, refer to ISO, https://www.iso.org/obp/ui/#search (select “country codes”)."
+  }
+ ],
+ "seconds": 9.57,
+ "prompt_tokens": 2357,
+ "output_tokens": 455
+}

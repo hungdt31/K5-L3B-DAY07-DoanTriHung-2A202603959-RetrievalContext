@@ -1,0 +1,22 @@
+{
+ "page": 322,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "map",
+   "label": "Map 6.2",
+   "title": "Many low- and middle-income countries have not adopted strong energy codes for buildings",
+   "bbox": [
+    116,
+    143,
+    878,
+    442
+   ],
+   "content": "Map showing the adoption of energy codes for buildings across low- and middle-income countries based on 2025 data.\nLegend categories:\n- Some standards (dark green)\n- Unified building energy code (medium green)\n- No known code/voluntary code/code in development (light grey/white)\nSource: 2025 data from Building Green (global data set), Global Indicators Group, World Bank, https://www.worldbank.org/en/building-green."
+  }
+ ],
+ "seconds": 2.94,
+ "prompt_tokens": 1988,
+ "output_tokens": 205
+}

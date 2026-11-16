@@ -1,0 +1,22 @@
+{
+ "page": 142,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure S2.1",
+   "title": "Membership in ISO among low- and middle-income countries has increased",
+   "bbox": [
+    110,
+    414,
+    877,
+    887
+   ],
+   "content": "Chart type: stacked area chart. Y-axis: Number of full, correspondent, and subscriber members, ranging from 0 to 170 in increments of 10. X-axis: Years from 1947 to 2015 (every two years). Legend series (bottom): High income, Upper middle income, Lower middle income, Low income. Annotations: 1979 Agreement on TBT (Tokyo Round) pointing to 1979; Launch of Uruguay Round pointing to 1986/1987; Agreements on SPS and TBT entered into force pointing to 1995. Source: WDR 2025 team, based on administrative data as of 2024 provided by the International Organization for Standardization (ISO). Note: The figure plots the number of national standards bodies that are ISO members by country income group over time. Only one national standards body in each country is an ISO member. \"Tokyo Round\" and \"Uruguay Round\" refer to rounds of negotiations under the General Agreement on Tariffs and Trade. SPS = Application of Sanitary and Phytosanitary Measures; TBT = Technical Barriers to Trade."
+  }
+ ],
+ "seconds": 8.91,
+ "prompt_tokens": 2531,
+ "output_tokens": 344
+}

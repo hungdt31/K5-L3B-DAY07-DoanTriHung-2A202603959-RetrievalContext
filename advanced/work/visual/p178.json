@@ -1,0 +1,22 @@
+{
+ "page": 178,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "diagram",
+   "label": "Figure 3.12",
+   "title": "Active and reactive development of quality infrastructure should be synchronized and balanced",
+   "bbox": [
+    103,
+    113,
+    448,
+    889
+   ],
+   "content": "Active development of quality infrastructure -> Synchronization and balancing: arrow label -> Reactive development of quality infrastructure\n\nActive development of quality infrastructure:\n- Investment in quality infrastructure when private providers are not (yet) available (for example, in emerging sectors)\n- Building capacities in upstream quality infrastructure (for example, metrology or accreditation)\n- State-led standards development in line with trade and industrial policies\nKey risks:\n- Misallocation of public funds (for example, \"white elephant\" laboratories)\n- Crowding out private conformity assessment bodies\n- Conflicts of interest between government as regulator and government as service provider\n- Increased compliance costs without increase in competitiveness\n\nReactive development of quality infrastructure:\n- Demand-led development of quality infrastructure capacities according to market needs (addressing supply gaps)\n- Incident-driven improvements in quality infrastructure (for example, after accidents or trade rejections)\n- Industry-led standards development (bottom up)\n- Enabling private providers of quality infrastructure to enter the market\nKey risks:\n- Delayed availability of services in the area of quality infrastructure that are demanded by industry\n- Dilemma of which comes first: market demand or quality infrastructure—one depends on the other\n\nSource: WDR 2025 team."
+  }
+ ],
+ "seconds": 5.19,
+ "prompt_tokens": 2336,
+ "output_tokens": 365
+}

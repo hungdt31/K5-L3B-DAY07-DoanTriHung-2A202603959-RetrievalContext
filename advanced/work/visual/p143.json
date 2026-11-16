@@ -1,0 +1,22 @@
+{
+ "page": 143,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure S2.2",
+   "title": "The number of ISO technical committees and subcommittees increased sharply beginning in 1979, after the Agreement on Technical Barriers to Trade encouraged the use of international standards as the basis for technical regulations",
+   "bbox": [
+    318,
+    113,
+    861,
+    889
+   ],
+   "content": "Chart type: Stacked area chart. Y-axis: Cumulative number of technical committees and subcommittees, ranging from 0 to 1,000. X-axis: Years from 1947 to 2019 (every 3 years: 1947, 1950, 1953, 1956, 1959, 1962, 1965, 1968, 1971, 1974, 1977, 1980, 1983, 1986, 1989, 1992, 1995, 1998, 2001, 2004, 2007, 2010, 2013, 2016, 2019). Legend/Series names: Business and management, Logistics and support services, Manufacturing and engineering, Primary industries and resources, Social and public interest, Technology and information. Trends/Rankings: Manufacturing and engineering has the highest number of committees and subcommittees overall, occupying the largest share in the upper portion of the stacked area. Technology and information forms the bottom layer (lowest). Key milestone annotations on the chart include: '1979 Agreement on TBT (Tokyo Round)' with a vertical red line at 1979; 'Launch of Uruguay Round' around 1986; 'Agreements on SPS and TBT entered into force' around 1995. Source: WDR 2025 team, based on administrative data as of 2024 provided by the International Organization for Standardization (ISO). Note: The figure plots the cumulative number of ISO technical committees and subcommittees over time by sector. 'Tokyo Round' and 'Uruguay Round' refer to rounds of negotiations under the General Agreement on Tariffs and Trade. SPS = Application of Sanitary and Phytosanitary Measures; TBT = Technical Barriers to Trade."
+  }
+ ],
+ "seconds": 3.48,
+ "prompt_tokens": 2321,
+ "output_tokens": 564
+}

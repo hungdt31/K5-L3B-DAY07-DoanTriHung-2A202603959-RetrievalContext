@@ -1,0 +1,22 @@
+{
+ "page": 195,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure S3.2",
+   "title": "About half of adopted standards included in technical regulations relate to food safety and construction",
+   "bbox": [
+    102,
+    113,
+    518,
+    512
+   ],
+   "content": "Chart type: Horizontal 100% stacked bar chart. X-axis: Average share of mandatory standards, by sector (%) ranging from 0 to 100. Y-axis categories: HICs (High-income countries), UMICs (Upper-middle-income countries), LMICs (Lower-middle-income countries), LICs (Low-income countries). Legend / Series: Food safety, Building and construction, Energy, Environment, Prevention of deceptive practices, Human health, National security. Data values by category (HICs): Food safety 20, Building and construction 33, Energy 14, Environment 14, Prevention of deceptive practices 8, Human health 7, National security 5. Data values by category (UMICs): Food safety 25, Building and construction 20, Energy 23, Environment 9, Prevention of deceptive practices 12, Human health 6, National security 5. Data values by category (LMICs): Food safety 26, Building and construction 24, Energy 23, Environment 8, Prevention of deceptive practices 9, Human health 8, National security 3. Data values by category (LICs): Food safety 41, Building and construction 14, Energy 15, Environment 7, Prevention of deceptive practices 8, Human health 12, National security 4. Source: WDR 2025 team, based on World Bank and ISO 2025. Note: The survey sample includes 116 national standards bodies: 13 in low-income countries, 28 in lower-middle-income countries, 34 in upper-middle-income countries, and 41 in high-income countries. Constituent percentages for each country income group may not sum exactly to 100 percent as a result of rounding. HICs = high-income countries; LICs = low-income countries; LMICs = lower-middle-income countries; UMICs = upper-middle-income countries."
+  }
+ ],
+ "seconds": 4.54,
+ "prompt_tokens": 2158,
+ "output_tokens": 530
+}

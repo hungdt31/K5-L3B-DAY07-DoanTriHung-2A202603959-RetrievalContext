@@ -1,0 +1,22 @@
+{
+ "page": 168,
+ "model": "gemini-3.5-flash-lite",
+ "dpi": 120,
+ "elements": [
+  {
+   "type": "chart",
+   "label": "Figure B3.3.1",
+   "title": "Assessing a country’s quality infrastructure: Illustrative result using the Rapid Diagnostic Tool",
+   "bbox": [
+    182,
+    140,
+    603,
+    832
+   ],
+   "content": "Radar chart showing an illustrative assessment of a country's quality infrastructure using the Rapid Diagnostic Tool.\nScale: 0 to 4.0 with increments of 0.5.\nLegend/Series:\n- Pillar 1: Legal and institutional framework (dark blue)\n- Pillar 2: Administration and infrastructure (medium blue)\n- Pillar 3: Service delivery and technical competency (red/maroon)\n- Pillar 4: External relations and recognition (light blue)\n\nAxes/Categories included around the radar:\n- Accreditation strategy\n- Technical regulation coordination office\n- Regulatory authorities\n- Director\n- Organizational structure\n- Management and personnel\n- Premises\n- Equipment\n- Quality system\n- Developing technical regulations\n- Premarket inspections\n- Market surveillance\n- Sanctions\n- Training system\n- Information system\n- Liaison with regional organizations\n- Liaison with international organizations\n\nSource: Kellermann 2019a.\nSource: WDR 2025 team.\na. Refer to Guasch et al. (2007); Kellermann (2019a); Racine (2011)."
+  }
+ ],
+ "seconds": 8.12,
+ "prompt_tokens": 2103,
+ "output_tokens": 361
+}
